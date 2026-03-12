@@ -1,11 +1,30 @@
 import { HPC_CONFIG, HPC_EPOCH } from "./core/epoch";
 import { buildTimeTracks } from "./core/time-tracks";
 import { resolveHpcDate } from "./calendar/hpc-date";
+import { resolveHpcYearBoundaryUtc } from "./astronomy/year-boundary";
+import { predictCycleFromElapsedDay } from "./fertility/cycle-engine";
+import { GeoLocation } from "./core/types";
 
-function main(): void {
+async function main(): Promise<void> {
   const now = new Date();
   const tracks = buildTimeTracks(now);
   const hpc = resolveHpcDate(now);
+
+  const location: GeoLocation = {
+    latitude: 40.744,
+    longitude: -74.032
+  };
+
+  const boundary = await resolveHpcYearBoundaryUtc(2026, location);
+
+  const fertility = predictCycleFromElapsedDay(
+    tracks.elapsedSolarDaysWhole,
+    {
+      cycleStartElapsedDay: tracks.elapsedSolarDaysWhole - 10,
+      averageCycleLength: 28,
+      averageLutealLength: 14
+    }
+  );
 
   console.log("HPC Engine Bootstrap");
   console.log("--------------------");
@@ -35,6 +54,23 @@ function main(): void {
   console.log("HPC Day:", hpc.hpcDay);
   console.log("Weekday:", hpc.weekday);
   console.log("Gregorian Reference:", hpc.gregorianReferenceLabel);
+  console.log("");
+  console.log("Resolved Year Boundary");
+  console.log("----------------------");
+  console.log("Equinox UTC:", boundary.equinoxUtc.toISOString());
+  console.log("Boundary Sunset UTC:", boundary.boundarySunsetUtc.toISOString());
+  console.log("Used Next Day Sunset:", boundary.usedNextDaySunset);
+  console.log("");
+  console.log("Zimrah Fertility Preview");
+  console.log("------------------------");
+  console.log("Cycle Day:", fertility.cycleDay);
+  console.log("Estimated Ovulation Day:", fertility.estimatedOvulationDay);
+  console.log("Fertile Window Start:", fertility.fertileWindowStart);
+  console.log("Fertile Window End:", fertility.fertileWindowEnd);
+  console.log("Luteal Day:", fertility.lutealDay);
 }
 
-main();
+main().catch((error) => {
+  console.error("Engine error:", error);
+  process.exit(1);
+});
