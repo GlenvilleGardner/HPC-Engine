@@ -4,17 +4,22 @@ import { resolveHpcDate } from "./calendar/hpc-date";
 import { resolveHpcYearBoundaryUtc } from "./astronomy/year-boundary";
 import { predictCycleFromElapsedDay } from "./fertility/cycle-engine";
 import { GeoLocation } from "./core/types";
+import { gregorianToHpc, hpcToGregorian } from "./calendar/convert";
+import { calculateGDD } from "./agriculture/gdd";
+import { cropProgress } from "./agriculture/crop-model";
+import { evaluatePlantingWindow } from "./agriculture/planting-window";
+import crops from "./data/crops.json";
 
 async function main(): Promise<void> {
   const now = new Date();
   const tracks = buildTimeTracks(now);
-  const hpc = resolveHpcDate(now);
 
   const location: GeoLocation = {
     latitude: 40.744,
     longitude: -74.032
   };
 
+  const hpc = await resolveHpcDate(now, location);
   const boundary = await resolveHpcYearBoundaryUtc(2026, location);
 
   const fertility = predictCycleFromElapsedDay(
@@ -25,6 +30,18 @@ async function main(): Promise<void> {
       averageLutealLength: 14
     }
   );
+
+  const convertedNow = await gregorianToHpc(now, location);
+  const backToGregorian = await hpcToGregorian(
+    convertedNow.hpcYear,
+    convertedNow.hpcMonth ?? 1,
+    convertedNow.hpcDay ?? 1,
+    location
+  );
+
+  const cornGdd = calculateGDD(18, 8, crops.corn.baseTempC);
+  const cornProgress = cropProgress(420, crops.corn);
+  const planting = evaluatePlantingWindow(12, 0.15, crops.corn);
 
   console.log("HPC Engine Bootstrap");
   console.log("--------------------");
@@ -68,6 +85,19 @@ async function main(): Promise<void> {
   console.log("Fertile Window Start:", fertility.fertileWindowStart);
   console.log("Fertile Window End:", fertility.fertileWindowEnd);
   console.log("Luteal Day:", fertility.lutealDay);
+  console.log("");
+  console.log("Bidirectional Conversion Preview");
+  console.log("-------------------------------");
+  console.log("Gregorian -> HPC Year:", convertedNow.hpcYear);
+  console.log("Gregorian -> HPC Month:", convertedNow.hpcMonth);
+  console.log("Gregorian -> HPC Day:", convertedNow.hpcDay);
+  console.log("HPC -> Gregorian Approx:", backToGregorian.toISOString());
+  console.log("");
+  console.log("Agriculture Preview");
+  console.log("-------------------");
+  console.log("Corn Daily GDD:", cornGdd);
+  console.log("Corn Progress:", cornProgress);
+  console.log("Corn Planting Window:", planting);
 }
 
 main().catch((error) => {

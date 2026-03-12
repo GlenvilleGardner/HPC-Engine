@@ -1,0 +1,18 @@
+{
+  "corn": {
+    "baseTempC": 10,
+    "gddMaturity": 1100
+  },
+  "wheat": {
+    "baseTempC": 4,
+    "gddMaturity": 900
+  },
+  "soybean": {
+    "baseTempC": 8,
+    "gddMaturity": 1000
+  },
+  "tomato": {
+    "baseTempC": 10,
+    "gddMaturity": 1200
+  }
+}

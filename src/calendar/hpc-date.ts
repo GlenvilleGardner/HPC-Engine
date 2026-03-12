@@ -1,35 +1,41 @@
-import { HPC_CONFIG, HPC_EPOCH } from "../core/epoch";
+import { GeoLocation, HpcDateRecord } from "../core/types";
 import { buildTimeTracks } from "../core/time-tracks";
-import { HpcDateRecord } from "../core/types";
-import { buildIntercalaryState } from "../core/intercalary";
-import {
-  getCountedDayOfYear,
-  getMonthFromCountedDay,
-  getDayOfMonthFromCountedDay,
-  getCountedYearIndex
-} from "./structure";
 import { getWeekdayFromIndex } from "./weekdays";
+import { resolveHpcYearForDate } from "./year-resolver";
 
-const CREATION_WEEKDAY_INDEX_AT_EPOCH_EQUINOX = 3;
-// Sunday=0, Monday=1, Tuesday=2, Wednesday=3
+const DAYS_PER_MONTH = 28;
+const MONTHS_PER_YEAR = 13;
+const COUNTED_DAYS_PER_YEAR = DAYS_PER_MONTH * MONTHS_PER_YEAR;
 
-export function resolveHpcDate(target: Date): HpcDateRecord {
+// Creation-week model:
+// Wednesday equinox day corresponds to weekday index 3
+// Thursday new year begins at sunset after the equinox boundary
+const THURSDAY_INDEX = 4;
+
+export async function resolveHpcDate(
+  target: Date,
+  location: GeoLocation
+): Promise<HpcDateRecord> {
   const tracks = buildTimeTracks(target);
-  const intercalary = buildIntercalaryState(tracks.elapsedSolarDaysFloat);
+  const resolvedYear = await resolveHpcYearForDate(target, location);
 
-  const countedYearIndex = getCountedYearIndex(tracks.elapsedSolarDaysWhole);
-  const countedDayOfYear = getCountedDayOfYear(tracks.elapsedSolarDaysWhole);
+  const elapsedSinceBoundaryMs =
+    target.getTime() - resolvedYear.boundaryUtc.getTime();
 
-  const hpcMonth = getMonthFromCountedDay(countedDayOfYear);
-  const hpcDay = getDayOfMonthFromCountedDay(countedDayOfYear);
+  const elapsedSinceBoundaryDays =
+    Math.floor(elapsedSinceBoundaryMs / 86400000);
 
-  const weekdayIndex =
-    CREATION_WEEKDAY_INDEX_AT_EPOCH_EQUINOX + countedDayOfYear;
+  const countedDayOfYear =
+    ((elapsedSinceBoundaryDays % COUNTED_DAYS_PER_YEAR) + COUNTED_DAYS_PER_YEAR) %
+    COUNTED_DAYS_PER_YEAR;
 
-  const weekday = getWeekdayFromIndex(weekdayIndex);
+  const hpcMonth = Math.floor(countedDayOfYear / DAYS_PER_MONTH) + 1;
+  const hpcDay = (countedDayOfYear % DAYS_PER_MONTH) + 1;
+
+  const weekday = getWeekdayFromIndex(THURSDAY_INDEX + countedDayOfYear);
 
   return {
-    hpcYear: HPC_CONFIG.baseCreationYearAtEpoch + countedYearIndex,
+    hpcYear: resolvedYear.hpcYear,
     hpcMonth,
     hpcDay,
     weekday,
