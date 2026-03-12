@@ -9,7 +9,9 @@ export const HPC_EPOCH: HpcEpochSpec = {
 };
 
 export const HPC_CONFIG: EngineConfig = {
-  baseCreationYearAtEpoch: 6038,
+  // 2026 remains 6044 until the new year boundary after the spring equinox.
+  // Therefore the 2019 epoch must be one year lower than the previous placeholder.
+  baseCreationYearAtEpoch: 6037,
   countedDaysPerYear: 364,
   monthsPerYear: 13,
   daysPerMonth: 28,

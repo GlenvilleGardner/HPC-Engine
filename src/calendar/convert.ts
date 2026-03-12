@@ -1,6 +1,11 @@
 import { GeoLocation } from "../core/types";
 import { resolveHpcDate } from "./hpc-date";
 import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
+import { HPC_CONFIG } from "../core/epoch";
+
+function mapHpcYearToBoundaryGregorianYear(hpcYear: number): number {
+  return 2019 + (hpcYear - (HPC_CONFIG.baseCreationYearAtEpoch + 1));
+}
 
 export async function gregorianToHpc(
   target: Date,
@@ -15,12 +20,12 @@ export async function hpcToGregorian(
   hpcDay: number,
   location: GeoLocation
 ): Promise<Date> {
-  const gregorianYear = 2019 + (hpcYear - 6039);
-  const boundary = await resolveHpcYearBoundaryUtc(gregorianYear, location);
+  const boundaryGregorianYear = mapHpcYearToBoundaryGregorianYear(hpcYear);
+  const boundary = await resolveHpcYearBoundaryUtc(boundaryGregorianYear, location);
 
-  const dayOffset = ((hpcMonth - 1) * 28) + (hpcDay - 1);
+  const countedOffsetDays = ((hpcMonth - 1) * 28) + (hpcDay - 1);
 
   return new Date(
-    boundary.boundarySunsetUtc.getTime() + dayOffset * 86400000
+    boundary.boundarySunsetUtc.getTime() + countedOffsetDays * 86400000
   );
 }

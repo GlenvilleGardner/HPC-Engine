@@ -72,8 +72,8 @@ async function main(): Promise<void> {
   console.log("Weekday:", hpc.weekday);
   console.log("Gregorian Reference:", hpc.gregorianReferenceLabel);
   console.log("");
-  console.log("Resolved Year Boundary");
-  console.log("----------------------");
+  console.log("Resolved 2026 Year Boundary");
+  console.log("---------------------------");
   console.log("Equinox UTC:", boundary.equinoxUtc.toISOString());
   console.log("Boundary Sunset UTC:", boundary.boundarySunsetUtc.toISOString());
   console.log("Used Next Day Sunset:", boundary.usedNextDaySunset);

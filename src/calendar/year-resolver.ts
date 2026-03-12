@@ -4,8 +4,18 @@ import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
 
 export interface ResolvedHpcYear {
   hpcYear: number;
-  gregorianYear: number;
+  gregorianBoundaryYear: number;
   boundaryUtc: Date;
+}
+
+function mapBoundaryYearToHpcYear(boundaryGregorianYear: number): number {
+  // If 2019 boundary begins HPC year 6038, then:
+  // HPC year = baseCreationYearAtEpoch + (boundaryGregorianYear - 2019) + 1
+  return (
+    HPC_CONFIG.baseCreationYearAtEpoch +
+    (boundaryGregorianYear - 2019) +
+    1
+  );
 }
 
 export async function resolveHpcYearForDate(
@@ -18,17 +28,18 @@ export async function resolveHpcYearForDate(
 
   if (target.getTime() >= currentBoundary.boundarySunsetUtc.getTime()) {
     return {
-      hpcYear: HPC_CONFIG.baseCreationYearAtEpoch + (gregorianYear - 2019) + 1,
-      gregorianYear,
+      hpcYear: mapBoundaryYearToHpcYear(gregorianYear),
+      gregorianBoundaryYear: gregorianYear,
       boundaryUtc: currentBoundary.boundarySunsetUtc
     };
   }
 
-  const previousBoundary = await resolveHpcYearBoundaryUtc(gregorianYear - 1, location);
+  const previousBoundaryYear = gregorianYear - 1;
+  const previousBoundary = await resolveHpcYearBoundaryUtc(previousBoundaryYear, location);
 
   return {
-    hpcYear: HPC_CONFIG.baseCreationYearAtEpoch + ((gregorianYear - 1) - 2019) + 1,
-    gregorianYear: gregorianYear - 1,
+    hpcYear: mapBoundaryYearToHpcYear(previousBoundaryYear),
+    gregorianBoundaryYear: previousBoundaryYear,
     boundaryUtc: previousBoundary.boundarySunsetUtc
   };
 }
