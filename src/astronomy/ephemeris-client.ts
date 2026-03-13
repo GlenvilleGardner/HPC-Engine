@@ -1,7 +1,12 @@
 import { estimateMarchEquinoxUtc } from "./meeus-fallback";
+import { getEquinox } from "../services/astronomy-authority-client";
 
 export async function getPrimaryEquinoxUtc(year: number): Promise<Date> {
-  // Placeholder for DE440/DE441 service integration.
-  // For now, use the fallback solver until the ephemeris service is connected.
-  return estimateMarchEquinoxUtc(year);
+  try {
+    const data = await getEquinox(year);
+    return new Date(data.equinoxUTC);
+  } catch {
+    console.warn("Astronomy authority unavailable, falling back to Meeus solver.");
+    return estimateMarchEquinoxUtc(year);
+  }
 }

@@ -1,11 +1,22 @@
 import { GeoLocation } from "../core/types";
 import { getSpringEquinoxUtc } from "./equinox";
-import { getLocalSunsetUtc } from "../sunset/sunset";
+import { getLocalSunsetUtc as getApproxLocalSunsetUtc } from "../sunset/sunset";
+import { getSunset } from "../services/astronomy-authority-client";
 
 export interface YearBoundaryResult {
   equinoxUtc: Date;
   boundarySunsetUtc: Date;
   usedNextDaySunset: boolean;
+}
+
+async function resolveSunsetUtc(date: Date, location: GeoLocation): Promise<Date> {
+  try {
+    const data = await getSunset(date, location.latitude, location.longitude);
+    return new Date(data.sunsetUTC);
+  } catch {
+    console.warn("Astronomy authority sunset unavailable, falling back to approximate sunset solver.");
+    return getApproxLocalSunsetUtc(date, location);
+  }
 }
 
 export async function resolveHpcYearBoundaryUtc(
@@ -21,7 +32,7 @@ export async function resolveHpcYearBoundaryUtc(
     0, 0, 0, 0
   ));
 
-  const sameDaySunsetUtc = getLocalSunsetUtc(equinoxDay, location);
+  const sameDaySunsetUtc = await resolveSunsetUtc(equinoxDay, location);
 
   if (equinoxUtc.getTime() < sameDaySunsetUtc.getTime()) {
     return {
@@ -36,7 +47,7 @@ export async function resolveHpcYearBoundaryUtc(
 
   return {
     equinoxUtc,
-    boundarySunsetUtc: getLocalSunsetUtc(nextDay, location),
+    boundarySunsetUtc: await resolveSunsetUtc(nextDay, location),
     usedNextDaySunset: true
   };
 }
