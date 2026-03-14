@@ -105,3 +105,4 @@ main().catch((error) => {
   process.exit(1);
 });
 export * from "./services/year-boundary-service";
+export * from "./services/year-structure-service";
