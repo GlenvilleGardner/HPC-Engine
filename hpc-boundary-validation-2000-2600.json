@@ -1,0 +1,6012 @@
+[
+  {
+    "year": 2000,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2000-03-20T07:35:14.351Z",
+    "solarLongitudeDeg": 0.00007089669924303346,
+    "boundarySunsetUtc": "2000-03-20T23:08:37.392Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2001,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2001-03-20T13:30:42.327Z",
+    "solarLongitudeDeg": -0.0001084764046377037,
+    "boundarySunsetUtc": "2001-03-20T23:08:20.966Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2002,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2002-03-20T19:16:08.344Z",
+    "solarLongitudeDeg": -0.000008849180753354605,
+    "boundarySunsetUtc": "2002-03-20T23:08:06.416Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2003,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2003-03-21T00:59:45.674Z",
+    "solarLongitudeDeg": 0.00008265717544051554,
+    "boundarySunsetUtc": "2003-03-21T23:08:55.867Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2004,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2004-03-20T06:48:38.059Z",
+    "solarLongitudeDeg": -0.00015105992602953592,
+    "boundarySunsetUtc": "2004-03-20T23:08:40.376Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2005,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2005-03-20T12:33:25.066Z",
+    "solarLongitudeDeg": 0.00013868273789200113,
+    "boundarySunsetUtc": "2005-03-20T23:08:25.496Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2006,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2006-03-20T18:25:33.734Z",
+    "solarLongitudeDeg": -0.00025683346844289253,
+    "boundarySunsetUtc": "2006-03-20T23:08:08.140Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2007,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2007-03-21T00:07:24.913Z",
+    "solarLongitudeDeg": 0.000035465441146661356,
+    "boundarySunsetUtc": "2007-03-21T23:08:58.128Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2008,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2008-03-20T05:48:17.445Z",
+    "solarLongitudeDeg": -0.00015733193779810892,
+    "boundarySunsetUtc": "2008-03-20T23:08:44.051Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2009,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2009-03-20T11:43:37.473Z",
+    "solarLongitudeDeg": -0.00022473809907140843,
+    "boundarySunsetUtc": "2009-03-20T23:08:26.363Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2010,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2010-03-20T17:32:12.006Z",
+    "solarLongitudeDeg": -0.00006298929841414575,
+    "boundarySunsetUtc": "2010-03-20T23:08:11.099Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2011,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2011-03-20T23:20:43.426Z",
+    "solarLongitudeDeg": -0.00029572283318758837,
+    "boundarySunsetUtc": "2011-03-21T23:08:59.603Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2012,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2012-03-20T05:14:25.662Z",
+    "solarLongitudeDeg": 0.00004954927119745953,
+    "boundarySunsetUtc": "2012-03-20T23:08:43.646Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2013,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2013-03-20T11:01:54.745Z",
+    "solarLongitudeDeg": -0.0001809470424884087,
+    "boundarySunsetUtc": "2013-03-20T23:08:27.827Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2014,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2014-03-20T16:57:05.595Z",
+    "solarLongitudeDeg": -0.00009240562081595094,
+    "boundarySunsetUtc": "2014-03-20T23:08:11.675Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2015,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2015-03-20T22:45:09.338Z",
+    "solarLongitudeDeg": -0.00016179912356773966,
+    "boundarySunsetUtc": "2015-03-20T23:07:57.037Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2016,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2016-03-20T04:30:11.161Z",
+    "solarLongitudeDeg": -0.0003458921333706634,
+    "boundarySunsetUtc": "2016-03-20T23:08:46.020Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2017,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2017-03-20T10:28:37.877Z",
+    "solarLongitudeDeg": -0.00013566317067897855,
+    "boundarySunsetUtc": "2017-03-20T23:08:28.421Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2018,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2018-03-20T16:15:27.307Z",
+    "solarLongitudeDeg": -0.00038172633590557596,
+    "boundarySunsetUtc": "2018-03-20T23:08:13.981Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2019,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2019-03-20T21:58:25.820Z",
+    "solarLongitudeDeg": -0.000018905054319125427,
+    "boundarySunsetUtc": "2019-03-20T23:08:00.126Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2020,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2020-03-20T03:49:37.119Z",
+    "solarLongitudeDeg": -0.00023854433562589932,
+    "boundarySunsetUtc": "2020-03-20T23:08:48.303Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2021,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2021-03-20T09:37:28.521Z",
+    "solarLongitudeDeg": -0.00014576737913160736,
+    "boundarySunsetUtc": "2021-03-20T23:08:32.905Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2022,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2022-03-20T15:33:24.902Z",
+    "solarLongitudeDeg": -0.0002343990330629285,
+    "boundarySunsetUtc": "2022-03-20T23:08:15.655Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2023,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2023-03-20T21:24:26.496Z",
+    "solarLongitudeDeg": -0.0004082002414227806,
+    "boundarySunsetUtc": "2023-03-20T23:07:59.350Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2024,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2024-03-20T03:06:24.153Z",
+    "solarLongitudeDeg": -0.00015609647544768252,
+    "boundarySunsetUtc": "2024-03-20T23:08:48.860Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2025,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2025-03-20T09:01:28.932Z",
+    "solarLongitudeDeg": -0.00047792925279588073,
+    "boundarySunsetUtc": "2025-03-20T23:08:31.695Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2026,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2026-03-20T14:45:57.446Z",
+    "solarLongitudeDeg": -0.000191623260871208,
+    "boundarySunsetUtc": "2026-03-20T23:08:16.843Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2027,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2027-03-20T20:24:41.334Z",
+    "solarLongitudeDeg": -0.00034754725175307165,
+    "boundarySunsetUtc": "2027-03-20T23:08:03.005Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2028,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2028-03-20T02:17:08.211Z",
+    "solarLongitudeDeg": -0.00034845238825100997,
+    "boundarySunsetUtc": "2028-03-20T23:08:50.517Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2029,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2029-03-20T08:01:58.596Z",
+    "solarLongitudeDeg": -0.00018887175708402754,
+    "boundarySunsetUtc": "2029-03-20T23:08:35.746Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2030,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2030-03-20T13:52:05.707Z",
+    "solarLongitudeDeg": -0.0004891857179706,
+    "boundarySunsetUtc": "2030-03-20T23:08:19.869Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2031,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2031-03-20T19:40:58.550Z",
+    "solarLongitudeDeg": -0.00014191233130773714,
+    "boundarySunsetUtc": "2031-03-20T23:08:04.543Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2032,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2032-03-20T01:21:53.884Z",
+    "solarLongitudeDeg": -0.0004997029327696868,
+    "boundarySunsetUtc": "2032-03-20T23:08:54.815Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2033,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2033-03-20T07:22:43.845Z",
+    "solarLongitudeDeg": -0.00034098682240664023,
+    "boundarySunsetUtc": "2033-03-20T23:08:37.187Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2034,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2034-03-20T13:17:30.431Z",
+    "solarLongitudeDeg": -0.0004315652793224113,
+    "boundarySunsetUtc": "2034-03-20T23:08:20.921Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2035,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2035-03-20T19:02:44.626Z",
+    "solarLongitudeDeg": -0.0004527713911639424,
+    "boundarySunsetUtc": "2035-03-20T23:08:06.493Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2036,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2036-03-20T01:02:51.093Z",
+    "solarLongitudeDeg": -0.00020571584764324236,
+    "boundarySunsetUtc": "2036-03-20T23:08:53.054Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2037,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2037-03-20T06:50:16.947Z",
+    "solarLongitudeDeg": -0.0004516322487123132,
+    "boundarySunsetUtc": "2037-03-20T23:08:38.204Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2038,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2038-03-20T12:40:39.484Z",
+    "solarLongitudeDeg": -0.00025501575037962696,
+    "boundarySunsetUtc": "2038-03-20T23:08:22.520Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2039,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2039-03-20T18:32:04.088Z",
+    "solarLongitudeDeg": -0.0005345548435181738,
+    "boundarySunsetUtc": "2039-03-20T23:08:06.630Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2040,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2040-03-20T00:11:43.788Z",
+    "solarLongitudeDeg": -0.0004777245739599938,
+    "boundarySunsetUtc": "2040-03-20T23:08:57.056Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2041,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2041-03-20T06:06:51.063Z",
+    "solarLongitudeDeg": -0.0004982695380493016,
+    "boundarySunsetUtc": "2041-03-20T23:08:40.100Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2042,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2042-03-20T11:53:21.741Z",
+    "solarLongitudeDeg": -0.0005947500210656534,
+    "boundarySunsetUtc": "2042-03-20T23:08:25.033Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2043,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2043-03-20T17:27:51.054Z",
+    "solarLongitudeDeg": -0.00025841842342108124,
+    "boundarySunsetUtc": "2043-03-20T23:08:12.283Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2044,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2044-03-19T23:20:37.619Z",
+    "solarLongitudeDeg": -0.0005760794003943529,
+    "boundarySunsetUtc": "2044-03-20T23:08:59.732Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2045,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2045-03-20T05:07:42.466Z",
+    "solarLongitudeDeg": -0.000294660077959494,
+    "boundarySunsetUtc": "2045-03-20T23:08:44.571Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2046,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2046-03-20T10:57:57.566Z",
+    "solarLongitudeDeg": -0.000579417276055151,
+    "boundarySunsetUtc": "2046-03-20T23:08:28.495Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2047,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2047-03-20T16:52:46.514Z",
+    "solarLongitudeDeg": -0.0004965721676061296,
+    "boundarySunsetUtc": "2047-03-20T23:08:11.793Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2048,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2048-03-19T22:33:57.789Z",
+    "solarLongitudeDeg": -0.00042677858723314796,
+    "boundarySunsetUtc": "2048-03-19T23:07:57.996Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2049,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2049-03-20T04:28:45.736Z",
+    "solarLongitudeDeg": -0.0006725146626908093,
+    "boundarySunsetUtc": "2049-03-20T23:08:45.375Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2050,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2050-03-20T10:19:44.861Z",
+    "solarLongitudeDeg": -0.0003753210310299638,
+    "boundarySunsetUtc": "2050-03-20T23:08:29.946Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2051,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2051-03-20T15:59:22.185Z",
+    "solarLongitudeDeg": -0.0006996782974995074,
+    "boundarySunsetUtc": "2051-03-20T23:08:16.749Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2052,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2052-03-19T21:56:19.251Z",
+    "solarLongitudeDeg": -0.00046643542218822455,
+    "boundarySunsetUtc": "2052-03-19T23:08:00.140Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2053,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2053-03-20T03:47:38.288Z",
+    "solarLongitudeDeg": -0.0005309466423288174,
+    "boundarySunsetUtc": "2053-03-20T23:08:48.804Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2054,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2054-03-20T09:34:45.826Z",
+    "solarLongitudeDeg": -0.0006178546504950023,
+    "boundarySunsetUtc": "2054-03-20T23:08:34.117Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2055,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2055-03-20T15:28:57.413Z",
+    "solarLongitudeDeg": -0.0004037648275060462,
+    "boundarySunsetUtc": "2055-03-20T23:08:18.132Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2056,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2056-03-19T21:11:26.591Z",
+    "solarLongitudeDeg": -0.0007524448500497707,
+    "boundarySunsetUtc": "2056-03-19T23:08:04.414Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2057,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2057-03-20T03:08:18.985Z",
+    "solarLongitudeDeg": -0.000532273618279678,
+    "boundarySunsetUtc": "2057-03-20T23:08:51.547Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2058,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2058-03-20T09:05:26.900Z",
+    "solarLongitudeDeg": -0.0007928051174956684,
+    "boundarySunsetUtc": "2058-03-20T23:08:34.707Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2059,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2059-03-20T14:44:42.497Z",
+    "solarLongitudeDeg": -0.0005447505177238396,
+    "boundarySunsetUtc": "2059-03-20T23:08:21.363Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2060,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2060-03-19T20:38:59.498Z",
+    "solarLongitudeDeg": -0.0005326527963660011,
+    "boundarySunsetUtc": "2060-03-19T23:08:04.784Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2061,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2061-03-20T02:26:46.462Z",
+    "solarLongitudeDeg": -0.0006050892865841483,
+    "boundarySunsetUtc": "2061-03-20T23:08:53.626Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2062,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2062-03-20T08:08:02.015Z",
+    "solarLongitudeDeg": -0.00044424606478256915,
+    "boundarySunsetUtc": "2062-03-20T23:08:39.590Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2063,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2063-03-20T13:59:45.820Z",
+    "solarLongitudeDeg": -0.000787438681959088,
+    "boundarySunsetUtc": "2063-03-20T23:08:23.492Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2064,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2064-03-19T19:39:14.160Z",
+    "solarLongitudeDeg": -0.0005716626707938566,
+    "boundarySunsetUtc": "2064-03-19T23:08:10.024Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2065,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2065-03-20T01:28:49.441Z",
+    "solarLongitudeDeg": -0.0008036707803918095,
+    "boundarySunsetUtc": "2065-03-20T23:08:58.354Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2066,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2066-03-20T07:20:29.325Z",
+    "solarLongitudeDeg": -0.0006819943889256616,
+    "boundarySunsetUtc": "2066-03-20T23:08:42.639Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2067,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2067-03-20T12:54:19.558Z",
+    "solarLongitudeDeg": -0.0005788886321788713,
+    "boundarySunsetUtc": "2067-03-20T23:08:30.630Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2068,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2068-03-19T18:49:43.118Z",
+    "solarLongitudeDeg": -0.0007853637812342092,
+    "boundarySunsetUtc": "2068-03-19T23:08:14.161Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2069,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2069-03-20T00:45:49.054Z",
+    "solarLongitudeDeg": -0.0005011381152119219,
+    "boundarySunsetUtc": "2069-03-20T23:09:01.914Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2070,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2070-03-20T06:35:41.917Z",
+    "solarLongitudeDeg": -0.0008976416870982959,
+    "boundarySunsetUtc": "2070-03-20T23:08:46.763Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2071,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2071-03-20T12:35:30.168Z",
+    "solarLongitudeDeg": -0.0005726164615021421,
+    "boundarySunsetUtc": "2071-03-20T23:08:29.760Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2072,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2072-03-19T18:21:54.528Z",
+    "solarLongitudeDeg": -0.0007415777523988121,
+    "boundarySunsetUtc": "2072-03-19T23:08:15.563Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2073,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2073-03-20T00:14:13.909Z",
+    "solarLongitudeDeg": -0.0008019591732723556,
+    "boundarySunsetUtc": "2073-03-20T23:09:04.034Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2074,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2074-03-20T06:09:46.977Z",
+    "solarLongitudeDeg": -0.0006504978155972604,
+    "boundarySunsetUtc": "2074-03-20T23:08:47.978Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2075,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2075-03-20T11:47:32.414Z",
+    "solarLongitudeDeg": -0.0009033999769816346,
+    "boundarySunsetUtc": "2075-03-20T23:08:35.449Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2076,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2076-03-19T17:39:50.194Z",
+    "solarLongitudeDeg": -0.0006068990145950606,
+    "boundarySunsetUtc": "2076-03-19T23:08:19.689Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2077,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2077-03-19T23:32:07.962Z",
+    "solarLongitudeDeg": -0.0008097859923846303,
+    "boundarySunsetUtc": "2077-03-20T23:09:08.007Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2078,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2078-03-20T05:11:54.371Z",
+    "solarLongitudeDeg": -0.0006189226144352063,
+    "boundarySunsetUtc": "2078-03-20T23:08:54.710Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2079,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2079-03-20T11:01:47.346Z",
+    "solarLongitudeDeg": -0.0006760446624092587,
+    "boundarySunsetUtc": "2079-03-20T23:08:39.178Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2080,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2080-03-19T16:45:16.473Z",
+    "solarLongitudeDeg": -0.0008525266323041739,
+    "boundarySunsetUtc": "2080-03-19T23:08:25.013Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2081,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2081-03-19T22:35:27.795Z",
+    "solarLongitudeDeg": -0.0007291470717329892,
+    "boundarySunsetUtc": "2081-03-19T23:08:09.365Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2082,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2082-03-20T04:31:51.049Z",
+    "solarLongitudeDeg": -0.0010342973770091923,
+    "boundarySunsetUtc": "2082-03-20T23:08:56.564Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2083,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2083-03-20T10:11:47.659Z",
+    "solarLongitudeDeg": -0.0006688330195654019,
+    "boundarySunsetUtc": "2083-03-20T23:08:43.278Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2084,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2084-03-19T16:00:47.083Z",
+    "solarLongitudeDeg": -0.0008590627063375933,
+    "boundarySunsetUtc": "2084-03-19T23:08:27.942Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2085,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2085-03-19T21:54:54.634Z",
+    "solarLongitudeDeg": -0.0007133398279604551,
+    "boundarySunsetUtc": "2085-03-19T23:08:11.817Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2086,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2086-03-20T03:36:41.896Z",
+    "solarLongitudeDeg": -0.0007726796116367667,
+    "boundarySunsetUtc": "2086-03-20T23:09:02.519Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2087,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2087-03-20T09:29:47.222Z",
+    "solarLongitudeDeg": -0.0009463712806629882,
+    "boundarySunsetUtc": "2087-03-20T23:08:46.725Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2088,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2088-03-19T15:18:33.575Z",
+    "solarLongitudeDeg": -0.0007381517150838379,
+    "boundarySunsetUtc": "2088-03-19T23:08:32.136Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2089,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2089-03-19T21:08:10.039Z",
+    "solarLongitudeDeg": -0.0010815123357861773,
+    "boundarySunsetUtc": "2089-03-19T23:08:17.316Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2090,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2090-03-20T03:03:32.153Z",
+    "solarLongitudeDeg": -0.000722814262995631,
+    "boundarySunsetUtc": "2090-03-20T23:09:05.510Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2091,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2091-03-20T08:43:33.258Z",
+    "solarLongitudeDeg": -0.0008688758577938554,
+    "boundarySunsetUtc": "2091-03-20T23:08:52.929Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2092,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2092-03-19T14:35:17.863Z",
+    "solarLongitudeDeg": -0.0008725208878847876,
+    "boundarySunsetUtc": "2092-03-19T23:08:37.664Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2093,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2093-03-19T20:36:17.612Z",
+    "solarLongitudeDeg": -0.0007296212326896763,
+    "boundarySunsetUtc": "2093-03-19T23:08:20.530Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2094,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2094-03-20T02:23:21.833Z",
+    "solarLongitudeDeg": -0.001005344401324725,
+    "boundarySunsetUtc": "2094-03-20T23:09:10.368Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2095,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2095-03-20T08:16:46.725Z",
+    "solarLongitudeDeg": -0.0006572118151580807,
+    "boundarySunsetUtc": "2095-03-20T23:08:54.448Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2096,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2096-03-19T14:04:46.139Z",
+    "solarLongitudeDeg": -0.0009770681592209361,
+    "boundarySunsetUtc": "2096-03-19T23:08:39.727Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2097,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2097-03-19T19:50:15.982Z",
+    "solarLongitudeDeg": -0.000830020242739133,
+    "boundarySunsetUtc": "2097-03-19T23:08:25.387Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2098,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2098-03-20T01:42:19.818Z",
+    "solarLongitudeDeg": -0.0009798797156591469,
+    "boundarySunsetUtc": "2098-03-20T23:09:13.645Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2099,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2099-03-20T07:19:37.444Z",
+    "solarLongitudeDeg": -0.0010351526397069642,
+    "boundarySunsetUtc": "2099-03-20T23:09:01.055Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2100,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2100-03-20T13:05:37.985Z",
+    "solarLongitudeDeg": -0.0008276228602681874,
+    "boundarySunsetUtc": "2100-03-20T23:08:46.428Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2101,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2101-03-20T18:58:34.903Z",
+    "solarLongitudeDeg": -0.0010391853850898677,
+    "boundarySunsetUtc": "2101-03-20T23:08:30.450Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2102,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2102-03-21T00:38:02.532Z",
+    "solarLongitudeDeg": -0.000719820927738308,
+    "boundarySunsetUtc": "2102-03-21T23:09:21.647Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2103,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2103-03-21T06:25:12.483Z",
+    "solarLongitudeDeg": -0.0009565401776953845,
+    "boundarySunsetUtc": "2103-03-21T23:09:06.855Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2104,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2104-03-20T12:16:17.184Z",
+    "solarLongitudeDeg": -0.0009148106684570577,
+    "boundarySunsetUtc": "2104-03-20T23:08:51.657Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2105,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2105-03-20T18:08:34.154Z",
+    "solarLongitudeDeg": -0.0010254731201802005,
+    "boundarySunsetUtc": "2105-03-20T23:08:36.231Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2106,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2106-03-21T00:06:19.218Z",
+    "solarLongitudeDeg": -0.0011181855644280534,
+    "boundarySunsetUtc": "2106-03-21T23:09:23.828Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2107,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2107-03-21T05:52:17.658Z",
+    "solarLongitudeDeg": -0.0008002148002101677,
+    "boundarySunsetUtc": "2107-03-21T23:09:10.142Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2108,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2108-03-20T11:41:14.526Z",
+    "solarLongitudeDeg": -0.0010793288869375092,
+    "boundarySunsetUtc": "2108-03-20T23:08:55.646Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2109,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2109-03-20T17:38:25.540Z",
+    "solarLongitudeDeg": -0.0007350733650337643,
+    "boundarySunsetUtc": "2109-03-20T23:08:39.571Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2110,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2110-03-20T23:23:59.810Z",
+    "solarLongitudeDeg": -0.0010174004887203636,
+    "boundarySunsetUtc": "2110-03-21T23:09:30.145Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2111,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2111-03-21T05:13:01.720Z",
+    "solarLongitudeDeg": -0.0009723776006843832,
+    "boundarySunsetUtc": "2111-03-21T23:09:15.547Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2112,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2112-03-20T11:05:16.367Z",
+    "solarLongitudeDeg": -0.0009237929026496745,
+    "boundarySunsetUtc": "2112-03-20T23:09:00.416Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2113,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2113-03-20T16:53:14.730Z",
+    "solarLongitudeDeg": -0.001186550011743112,
+    "boundarySunsetUtc": "2113-03-20T23:08:46.010Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2114,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2114-03-20T22:41:27.084Z",
+    "solarLongitudeDeg": -0.0008499779062589381,
+    "boundarySunsetUtc": "2114-03-20T23:08:31.415Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2115,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2115-03-21T04:24:47.057Z",
+    "solarLongitudeDeg": -0.0011434835606480595,
+    "boundarySunsetUtc": "2115-03-21T23:09:21.983Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2116,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2116-03-20T10:11:08.737Z",
+    "solarLongitudeDeg": -0.0009386352316467107,
+    "boundarySunsetUtc": "2116-03-20T23:09:07.630Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2117,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2117-03-20T16:08:39.199Z",
+    "solarLongitudeDeg": -0.0010575540721129326,
+    "boundarySunsetUtc": "2117-03-20T23:08:50.798Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2118,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2118-03-20T21:55:32.555Z",
+    "solarLongitudeDeg": -0.0010603674828994585,
+    "boundarySunsetUtc": "2118-03-20T23:08:36.234Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2119,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2119-03-21T03:41:23.892Z",
+    "solarLongitudeDeg": -0.0008232471061475425,
+    "boundarySunsetUtc": "2119-03-21T23:09:26.090Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2120,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2120-03-20T09:31:09.922Z",
+    "solarLongitudeDeg": -0.00112990209248693,
+    "boundarySunsetUtc": "2120-03-20T23:09:10.983Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2121,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2121-03-20T15:18:09.764Z",
+    "solarLongitudeDeg": -0.0009142445892121614,
+    "boundarySunsetUtc": "2121-03-20T23:08:56.615Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2122,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2122-03-20T21:06:15.235Z",
+    "solarLongitudeDeg": -0.001214086544417673,
+    "boundarySunsetUtc": "2122-03-20T23:08:41.943Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2123,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2123-03-21T02:51:19.036Z",
+    "solarLongitudeDeg": -0.0010574291009339677,
+    "boundarySunsetUtc": "2123-03-21T23:09:32.406Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2124,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2124-03-20T08:38:00.852Z",
+    "solarLongitudeDeg": -0.001081132826104214,
+    "boundarySunsetUtc": "2124-03-20T23:09:18.405Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2125,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2125-03-20T14:32:08.978Z",
+    "solarLongitudeDeg": -0.00108041608628004,
+    "boundarySunsetUtc": "2125-03-20T23:09:02.855Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2126,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2126-03-20T20:18:11.750Z",
+    "solarLongitudeDeg": -0.0008354008010011453,
+    "boundarySunsetUtc": "2126-03-20T23:08:49.244Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2127,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2127-03-21T02:05:25.296Z",
+    "solarLongitudeDeg": -0.001138877676662281,
+    "boundarySunsetUtc": "2127-03-21T23:09:39.579Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2128,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2128-03-20T08:01:08.628Z",
+    "solarLongitudeDeg": -0.0009316017203008923,
+    "boundarySunsetUtc": "2128-03-20T23:09:23.964Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2129,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2129-03-20T13:57:30.986Z",
+    "solarLongitudeDeg": -0.0012785850317041068,
+    "boundarySunsetUtc": "2129-03-20T23:09:08.242Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2130,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2130-03-20T19:51:45.641Z",
+    "solarLongitudeDeg": -0.0011366900757589777,
+    "boundarySunsetUtc": "2130-03-20T23:08:52.790Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2131,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2131-03-21T01:39:37.231Z",
+    "solarLongitudeDeg": -0.0010150447875767671,
+    "boundarySunsetUtc": "2131-03-21T23:09:42.911Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2132,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2132-03-20T07:27:08.741Z",
+    "solarLongitudeDeg": -0.0011832787487999364,
+    "boundarySunsetUtc": "2132-03-20T23:09:28.784Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2133,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2133-03-20T13:18:23.944Z",
+    "solarLongitudeDeg": -0.0008732304183732392,
+    "boundarySunsetUtc": "2133-03-20T23:09:13.608Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2134,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2134-03-20T19:04:19.324Z",
+    "solarLongitudeDeg": -0.0012279557103223935,
+    "boundarySunsetUtc": "2134-03-20T23:08:59.576Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2135,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2135-03-21T00:47:49.909Z",
+    "solarLongitudeDeg": -0.000968197962535951,
+    "boundarySunsetUtc": "2135-03-21T23:09:50.265Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2136,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2136-03-20T06:35:56.187Z",
+    "solarLongitudeDeg": -0.0011628464600983135,
+    "boundarySunsetUtc": "2136-03-20T23:09:35.504Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2137,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2137-03-20T12:24:18.132Z",
+    "solarLongitudeDeg": -0.0011819455616000115,
+    "boundarySunsetUtc": "2137-03-20T23:09:20.913Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2138,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2138-03-20T18:06:42.033Z",
+    "solarLongitudeDeg": -0.0010016960005669248,
+    "boundarySunsetUtc": "2138-03-20T23:09:07.444Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2139,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2139-03-20T23:51:01.836Z",
+    "solarLongitudeDeg": -0.001275561954184735,
+    "boundarySunsetUtc": "2139-03-21T23:09:57.899Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2140,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2140-03-20T05:40:31.467Z",
+    "solarLongitudeDeg": -0.0010189292726296784,
+    "boundarySunsetUtc": "2140-03-20T23:09:43.303Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2141,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2141-03-20T11:34:58.730Z",
+    "solarLongitudeDeg": -0.0012763273968207645,
+    "boundarySunsetUtc": "2141-03-20T23:09:27.443Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2142,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2142-03-20T17:27:19.903Z",
+    "solarLongitudeDeg": -0.0010303322502612947,
+    "boundarySunsetUtc": "2142-03-20T23:09:12.420Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2143,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2143-03-20T23:14:08.058Z",
+    "solarLongitudeDeg": -0.0010414324673543676,
+    "boundarySunsetUtc": "2143-03-21T23:10:02.921Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2144,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2144-03-20T05:04:43.625Z",
+    "solarLongitudeDeg": -0.0011454379154494996,
+    "boundarySunsetUtc": "2144-03-20T23:09:48.246Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2145,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2145-03-20T11:00:02.456Z",
+    "solarLongitudeDeg": -0.0010722988639814263,
+    "boundarySunsetUtc": "2145-03-20T23:09:32.986Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2146,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2146-03-20T16:46:34.692Z",
+    "solarLongitudeDeg": -0.0013887284632392797,
+    "boundarySunsetUtc": "2146-03-20T23:09:19.398Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2147,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2147-03-20T22:35:57.822Z",
+    "solarLongitudeDeg": -0.0010916664052209879,
+    "boundarySunsetUtc": "2147-03-20T23:09:05.313Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2148,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2148-03-20T04:26:54.006Z",
+    "solarLongitudeDeg": -0.0013102641538427276,
+    "boundarySunsetUtc": "2148-03-20T23:09:55.165Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2149,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2149-03-20T10:16:36.630Z",
+    "solarLongitudeDeg": -0.001062645625299194,
+    "boundarySunsetUtc": "2149-03-20T23:09:40.744Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2150,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2150-03-20T16:05:10.069Z",
+    "solarLongitudeDeg": -0.0010099542405285693,
+    "boundarySunsetUtc": "2150-03-20T23:09:26.665Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2151,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2151-03-20T21:50:54.039Z",
+    "solarLongitudeDeg": -0.0011793752474595065,
+    "boundarySunsetUtc": "2151-03-20T23:09:12.981Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2152,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2152-03-20T03:41:34.784Z",
+    "solarLongitudeDeg": -0.0010116877193344607,
+    "boundarySunsetUtc": "2152-03-20T23:10:02.341Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2153,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2153-03-20T09:39:19.388Z",
+    "solarLongitudeDeg": -0.0014386260173450765,
+    "boundarySunsetUtc": "2153-03-20T23:09:46.063Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2154,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2154-03-20T15:25:28.140Z",
+    "solarLongitudeDeg": -0.0010915677923184176,
+    "boundarySunsetUtc": "2154-03-20T23:09:32.069Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2155,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2155-03-20T21:09:14.236Z",
+    "solarLongitudeDeg": -0.0012405609704108018,
+    "boundarySunsetUtc": "2155-03-20T23:09:18.466Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2156,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2156-03-20T02:57:16.000Z",
+    "solarLongitudeDeg": -0.001193916552558645,
+    "boundarySunsetUtc": "2156-03-20T23:10:08.396Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2157,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2157-03-20T08:42:53.001Z",
+    "solarLongitudeDeg": -0.0010684225476130778,
+    "boundarySunsetUtc": "2157-03-20T23:09:54.376Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2158,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2158-03-20T14:29:44.382Z",
+    "solarLongitudeDeg": -0.001323872042524139,
+    "boundarySunsetUtc": "2158-03-20T23:09:40.327Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2159,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2159-03-20T20:15:18.508Z",
+    "solarLongitudeDeg": -0.001022899162167334,
+    "boundarySunsetUtc": "2159-03-20T23:09:26.657Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2160,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2160-03-20T02:01:10.898Z",
+    "solarLongitudeDeg": -0.0013317964571666087,
+    "boundarySunsetUtc": "2160-03-20T23:10:17.120Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2161,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2161-03-20T07:55:16.941Z",
+    "solarLongitudeDeg": -0.0011337746661077106,
+    "boundarySunsetUtc": "2161-03-20T23:10:02.032Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2162,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2162-03-20T13:41:03.123Z",
+    "solarLongitudeDeg": -0.0012133576207634098,
+    "boundarySunsetUtc": "2162-03-20T23:09:48.673Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2163,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2163-03-20T19:26:52.949Z",
+    "solarLongitudeDeg": -0.00129006506384648,
+    "boundarySunsetUtc": "2163-03-20T23:09:35.315Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2164,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2164-03-20T01:25:34.319Z",
+    "solarLongitudeDeg": -0.0011568663783861992,
+    "boundarySunsetUtc": "2164-03-20T23:10:23.820Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2165,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2165-03-20T07:19:54.381Z",
+    "solarLongitudeDeg": -0.0013882621083677149,
+    "boundarySunsetUtc": "2165-03-20T23:10:08.742Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2166,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2166-03-20T13:13:27.409Z",
+    "solarLongitudeDeg": -0.001003301959678862,
+    "boundarySunsetUtc": "2166-03-20T23:09:53.958Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2167,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2167-03-20T19:04:10.622Z",
+    "solarLongitudeDeg": -0.00120291313569692,
+    "boundarySunsetUtc": "2167-03-20T23:09:39.679Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2168,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2168-03-20T00:50:27.021Z",
+    "solarLongitudeDeg": -0.0010822870152446887,
+    "boundarySunsetUtc": "2168-03-20T23:10:30.435Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2169,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2169-03-20T06:47:11.851Z",
+    "solarLongitudeDeg": -0.0012502933058354264,
+    "boundarySunsetUtc": "2169-03-20T23:10:14.802Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2170,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2170-03-20T12:31:58.233Z",
+    "solarLongitudeDeg": -0.0013942733331494949,
+    "boundarySunsetUtc": "2170-03-20T23:10:01.512Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2171,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2171-03-20T18:13:08.599Z",
+    "solarLongitudeDeg": -0.001176778987998244,
+    "boundarySunsetUtc": "2171-03-20T23:09:48.743Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2172,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2172-03-20T00:05:02.760Z",
+    "solarLongitudeDeg": -0.001458075412172647,
+    "boundarySunsetUtc": "2172-03-20T23:10:38.101Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2173,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2173-03-20T05:47:57.449Z",
+    "solarLongitudeDeg": -0.0010404553628754905,
+    "boundarySunsetUtc": "2173-03-20T23:10:24.931Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2174,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2174-03-20T11:31:47.543Z",
+    "solarLongitudeDeg": -0.0012165652578202525,
+    "boundarySunsetUtc": "2174-03-20T23:10:11.474Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2175,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2175-03-20T17:19:59.321Z",
+    "solarLongitudeDeg": -0.001171002683916843,
+    "boundarySunsetUtc": "2175-03-20T23:09:57.234Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2176,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2176-03-19T23:06:04.068Z",
+    "solarLongitudeDeg": -0.0011736562536160153,
+    "boundarySunsetUtc": "2176-03-19T23:09:43.379Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2177,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2177-03-20T05:06:46.837Z",
+    "solarLongitudeDeg": -0.001480956586075069,
+    "boundarySunsetUtc": "2177-03-20T23:10:30.952Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2178,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2178-03-20T10:53:59.563Z",
+    "solarLongitudeDeg": -0.001117836987028677,
+    "boundarySunsetUtc": "2178-03-20T23:10:17.225Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2179,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2179-03-20T16:35:55.784Z",
+    "solarLongitudeDeg": -0.0013861933804989446,
+    "boundarySunsetUtc": "2179-03-20T23:10:04.469Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2180,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2180-03-19T22:31:34.129Z",
+    "solarLongitudeDeg": -0.0011326728848516188,
+    "boundarySunsetUtc": "2180-03-19T23:09:49.160Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2181,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2181-03-20T04:19:39.268Z",
+    "solarLongitudeDeg": -0.0012740954794095512,
+    "boundarySunsetUtc": "2181-03-20T23:10:39.912Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2182,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2182-03-20T10:07:31.531Z",
+    "solarLongitudeDeg": -0.0012810867977003633,
+    "boundarySunsetUtc": "2182-03-20T23:10:26.308Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2183,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2183-03-20T16:01:05.766Z",
+    "solarLongitudeDeg": -0.0011135076675858604,
+    "boundarySunsetUtc": "2183-03-20T23:10:11.738Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2184,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2184-03-19T21:46:55.880Z",
+    "solarLongitudeDeg": -0.001375904273001861,
+    "boundarySunsetUtc": "2184-03-19T23:09:58.655Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2185,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2185-03-20T03:43:39.249Z",
+    "solarLongitudeDeg": -0.0011162572271793594,
+    "boundarySunsetUtc": "2185-03-20T23:10:47.673Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2186,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2186-03-20T09:31:39.551Z",
+    "solarLongitudeDeg": -0.0013652050024874941,
+    "boundarySunsetUtc": "2186-03-20T23:10:34.199Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2187,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2187-03-20T15:13:32.351Z",
+    "solarLongitudeDeg": -0.00125318427125018,
+    "boundarySunsetUtc": "2187-03-20T23:10:21.725Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2188,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2188-03-19T21:13:37.632Z",
+    "solarLongitudeDeg": -0.0013681128363251633,
+    "boundarySunsetUtc": "2188-03-19T23:10:05.427Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2189,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2189-03-20T03:04:45.596Z",
+    "solarLongitudeDeg": -0.0013755125930637498,
+    "boundarySunsetUtc": "2189-03-20T23:10:55.357Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2190,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2190-03-20T08:48:49.897Z",
+    "solarLongitudeDeg": -0.0010598927246859061,
+    "boundarySunsetUtc": "2190-03-20T23:10:42.075Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2191,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2191-03-20T14:39:33.298Z",
+    "solarLongitudeDeg": -0.0013060879350345921,
+    "boundarySunsetUtc": "2191-03-20T23:10:27.508Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2192,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2192-03-19T20:20:45.841Z",
+    "solarLongitudeDeg": -0.0010265530658231008,
+    "boundarySunsetUtc": "2192-03-19T23:10:14.841Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2193,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2193-03-20T02:12:28.006Z",
+    "solarLongitudeDeg": -0.0014179618207359576,
+    "boundarySunsetUtc": "2193-03-20T23:11:04.250Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2194,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2194-03-20T08:00:29.974Z",
+    "solarLongitudeDeg": -0.0013295692685046203,
+    "boundarySunsetUtc": "2194-03-20T23:10:50.332Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2195,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2195-03-20T13:36:55.573Z",
+    "solarLongitudeDeg": -0.0013027052981038779,
+    "boundarySunsetUtc": "2195-03-20T23:10:38.655Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2196,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2196-03-19T19:31:40.957Z",
+    "solarLongitudeDeg": -0.0014414160259787732,
+    "boundarySunsetUtc": "2196-03-19T23:10:23.337Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2197,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2197-03-20T01:18:10.838Z",
+    "solarLongitudeDeg": -0.0010715584137725072,
+    "boundarySunsetUtc": "2197-03-20T23:11:14.384Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2198,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2198-03-20T06:59:27.432Z",
+    "solarLongitudeDeg": -0.0013305350533889609,
+    "boundarySunsetUtc": "2198-03-20T23:11:01.958Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2199,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2199-03-20T12:56:32.115Z",
+    "solarLongitudeDeg": -0.0010944376351890838,
+    "boundarySunsetUtc": "2199-03-20T23:10:46.635Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2200,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2200-03-20T18:46:39.386Z",
+    "solarLongitudeDeg": -0.0013541935670991461,
+    "boundarySunsetUtc": "2200-03-20T23:10:32.738Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2201,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2201-03-21T00:46:55.203Z",
+    "solarLongitudeDeg": -0.0013969801198657702,
+    "boundarySunsetUtc": "2201-03-21T23:11:21.122Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2202,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2202-03-21T06:41:54.228Z",
+    "solarLongitudeDeg": -0.001186892248323186,
+    "boundarySunsetUtc": "2202-03-21T23:11:06.525Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2203,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2203-03-21T12:21:55.842Z",
+    "solarLongitudeDeg": -0.0014389637531679116,
+    "boundarySunsetUtc": "2203-03-21T23:10:54.794Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2204,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2204-03-20T18:19:42.598Z",
+    "solarLongitudeDeg": -0.0011509286521749088,
+    "boundarySunsetUtc": "2204-03-20T23:10:39.407Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2205,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2205-03-21T00:10:01.841Z",
+    "solarLongitudeDeg": -0.0014264778404817493,
+    "boundarySunsetUtc": "2205-03-21T23:11:29.963Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2206,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2206-03-21T05:50:45.556Z",
+    "solarLongitudeDeg": -0.0012052650873719338,
+    "boundarySunsetUtc": "2206-03-21T23:11:17.837Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2207,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2207-03-21T11:44:47.647Z",
+    "solarLongitudeDeg": -0.001273110068587491,
+    "boundarySunsetUtc": "2207-03-21T23:11:02.972Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2208,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2208-03-20T17:27:05.779Z",
+    "solarLongitudeDeg": -0.0012736578678501412,
+    "boundarySunsetUtc": "2208-03-20T23:10:50.428Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2209,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2209-03-20T23:16:57.812Z",
+    "solarLongitudeDeg": -0.0011491618694645473,
+    "boundarySunsetUtc": "2209-03-21T23:11:40.476Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2210,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2210-03-21T05:05:59.497Z",
+    "solarLongitudeDeg": -0.0014209568510118395,
+    "boundarySunsetUtc": "2210-03-21T23:11:26.516Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2211,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2211-03-21T10:44:23.860Z",
+    "solarLongitudeDeg": -0.0011845323139935548,
+    "boundarySunsetUtc": "2211-03-21T23:11:14.594Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2212,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2212-03-20T16:42:17.845Z",
+    "solarLongitudeDeg": -0.0015112502665101486,
+    "boundarySunsetUtc": "2212-03-20T23:10:58.520Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2213,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2213-03-20T22:35:30.413Z",
+    "solarLongitudeDeg": -0.0012910026307540548,
+    "boundarySunsetUtc": "2213-03-20T23:10:43.567Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2214,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2214-03-21T04:14:27.673Z",
+    "solarLongitudeDeg": -0.0011652406612796295,
+    "boundarySunsetUtc": "2214-03-21T23:11:36.103Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2215,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2215-03-21T10:07:58.056Z",
+    "solarLongitudeDeg": -0.0012809191301414737,
+    "boundarySunsetUtc": "2215-03-21T23:11:21.262Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2216,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2216-03-20T15:53:28.114Z",
+    "solarLongitudeDeg": -0.0010707931463526418,
+    "boundarySunsetUtc": "2216-03-20T23:11:08.281Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2217,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2217-03-20T21:43:46.910Z",
+    "solarLongitudeDeg": -0.0015156987205092662,
+    "boundarySunsetUtc": "2217-03-20T23:10:54.252Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2218,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2218-03-21T03:38:09.888Z",
+    "solarLongitudeDeg": -0.001235958339145609,
+    "boundarySunsetUtc": "2218-03-21T23:11:44.121Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2219,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2219-03-21T09:17:54.608Z",
+    "solarLongitudeDeg": -0.0014715728889694033,
+    "boundarySunsetUtc": "2219-03-21T23:11:32.620Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2220,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2220-03-20T15:12:58.961Z",
+    "solarLongitudeDeg": -0.0013422632217044085,
+    "boundarySunsetUtc": "2220-03-20T23:11:17.912Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2221,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2221-03-20T21:06:39.285Z",
+    "solarLongitudeDeg": -0.0011485978808370677,
+    "boundarySunsetUtc": "2221-03-20T23:11:03.633Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2222,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2222-03-21T02:46:02.499Z",
+    "solarLongitudeDeg": -0.0013389033167100222,
+    "boundarySunsetUtc": "2222-03-21T23:11:56.742Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2223,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2223-03-21T08:44:22.539Z",
+    "solarLongitudeDeg": -0.0010737325062147947,
+    "boundarySunsetUtc": "2223-03-21T23:11:41.352Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2224,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2224-03-20T14:38:01.098Z",
+    "solarLongitudeDeg": -0.0014230207524408229,
+    "boundarySunsetUtc": "2224-03-20T23:11:26.891Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2225,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2225-03-20T20:29:20.394Z",
+    "solarLongitudeDeg": -0.001253452173619976,
+    "boundarySunsetUtc": "2225-03-20T23:11:12.734Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2226,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2226-03-21T02:24:41.961Z",
+    "solarLongitudeDeg": -0.0012876157493805264,
+    "boundarySunsetUtc": "2226-03-21T23:12:02.160Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2227,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2227-03-21T08:01:56.391Z",
+    "solarLongitudeDeg": -0.0013197918991485445,
+    "boundarySunsetUtc": "2227-03-21T23:11:50.849Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2228,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2228-03-20T13:52:46.585Z",
+    "solarLongitudeDeg": -0.0012140320003137185,
+    "boundarySunsetUtc": "2228-03-20T23:11:36.434Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2229,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2229-03-20T19:45:06.490Z",
+    "solarLongitudeDeg": -0.0014841712348936107,
+    "boundarySunsetUtc": "2229-03-20T23:11:21.797Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2230,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2230-03-21T01:20:12.635Z",
+    "solarLongitudeDeg": -0.0011379195203989896,
+    "boundarySunsetUtc": "2230-03-21T23:12:15.298Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2231,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2231-03-21T07:11:21.746Z",
+    "solarLongitudeDeg": -0.00139950666666457,
+    "boundarySunsetUtc": "2231-03-21T23:12:00.764Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2232,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2232-03-20T12:57:27.384Z",
+    "solarLongitudeDeg": -0.0011667713461019859,
+    "boundarySunsetUtc": "2232-03-20T23:11:47.583Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2233,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2233-03-20T18:41:32.223Z",
+    "solarLongitudeDeg": -0.0012447329850599526,
+    "boundarySunsetUtc": "2233-03-20T23:11:34.761Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2234,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2234-03-21T00:34:50.876Z",
+    "solarLongitudeDeg": -0.001361954142643002,
+    "boundarySunsetUtc": "2234-03-21T23:12:24.636Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2235,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2235-03-21T06:17:52.677Z",
+    "solarLongitudeDeg": -0.0012342288614787323,
+    "boundarySunsetUtc": "2235-03-21T23:12:12.451Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2236,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2236-03-20T12:14:48.498Z",
+    "solarLongitudeDeg": -0.001564163439151454,
+    "boundarySunsetUtc": "2236-03-20T23:11:57.181Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2237,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2237-03-20T18:14:40.712Z",
+    "solarLongitudeDeg": -0.0011677084935886035,
+    "boundarySunsetUtc": "2237-03-20T23:11:41.669Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2238,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2238-03-20T23:54:49.831Z",
+    "solarLongitudeDeg": -0.0012792352547782535,
+    "boundarySunsetUtc": "2238-03-21T23:12:34.838Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2239,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2239-03-21T05:48:55.225Z",
+    "solarLongitudeDeg": -0.0011440136415544221,
+    "boundarySunsetUtc": "2239-03-21T23:12:20.446Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2240,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2240-03-20T11:41:10.382Z",
+    "solarLongitudeDeg": -0.001119091470066234,
+    "boundarySunsetUtc": "2240-03-20T23:12:06.688Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2241,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2241-03-20T17:30:13.512Z",
+    "solarLongitudeDeg": -0.0014674641431456855,
+    "boundarySunsetUtc": "2241-03-20T23:11:53.413Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2242,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2242-03-20T23:24:29.182Z",
+    "solarLongitudeDeg": -0.0011756042447351595,
+    "boundarySunsetUtc": "2242-03-21T23:12:43.473Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2243,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2243-03-21T05:06:47.312Z",
+    "solarLongitudeDeg": -0.001508896443273196,
+    "boundarySunsetUtc": "2243-03-21T23:12:31.591Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2244,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2244-03-20T10:55:31.385Z",
+    "solarLongitudeDeg": -0.001212828623501954,
+    "boundarySunsetUtc": "2244-03-20T23:12:18.045Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2245,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2245-03-20T16:49:19.307Z",
+    "solarLongitudeDeg": -0.0012815363506485193,
+    "boundarySunsetUtc": "2245-03-20T23:12:03.476Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2246,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2246-03-20T22:26:31.872Z",
+    "solarLongitudeDeg": -0.0012341016168407478,
+    "boundarySunsetUtc": "2246-03-20T23:11:52.239Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2247,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2247-03-21T04:18:40.422Z",
+    "solarLongitudeDeg": -0.0011623059000025378,
+    "boundarySunsetUtc": "2247-03-21T23:12:42.251Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2248,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2248-03-20T10:14:03.222Z",
+    "solarLongitudeDeg": -0.0014223010114664657,
+    "boundarySunsetUtc": "2248-03-20T23:12:27.196Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2249,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2249-03-20T16:00:07.330Z",
+    "solarLongitudeDeg": -0.0011437225089909822,
+    "boundarySunsetUtc": "2249-03-20T23:12:14.038Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2250,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2250-03-20T21:50:26.906Z",
+    "solarLongitudeDeg": -0.0013588691618894274,
+    "boundarySunsetUtc": "2250-03-20T23:11:59.926Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2251,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2251-03-21T03:31:34.312Z",
+    "solarLongitudeDeg": -0.001187548122753025,
+    "boundarySunsetUtc": "2251-03-21T23:12:52.498Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2252,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2252-03-20T09:18:26.540Z",
+    "solarLongitudeDeg": -0.0013038049146115328,
+    "boundarySunsetUtc": "2252-03-20T23:12:39.235Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2253,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2253-03-20T15:13:50.038Z",
+    "solarLongitudeDeg": -0.0013849115745639994,
+    "boundarySunsetUtc": "2253-03-20T23:12:24.437Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2254,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2254-03-20T20:52:42.562Z",
+    "solarLongitudeDeg": -0.0011381508350218265,
+    "boundarySunsetUtc": "2254-03-20T23:12:13.239Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2255,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2255-03-21T02:42:02.581Z",
+    "solarLongitudeDeg": -0.0013841998982971411,
+    "boundarySunsetUtc": "2255-03-21T23:13:04.350Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2256,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2256-03-20T08:37:26.972Z",
+    "solarLongitudeDeg": -0.0010144418180019915,
+    "boundarySunsetUtc": "2256-03-20T23:12:50.026Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2257,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2257-03-20T14:22:58.200Z",
+    "solarLongitudeDeg": -0.001323519584544877,
+    "boundarySunsetUtc": "2257-03-20T23:12:37.715Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2258,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2258-03-20T20:17:45.983Z",
+    "solarLongitudeDeg": -0.0011994478817244887,
+    "boundarySunsetUtc": "2258-03-20T23:12:23.427Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2259,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2259-03-21T02:09:00.921Z",
+    "solarLongitudeDeg": -0.001300113175384959,
+    "boundarySunsetUtc": "2259-03-21T23:13:14.559Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2260,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2260-03-20T08:03:44.942Z",
+    "solarLongitudeDeg": -0.0015028352569735465,
+    "boundarySunsetUtc": "2260-03-20T23:13:00.207Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2261,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2261-03-20T14:03:01.067Z",
+    "solarLongitudeDeg": -0.0011295430608053991,
+    "boundarySunsetUtc": "2261-03-20T23:12:44.884Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2262,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2262-03-20T19:43:43.290Z",
+    "solarLongitudeDeg": -0.0013270180496539948,
+    "boundarySunsetUtc": "2262-03-20T23:12:33.348Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2263,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2263-03-21T01:30:56.375Z",
+    "solarLongitudeDeg": -0.0010335364451432292,
+    "boundarySunsetUtc": "2263-03-21T23:13:24.832Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2264,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2264-03-20T07:24:32.168Z",
+    "solarLongitudeDeg": -0.0012339896372755817,
+    "boundarySunsetUtc": "2264-03-20T23:13:10.445Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2265,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2265-03-20T13:08:28.013Z",
+    "solarLongitudeDeg": -0.0013055912984388698,
+    "boundarySunsetUtc": "2265-03-20T23:12:58.000Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2266,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2266-03-20T18:55:32.494Z",
+    "solarLongitudeDeg": -0.0011904622229427875,
+    "boundarySunsetUtc": "2266-03-20T23:12:44.681Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2267,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2267-03-21T00:39:04.523Z",
+    "solarLongitudeDeg": -0.0014353998019717672,
+    "boundarySunsetUtc": "2267-03-21T23:13:36.790Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2268,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2268-03-20T06:23:23.371Z",
+    "solarLongitudeDeg": -0.00109125467517588,
+    "boundarySunsetUtc": "2268-03-20T23:13:24.179Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2269,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2269-03-20T12:13:53.007Z",
+    "solarLongitudeDeg": -0.001327468593426127,
+    "boundarySunsetUtc": "2269-03-20T23:13:10.182Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2270,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2270-03-20T17:54:57.658Z",
+    "solarLongitudeDeg": -0.0010804962296618395,
+    "boundarySunsetUtc": "2270-03-20T23:12:58.410Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2271,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2271-03-20T23:45:08.184Z",
+    "solarLongitudeDeg": -0.001249683718712062,
+    "boundarySunsetUtc": "2271-03-21T23:13:49.288Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2272,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2272-03-20T05:43:52.463Z",
+    "solarLongitudeDeg": -0.0012733763575158365,
+    "boundarySunsetUtc": "2272-03-20T23:13:34.001Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2273,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2273-03-20T11:34:29.929Z",
+    "solarLongitudeDeg": -0.0011132187825157087,
+    "boundarySunsetUtc": "2273-03-20T23:13:20.625Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2274,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2274-03-20T17:23:29.043Z",
+    "solarLongitudeDeg": -0.00132234978685009,
+    "boundarySunsetUtc": "2274-03-20T23:13:07.471Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2275,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2275-03-20T23:13:27.666Z",
+    "solarLongitudeDeg": -0.001067575238581307,
+    "boundarySunsetUtc": "2275-03-21T23:13:58.990Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2276,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2276-03-20T05:03:57.670Z",
+    "solarLongitudeDeg": -0.0014037125519567601,
+    "boundarySunsetUtc": "2276-03-20T23:13:45.830Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2277,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2277-03-20T10:58:32.632Z",
+    "solarLongitudeDeg": -0.0012413687128259442,
+    "boundarySunsetUtc": "2277-03-20T23:13:31.699Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2278,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2278-03-20T16:43:34.013Z",
+    "solarLongitudeDeg": -0.0012021645556267951,
+    "boundarySunsetUtc": "2278-03-20T23:13:19.715Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2279,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2279-03-20T22:30:09.158Z",
+    "solarLongitudeDeg": -0.0012822668118721936,
+    "boundarySunsetUtc": "2279-03-20T23:13:07.238Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2280,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2280-03-20T04:24:12.449Z",
+    "solarLongitudeDeg": -0.000943388779923851,
+    "boundarySunsetUtc": "2280-03-20T23:13:57.708Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2281,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2281-03-20T10:11:08.813Z",
+    "solarLongitudeDeg": -0.0012960766233470423,
+    "boundarySunsetUtc": "2281-03-20T23:13:45.090Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2282,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2282-03-20T15:58:20.592Z",
+    "solarLongitudeDeg": -0.0010199747076854225,
+    "boundarySunsetUtc": "2282-03-20T23:13:32.125Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2283,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2283-03-20T21:50:33.103Z",
+    "solarLongitudeDeg": -0.0013510199702195635,
+    "boundarySunsetUtc": "2283-03-20T23:13:18.082Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2284,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2284-03-20T03:41:32.049Z",
+    "solarLongitudeDeg": -0.0012870770567327819,
+    "boundarySunsetUtc": "2284-03-20T23:14:08.961Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2285,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2285-03-20T09:31:44.250Z",
+    "solarLongitudeDeg": -0.0011102482306859902,
+    "boundarySunsetUtc": "2285-03-20T23:13:55.064Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2286,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2286-03-20T15:13:18.132Z",
+    "solarLongitudeDeg": -0.0012314459305606158,
+    "boundarySunsetUtc": "2286-03-20T23:13:43.198Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2287,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2287-03-20T20:55:51.170Z",
+    "solarLongitudeDeg": -0.0009419507654317173,
+    "boundarySunsetUtc": "2287-03-20T23:13:31.114Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2288,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2288-03-20T02:48:44.724Z",
+    "solarLongitudeDeg": -0.001266774287917422,
+    "boundarySunsetUtc": "2288-03-20T23:14:21.404Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2289,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2289-03-20T08:35:52.457Z",
+    "solarLongitudeDeg": -0.0011286488806025246,
+    "boundarySunsetUtc": "2289-03-20T23:14:08.664Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2290,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2290-03-20T14:20:53.763Z",
+    "solarLongitudeDeg": -0.0012503862954988745,
+    "boundarySunsetUtc": "2290-03-20T23:13:56.200Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2291,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2291-03-20T20:09:51.000Z",
+    "solarLongitudeDeg": -0.0012646838706161427,
+    "boundarySunsetUtc": "2291-03-20T23:13:43.166Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2292,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2292-03-20T01:59:37.401Z",
+    "solarLongitudeDeg": -0.0010916507025352676,
+    "boundarySunsetUtc": "2292-03-20T23:14:34.813Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2293,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2293-03-20T07:50:04.660Z",
+    "solarLongitudeDeg": -0.0013041744323212077,
+    "boundarySunsetUtc": "2293-03-20T23:14:21.499Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2294,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2294-03-20T13:39:33.718Z",
+    "solarLongitudeDeg": -0.0009752559133270702,
+    "boundarySunsetUtc": "2294-03-20T23:14:08.768Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2295,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2295-03-20T19:32:38.445Z",
+    "solarLongitudeDeg": -0.0013047163386680867,
+    "boundarySunsetUtc": "2295-03-20T23:13:55.188Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2296,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2296-03-20T01:31:12.400Z",
+    "solarLongitudeDeg": -0.0010564487748779567,
+    "boundarySunsetUtc": "2296-03-20T23:14:45.014Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2297,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2297-03-20T07:24:35.874Z",
+    "solarLongitudeDeg": -0.0010870011237541712,
+    "boundarySunsetUtc": "2297-03-20T23:14:31.506Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2298,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2298-03-20T13:10:12.298Z",
+    "solarLongitudeDeg": -0.001124257805872509,
+    "boundarySunsetUtc": "2298-03-20T23:14:19.335Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2299,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2299-03-20T18:59:12.341Z",
+    "solarLongitudeDeg": -0.0009793335476596153,
+    "boundarySunsetUtc": "2299-03-20T23:14:06.403Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2300,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2300-03-21T00:50:42.727Z",
+    "solarLongitudeDeg": -0.0013493163964166854,
+    "boundarySunsetUtc": "2300-03-21T23:14:57.558Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2301,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2301-03-21T06:37:01.255Z",
+    "solarLongitudeDeg": -0.0010487876911805388,
+    "boundarySunsetUtc": "2301-03-21T23:14:44.847Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2302,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2302-03-21T12:20:40.288Z",
+    "solarLongitudeDeg": -0.0012477078547084392,
+    "boundarySunsetUtc": "2302-03-21T23:14:32.768Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2303,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2303-03-21T18:04:59.170Z",
+    "solarLongitudeDeg": -0.0010843858376820392,
+    "boundarySunsetUtc": "2303-03-21T23:14:20.492Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2304,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2304-03-20T23:51:02.056Z",
+    "solarLongitudeDeg": -0.0009468688033499966,
+    "boundarySunsetUtc": "2304-03-21T23:15:12.281Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2305,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2305-03-21T05:40:28.852Z",
+    "solarLongitudeDeg": -0.0011894186862281583,
+    "boundarySunsetUtc": "2305-03-21T23:14:59.031Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2306,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2306-03-21T11:25:12.151Z",
+    "solarLongitudeDeg": -0.0009364948911740638,
+    "boundarySunsetUtc": "2306-03-21T23:14:46.663Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2307,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2307-03-21T17:16:42.636Z",
+    "solarLongitudeDeg": -0.0013469588536583969,
+    "boundarySunsetUtc": "2307-03-21T23:14:32.833Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2308,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2308-03-20T23:13:08.302Z",
+    "solarLongitudeDeg": -0.001097306008422696,
+    "boundarySunsetUtc": "2308-03-20T23:14:18.182Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2309,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2309-03-21T05:00:11.456Z",
+    "solarLongitudeDeg": -0.001160130417754582,
+    "boundarySunsetUtc": "2309-03-21T23:15:10.260Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2310,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2310-03-21T10:46:18.358Z",
+    "solarLongitudeDeg": -0.001036163587509657,
+    "boundarySunsetUtc": "2310-03-21T23:14:58.049Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2311,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2311-03-21T16:35:00.276Z",
+    "solarLongitudeDeg": -0.0009353015566521817,
+    "boundarySunsetUtc": "2311-03-21T23:14:45.433Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2312,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2312-03-20T22:25:56.905Z",
+    "solarLongitudeDeg": -0.0011712438655264031,
+    "boundarySunsetUtc": "2312-03-20T23:14:32.309Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2313,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2313-03-21T04:19:54.297Z",
+    "solarLongitudeDeg": -0.0009250136425207143,
+    "boundarySunsetUtc": "2313-03-21T23:15:23.460Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2314,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2314-03-21T10:06:05.665Z",
+    "solarLongitudeDeg": -0.0012030160323918046,
+    "boundarySunsetUtc": "2314-03-21T23:15:11.512Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2315,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2315-03-21T15:54:10.566Z",
+    "solarLongitudeDeg": -0.0009966719431599616,
+    "boundarySunsetUtc": "2315-03-21T23:14:59.067Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2316,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2316-03-20T21:49:08.155Z",
+    "solarLongitudeDeg": -0.0010599652844591823,
+    "boundarySunsetUtc": "2316-03-20T23:14:45.212Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2317,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2317-03-21T03:35:47.012Z",
+    "solarLongitudeDeg": -0.0011016055651454923,
+    "boundarySunsetUtc": "2317-03-21T23:15:37.709Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2318,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2318-03-21T09:24:28.729Z",
+    "solarLongitudeDeg": -0.0009353504152696509,
+    "boundarySunsetUtc": "2318-03-21T23:15:24.945Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2319,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2319-03-21T15:17:33.441Z",
+    "solarLongitudeDeg": -0.001246928626833889,
+    "boundarySunsetUtc": "2319-03-21T23:15:11.189Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2320,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2320-03-20T21:09:06.112Z",
+    "solarLongitudeDeg": -0.0008628309252104753,
+    "boundarySunsetUtc": "2320-03-20T23:14:57.594Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2321,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2321-03-21T02:59:45.195Z",
+    "solarLongitudeDeg": -0.0011129675176932653,
+    "boundarySunsetUtc": "2321-03-21T23:15:48.847Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2322,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2322-03-21T08:42:48.547Z",
+    "solarLongitudeDeg": -0.0009058894663259148,
+    "boundarySunsetUtc": "2322-03-21T23:15:37.027Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2323,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2323-03-21T14:25:59.221Z",
+    "solarLongitudeDeg": -0.000980284421896425,
+    "boundarySunsetUtc": "2323-03-21T23:15:24.929Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2324,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2324-03-20T20:20:04.369Z",
+    "solarLongitudeDeg": -0.0012298407284640754,
+    "boundarySunsetUtc": "2324-03-20T23:15:10.717Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2325,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2325-03-21T02:03:38.118Z",
+    "solarLongitudeDeg": -0.0009442764716420571,
+    "boundarySunsetUtc": "2325-03-21T23:16:03.542Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2326,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2326-03-21T07:45:55.589Z",
+    "solarLongitudeDeg": -0.0011898045554188214,
+    "boundarySunsetUtc": "2326-03-21T23:15:51.820Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2327,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2327-03-21T13:35:16.452Z",
+    "solarLongitudeDeg": -0.0008553651904104002,
+    "boundarySunsetUtc": "2327-03-21T23:15:38.956Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2328,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2328-03-20T19:20:59.454Z",
+    "solarLongitudeDeg": -0.0009399115298054629,
+    "boundarySunsetUtc": "2328-03-20T23:15:26.804Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2329,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2329-03-21T01:13:43.656Z",
+    "solarLongitudeDeg": -0.0009103086779850468,
+    "boundarySunsetUtc": "2329-03-21T23:16:18.090Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2330,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2330-03-21T07:05:07.152Z",
+    "solarLongitudeDeg": -0.0008774701957591319,
+    "boundarySunsetUtc": "2330-03-21T23:16:05.177Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2331,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2331-03-21T12:55:49.163Z",
+    "solarLongitudeDeg": -0.001185868940324669,
+    "boundarySunsetUtc": "2331-03-21T23:15:52.209Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2332,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2332-03-20T18:58:31.841Z",
+    "solarLongitudeDeg": -0.0008845986137097957,
+    "boundarySunsetUtc": "2332-03-20T23:15:36.998Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2333,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2333-03-21T00:46:28.153Z",
+    "solarLongitudeDeg": -0.0011201915662497018,
+    "boundarySunsetUtc": "2333-03-21T23:16:29.611Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2334,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2334-03-21T06:30:19.374Z",
+    "solarLongitudeDeg": -0.0008221989669210113,
+    "boundarySunsetUtc": "2334-03-21T23:16:18.150Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2335,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2335-03-21T12:25:30.367Z",
+    "solarLongitudeDeg": -0.0009571467407303379,
+    "boundarySunsetUtc": "2335-03-21T23:16:04.446Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2336,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2336-03-20T18:12:00.015Z",
+    "solarLongitudeDeg": -0.000976184153772462,
+    "boundarySunsetUtc": "2336-03-20T23:15:52.341Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2337,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2337-03-21T00:03:16.207Z",
+    "solarLongitudeDeg": -0.0008571500867983475,
+    "boundarySunsetUtc": "2337-03-21T23:16:43.844Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2338,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2338-03-21T05:49:44.154Z",
+    "solarLongitudeDeg": -0.0010723424310246513,
+    "boundarySunsetUtc": "2338-03-21T23:16:31.684Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2339,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2339-03-21T11:30:03.672Z",
+    "solarLongitudeDeg": -0.0007690381915908894,
+    "boundarySunsetUtc": "2339-03-21T23:16:20.500Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2340,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2340-03-20T17:24:53.638Z",
+    "solarLongitudeDeg": -0.0010651394048796906,
+    "boundarySunsetUtc": "2340-03-20T23:16:06.297Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2341,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2341-03-20T23:09:23.452Z",
+    "solarLongitudeDeg": -0.0008562562352309684,
+    "boundarySunsetUtc": "2341-03-20T23:15:54.231Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2342,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2342-03-21T04:52:07.155Z",
+    "solarLongitudeDeg": -0.000915788933740459,
+    "boundarySunsetUtc": "2342-03-21T23:16:47.213Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2343,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2343-03-21T10:49:01.477Z",
+    "solarLongitudeDeg": -0.0010639757566274003,
+    "boundarySunsetUtc": "2343-03-21T23:16:32.660Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2344,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2344-03-20T16:36:14.859Z",
+    "solarLongitudeDeg": -0.0007013205800449024,
+    "boundarySunsetUtc": "2344-03-20T23:16:20.126Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2345,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2345-03-20T22:24:40.860Z",
+    "solarLongitudeDeg": -0.0009688336314649413,
+    "boundarySunsetUtc": "2345-03-20T23:16:07.363Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2346,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2346-03-21T04:12:59.816Z",
+    "solarLongitudeDeg": -0.0006526844730336203,
+    "boundarySunsetUtc": "2346-03-21T23:16:59.685Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2347,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2347-03-21T09:55:31.414Z",
+    "solarLongitudeDeg": -0.0009493603413782322,
+    "boundarySunsetUtc": "2347-03-21T23:16:48.348Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2348,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2348-03-20T15:53:52.599Z",
+    "solarLongitudeDeg": -0.0009464198106244419,
+    "boundarySunsetUtc": "2348-03-20T23:16:33.935Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2349,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2349-03-20T21:42:18.845Z",
+    "solarLongitudeDeg": -0.0008943680054449404,
+    "boundarySunsetUtc": "2349-03-20T23:16:21.714Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2350,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2350-03-21T03:23:43.812Z",
+    "solarLongitudeDeg": -0.0010393425938072967,
+    "boundarySunsetUtc": "2350-03-21T23:17:15.717Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2351,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2351-03-21T09:19:14.279Z",
+    "solarLongitudeDeg": -0.0006837162833423367,
+    "boundarySunsetUtc": "2351-03-21T23:17:02.236Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2352,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2352-03-20T15:08:22.254Z",
+    "solarLongitudeDeg": -0.0009084009079808674,
+    "boundarySunsetUtc": "2352-03-20T23:16:49.960Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2353,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2353-03-20T20:58:56.370Z",
+    "solarLongitudeDeg": -0.0006729603496216332,
+    "boundarySunsetUtc": "2353-03-20T23:16:37.293Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2354,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2354-03-21T02:55:48.565Z",
+    "solarLongitudeDeg": -0.0008490620650776644,
+    "boundarySunsetUtc": "2354-03-21T23:17:28.135Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2355,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2355-03-21T08:43:08.394Z",
+    "solarLongitudeDeg": -0.0009141103272843688,
+    "boundarySunsetUtc": "2355-03-21T23:17:15.945Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2356,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2356-03-20T14:41:55.508Z",
+    "solarLongitudeDeg": -0.0007831229179125569,
+    "boundarySunsetUtc": "2356-03-20T23:17:01.246Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2357,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2357-03-20T20:29:20.926Z",
+    "solarLongitudeDeg": -0.0009391102905468197,
+    "boundarySunsetUtc": "2357-03-20T23:16:48.867Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2358,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2358-03-21T02:05:22.175Z",
+    "solarLongitudeDeg": -0.0006077037160725587,
+    "boundarySunsetUtc": "2358-03-21T23:17:43.568Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2359,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2359-03-21T07:59:06.992Z",
+    "solarLongitudeDeg": -0.0009318374103360693,
+    "boundarySunsetUtc": "2359-03-21T23:17:29.752Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2360,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2360-03-20T13:44:28.897Z",
+    "solarLongitudeDeg": -0.0006850997102539353,
+    "boundarySunsetUtc": "2360-03-20T23:17:17.713Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2361,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2361-03-20T19:27:30.864Z",
+    "solarLongitudeDeg": -0.0007801893728896325,
+    "boundarySunsetUtc": "2361-03-20T23:17:05.998Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2362,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2362-03-21T01:17:32.594Z",
+    "solarLongitudeDeg": -0.0008276353208328882,
+    "boundarySunsetUtc": "2362-03-21T23:17:57.850Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2363,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2363-03-21T06:56:16.639Z",
+    "solarLongitudeDeg": -0.0005984481224752208,
+    "boundarySunsetUtc": "2363-03-21T23:17:47.288Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2364,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2364-03-20T12:50:13.965Z",
+    "solarLongitudeDeg": -0.0009303397666746112,
+    "boundarySunsetUtc": "2364-03-20T23:17:33.499Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2365,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2365-03-20T18:41:23.925Z",
+    "solarLongitudeDeg": -0.0006343542284413077,
+    "boundarySunsetUtc": "2365-03-20T23:17:20.608Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2366,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2366-03-21T00:22:55.384Z",
+    "solarLongitudeDeg": -0.0009018116799141587,
+    "boundarySunsetUtc": "2366-03-21T23:18:14.581Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2367,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2367-03-21T06:25:40.108Z",
+    "solarLongitudeDeg": -0.0007746200582631752,
+    "boundarySunsetUtc": "2367-03-21T23:17:59.440Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2368,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2368-03-20T12:17:40.196Z",
+    "solarLongitudeDeg": -0.000634702202326572,
+    "boundarySunsetUtc": "2368-03-20T23:17:46.726Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2369,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2369-03-20T18:03:58.453Z",
+    "solarLongitudeDeg": -0.0007429819823553049,
+    "boundarySunsetUtc": "2369-03-20T23:17:35.083Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2370,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2370-03-20T23:59:45.695Z",
+    "solarLongitudeDeg": -0.0004473477655785189,
+    "boundarySunsetUtc": "2370-03-21T23:18:26.476Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2371,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2371-03-21T05:44:26.165Z",
+    "solarLongitudeDeg": -0.0008477631777810834,
+    "boundarySunsetUtc": "2371-03-21T23:18:15.284Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2372,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2372-03-20T11:40:33.670Z",
+    "solarLongitudeDeg": -0.000663414823920976,
+    "boundarySunsetUtc": "2372-03-20T23:18:01.495Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2373,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2373-03-20T17:32:31.078Z",
+    "solarLongitudeDeg": -0.0008205625643983641,
+    "boundarySunsetUtc": "2373-03-20T23:17:48.644Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2374,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2374-03-20T23:08:39.349Z",
+    "solarLongitudeDeg": -0.000739624737888097,
+    "boundarySunsetUtc": "2374-03-20T23:17:38.954Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2375,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2375-03-21T05:01:40.364Z",
+    "solarLongitudeDeg": -0.0005775215246210413,
+    "boundarySunsetUtc": "2375-03-21T23:18:30.412Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2376,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2376-03-20T10:49:52.871Z",
+    "solarLongitudeDeg": -0.000709543836968803,
+    "boundarySunsetUtc": "2376-03-20T23:18:18.084Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2377,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2377-03-20T16:32:19.585Z",
+    "solarLongitudeDeg": -0.0004385422758269089,
+    "boundarySunsetUtc": "2377-03-20T23:18:06.735Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2378,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2378-03-20T22:28:48.006Z",
+    "solarLongitudeDeg": -0.000775790944679663,
+    "boundarySunsetUtc": "2378-03-20T23:17:52.443Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2379,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2379-03-21T04:14:35.882Z",
+    "solarLongitudeDeg": -0.000577655418691705,
+    "boundarySunsetUtc": "2379-03-21T23:18:45.368Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2380,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2380-03-20T10:06:12.438Z",
+    "solarLongitudeDeg": -0.0007018013822019121,
+    "boundarySunsetUtc": "2380-03-20T23:18:31.924Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2381,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2381-03-20T15:56:22.934Z",
+    "solarLongitudeDeg": -0.0006824601944975527,
+    "boundarySunsetUtc": "2381-03-20T23:18:19.107Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2382,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2382-03-20T21:32:10.576Z",
+    "solarLongitudeDeg": -0.0004909796666984698,
+    "boundarySunsetUtc": "2382-03-20T23:18:09.343Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2383,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2383-03-21T03:24:38.457Z",
+    "solarLongitudeDeg": -0.0007975913019034516,
+    "boundarySunsetUtc": "2383-03-21T23:19:00.920Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2384,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2384-03-20T09:17:24.397Z",
+    "solarLongitudeDeg": -0.00043968862142209947,
+    "boundarySunsetUtc": "2384-03-20T23:18:47.984Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2385,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2385-03-20T14:58:39.363Z",
+    "solarLongitudeDeg": -0.0006863756084273358,
+    "boundarySunsetUtc": "2385-03-20T23:18:37.341Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2386,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2386-03-20T20:53:31.950Z",
+    "solarLongitudeDeg": -0.0004732596495467687,
+    "boundarySunsetUtc": "2386-03-20T23:18:24.059Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2387,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2387-03-21T02:39:44.049Z",
+    "solarLongitudeDeg": -0.0004794373193165917,
+    "boundarySunsetUtc": "2387-03-21T23:19:17.618Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2388,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2388-03-20T08:32:45.224Z",
+    "solarLongitudeDeg": -0.0006738194262456549,
+    "boundarySunsetUtc": "2388-03-20T23:19:04.654Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2389,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2389-03-20T14:31:24.084Z",
+    "solarLongitudeDeg": -0.0004313103787572035,
+    "boundarySunsetUtc": "2389-03-20T23:18:50.781Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2390,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2390-03-20T20:15:15.376Z",
+    "solarLongitudeDeg": -0.0007836448269340637,
+    "boundarySunsetUtc": "2390-03-20T23:18:39.839Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2391,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2391-03-21T02:13:02.745Z",
+    "solarLongitudeDeg": -0.0004742626452788164,
+    "boundarySunsetUtc": "2391-03-21T23:19:30.709Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2392,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2392-03-20T08:08:10.322Z",
+    "solarLongitudeDeg": -0.0005535504832021968,
+    "boundarySunsetUtc": "2392-03-20T23:19:17.385Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2393,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2393-03-20T13:47:09.784Z",
+    "solarLongitudeDeg": -0.0004242799680026159,
+    "boundarySunsetUtc": "2393-03-20T23:19:07.204Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2394,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2394-03-20T19:39:26.537Z",
+    "solarLongitudeDeg": -0.00034413865465840113,
+    "boundarySunsetUtc": "2394-03-20T23:18:54.102Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2395,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2395-03-21T01:24:19.750Z",
+    "solarLongitudeDeg": -0.0006162013603144071,
+    "boundarySunsetUtc": "2395-03-21T23:19:47.452Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2396,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2396-03-20T07:11:38.358Z",
+    "solarLongitudeDeg": -0.00041812925675575424,
+    "boundarySunsetUtc": "2396-03-20T23:19:35.125Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2397,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2397-03-20T13:03:01.927Z",
+    "solarLongitudeDeg": -0.0007025457620152678,
+    "boundarySunsetUtc": "2397-03-20T23:19:22.075Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2398,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2398-03-20T18:36:56.244Z",
+    "solarLongitudeDeg": -0.00040550385774679084,
+    "boundarySunsetUtc": "2398-03-20T23:19:12.710Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2399,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2399-03-21T00:25:40.260Z",
+    "solarLongitudeDeg": -0.00048680692295234866,
+    "boundarySunsetUtc": "2399-03-21T23:20:04.956Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2400,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2400-03-20T06:18:24.810Z",
+    "solarLongitudeDeg": -0.00041541131913280034,
+    "boundarySunsetUtc": "2400-03-20T23:19:51.871Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2401,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2401-03-20T12:00:05.395Z",
+    "solarLongitudeDeg": -0.000273417295615531,
+    "boundarySunsetUtc": "2401-03-20T23:19:41.087Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2402,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2402-03-20T17:57:04.111Z",
+    "solarLongitudeDeg": -0.0005559695760238751,
+    "boundarySunsetUtc": "2402-03-20T23:19:27.070Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2403,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2403-03-20T23:49:39.398Z",
+    "solarLongitudeDeg": -0.00025847362902303755,
+    "boundarySunsetUtc": "2403-03-21T23:20:19.244Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2404,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2404-03-20T05:40:13.818Z",
+    "solarLongitudeDeg": -0.0005742240548802605,
+    "boundarySunsetUtc": "2404-03-20T23:20:06.768Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2405,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2405-03-20T11:35:18.997Z",
+    "solarLongitudeDeg": -0.00033148301515912004,
+    "boundarySunsetUtc": "2405-03-20T23:19:53.636Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2406,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2406-03-20T17:17:01.311Z",
+    "solarLongitudeDeg": -0.00040008596019251903,
+    "boundarySunsetUtc": "2406-03-20T23:19:43.374Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2407,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2407-03-20T23:09:08.865Z",
+    "solarLongitudeDeg": -0.0005383991541938222,
+    "boundarySunsetUtc": "2407-03-20T23:19:30.842Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2408,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2408-03-20T05:06:50.320Z",
+    "solarLongitudeDeg": -0.0002485381290332164,
+    "boundarySunsetUtc": "2408-03-20T23:20:22.186Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2409,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2409-03-20T10:47:44.217Z",
+    "solarLongitudeDeg": -0.000506590654928155,
+    "boundarySunsetUtc": "2409-03-20T23:20:12.050Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2410,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2410-03-20T16:38:04.162Z",
+    "solarLongitudeDeg": -0.0001520537831321768,
+    "boundarySunsetUtc": "2410-03-20T23:19:59.737Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2411,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2411-03-20T22:27:36.943Z",
+    "solarLongitudeDeg": -0.000364275496295204,
+    "boundarySunsetUtc": "2411-03-20T23:19:47.538Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2412,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2412-03-20T04:15:03.732Z",
+    "solarLongitudeDeg": -0.000328216711749154,
+    "boundarySunsetUtc": "2412-03-20T23:20:40.675Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2413,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2413-03-20T10:09:45.522Z",
+    "solarLongitudeDeg": -0.00030547422892154326,
+    "boundarySunsetUtc": "2413-03-20T23:20:27.154Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2414,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2414-03-20T15:55:10.767Z",
+    "solarLongitudeDeg": -0.000525548725059056,
+    "boundarySunsetUtc": "2414-03-20T23:20:15.567Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2415,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2415-03-20T21:43:58.239Z",
+    "solarLongitudeDeg": -0.00019843998353101497,
+    "boundarySunsetUtc": "2415-03-20T23:20:03.144Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2416,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2416-03-20T03:38:52.628Z",
+    "solarLongitudeDeg": -0.0003888669294620937,
+    "boundarySunsetUtc": "2416-03-20T23:20:54.408Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2417,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2417-03-20T09:16:20.522Z",
+    "solarLongitudeDeg": -0.0000637349446670977,
+    "boundarySunsetUtc": "2417-03-20T23:20:44.535Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2418,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2418-03-20T15:03:25.634Z",
+    "solarLongitudeDeg": -0.00022549400008405092,
+    "boundarySunsetUtc": "2418-03-20T23:20:32.416Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2419,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2419-03-20T20:54:11.339Z",
+    "solarLongitudeDeg": -0.00026636503016868245,
+    "boundarySunsetUtc": "2419-03-20T23:20:19.775Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2420,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2420-03-20T02:40:35.688Z",
+    "solarLongitudeDeg": -0.0002504127461987105,
+    "boundarySunsetUtc": "2420-03-20T23:21:13.172Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2421,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2421-03-20T08:31:46.886Z",
+    "solarLongitudeDeg": -0.00044875397010724413,
+    "boundarySunsetUtc": "2421-03-20T23:21:00.537Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2422,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2422-03-20T14:14:12.156Z",
+    "solarLongitudeDeg": -0.00011788311353955917,
+    "boundarySunsetUtc": "2422-03-20T23:20:50.099Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2423,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2423-03-20T20:01:59.502Z",
+    "solarLongitudeDeg": -0.00038278875190578916,
+    "boundarySunsetUtc": "2423-03-20T23:20:38.462Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2424,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2424-03-20T02:00:46.848Z",
+    "solarLongitudeDeg": -0.00008193801723181068,
+    "boundarySunsetUtc": "2424-03-20T23:21:29.660Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2425,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2425-03-20T07:47:37.826Z",
+    "solarLongitudeDeg": -0.00016380861249386155,
+    "boundarySunsetUtc": "2425-03-20T23:21:18.574Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2426,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2426-03-20T13:42:37.524Z",
+    "solarLongitudeDeg": -0.00024504010299841543,
+    "boundarySunsetUtc": "2426-03-20T23:21:05.523Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2427,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2427-03-20T19:39:58.346Z",
+    "solarLongitudeDeg": -0.000008115481766847823,
+    "boundarySunsetUtc": "2427-03-20T23:20:52.121Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2428,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2428-03-20T01:28:52.997Z",
+    "solarLongitudeDeg": -0.00032643866195187886,
+    "boundarySunsetUtc": "2428-03-20T23:21:45.411Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2429,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2429-03-20T07:19:33.125Z",
+    "solarLongitudeDeg": 0.0000034724230858238867,
+    "boundarySunsetUtc": "2429-03-20T23:21:33.078Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2430,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2430-03-20T13:03:13.843Z",
+    "solarLongitudeDeg": -0.0002765104765135021,
+    "boundarySunsetUtc": "2430-03-20T23:21:22.291Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2431,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2431-03-20T18:50:42.438Z",
+    "solarLongitudeDeg": -0.00015095093848782997,
+    "boundarySunsetUtc": "2431-03-20T23:21:10.508Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2432,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2432-03-20T00:44:14.814Z",
+    "solarLongitudeDeg": -0.00009661685357122334,
+    "boundarySunsetUtc": "2432-03-20T23:22:02.289Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2433,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2433-03-20T06:24:17.296Z",
+    "solarLongitudeDeg": -0.0001847616108993265,
+    "boundarySunsetUtc": "2433-03-20T23:21:52.071Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2434,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2434-03-20T12:07:38.901Z",
+    "solarLongitudeDeg": 0.00014273693036365528,
+    "boundarySunsetUtc": "2434-03-20T23:21:40.873Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2435,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2435-03-20T17:57:51.264Z",
+    "solarLongitudeDeg": -0.00017058132042889124,
+    "boundarySunsetUtc": "2435-03-20T23:21:28.310Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2436,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2436-03-19T23:45:21.373Z",
+    "solarLongitudeDeg": 0.00001705487560978337,
+    "boundarySunsetUtc": "2436-03-20T23:22:21.501Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2437,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2437-03-20T05:35:52.844Z",
+    "solarLongitudeDeg": -0.00018299793036423553,
+    "boundarySunsetUtc": "2437-03-20T23:22:08.774Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2438,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2438-03-20T11:25:31.716Z",
+    "solarLongitudeDeg": -0.00017015713568019415,
+    "boundarySunsetUtc": "2438-03-20T23:21:56.622Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2439,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2439-03-20T17:14:33.215Z",
+    "solarLongitudeDeg": -0.00003588580019779804,
+    "boundarySunsetUtc": "2439-03-20T23:21:44.624Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2440,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2440-03-19T23:08:35.207Z",
+    "solarLongitudeDeg": -0.00012251864109130735,
+    "boundarySunsetUtc": "2440-03-19T23:21:31.667Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2441,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2441-03-20T04:53:11.839Z",
+    "solarLongitudeDeg": 0.00022879886561829373,
+    "boundarySunsetUtc": "2441-03-20T23:22:25.973Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2442,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2442-03-20T10:40:16.106Z",
+    "solarLongitudeDeg": -0.00008797807850879715,
+    "boundarySunsetUtc": "2442-03-20T23:22:14.631Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2443,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2443-03-20T16:35:59.752Z",
+    "solarLongitudeDeg": 0.00014275567150651014,
+    "boundarySunsetUtc": "2443-03-20T23:22:01.677Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2444,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2444-03-19T22:27:15.115Z",
+    "solarLongitudeDeg": -0.000073903200402241,
+    "boundarySunsetUtc": "2444-03-19T23:21:49.665Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2445,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2445-03-20T04:14:43.073Z",
+    "solarLongitudeDeg": -0.00006926291087480401,
+    "boundarySunsetUtc": "2445-03-20T23:22:43.420Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2446,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2446-03-20T10:03:29.021Z",
+    "solarLongitudeDeg": 0.00013479517701046556,
+    "boundarySunsetUtc": "2446-03-20T23:22:31.982Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2447,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2447-03-20T15:51:06.091Z",
+    "solarLongitudeDeg": -0.00011298866794988432,
+    "boundarySunsetUtc": "2447-03-20T23:22:20.615Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2448,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2448-03-19T21:46:05.252Z",
+    "solarLongitudeDeg": 0.00023884669711797678,
+    "boundarySunsetUtc": "2448-03-19T23:22:07.566Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2449,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2449-03-20T03:35:44.961Z",
+    "solarLongitudeDeg": -0.000011104134826094886,
+    "boundarySunsetUtc": "2449-03-20T23:23:00.662Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2450,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2450-03-20T09:24:42.636Z",
+    "solarLongitudeDeg": 0.00017494657405395158,
+    "boundarySunsetUtc": "2450-03-20T23:22:48.654Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2451,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2451-03-20T15:18:21.382Z",
+    "solarLongitudeDeg": 0.00016658550118476756,
+    "boundarySunsetUtc": "2451-03-20T23:22:35.546Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2452,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2452-03-19T21:06:27.136Z",
+    "solarLongitudeDeg": 0.000003768708128127961,
+    "boundarySunsetUtc": "2452-03-19T23:22:23.597Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2453,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2453-03-20T02:49:17.299Z",
+    "solarLongitudeDeg": 0.0002801151330796533,
+    "boundarySunsetUtc": "2453-03-20T23:23:17.759Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2454,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2454-03-20T08:34:24.072Z",
+    "solarLongitudeDeg": -0.00009293598025994226,
+    "boundarySunsetUtc": "2454-03-20T23:23:06.420Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2455,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2455-03-20T14:20:44.537Z",
+    "solarLongitudeDeg": 0.00019518723973332023,
+    "boundarySunsetUtc": "2455-03-20T23:22:54.950Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2456,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2456-03-19T20:09:25.643Z",
+    "solarLongitudeDeg": 0.000060819301494304886,
+    "boundarySunsetUtc": "2456-03-19T23:22:42.887Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2457,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2457-03-20T01:53:29.117Z",
+    "solarLongitudeDeg": 0.00022134522586724983,
+    "boundarySunsetUtc": "2457-03-20T23:23:37.130Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2458,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2458-03-20T07:37:22.264Z",
+    "solarLongitudeDeg": 0.00033928936859415574,
+    "boundarySunsetUtc": "2458-03-20T23:23:26.414Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2459,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2459-03-20T13:29:10.488Z",
+    "solarLongitudeDeg": 0.00017987139694154857,
+    "boundarySunsetUtc": "2459-03-20T23:23:14.049Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2460,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2460-03-19T19:24:06.965Z",
+    "solarLongitudeDeg": 0.00035256479855229626,
+    "boundarySunsetUtc": "2460-03-19T23:23:01.300Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2461,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2461-03-20T01:15:57.447Z",
+    "solarLongitudeDeg": 0.000017666894531659263,
+    "boundarySunsetUtc": "2461-03-20T23:23:54.282Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2462,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2462-03-20T07:09:02.637Z",
+    "solarLongitudeDeg": 0.00027477648160811717,
+    "boundarySunsetUtc": "2462-03-20T23:23:42.012Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2463,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2463-03-20T13:03:27.917Z",
+    "solarLongitudeDeg": 0.00016093775180156707,
+    "boundarySunsetUtc": "2463-03-20T23:23:29.548Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2464,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2464-03-19T18:54:11.003Z",
+    "solarLongitudeDeg": 0.00025207807410902375,
+    "boundarySunsetUtc": "2464-03-19T23:23:17.713Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2465,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2465-03-20T00:42:30.838Z",
+    "solarLongitudeDeg": 0.0004599771723414611,
+    "boundarySunsetUtc": "2465-03-20T23:24:11.510Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2466,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2466-03-20T06:29:51.413Z",
+    "solarLongitudeDeg": 0.00018579770608318085,
+    "boundarySunsetUtc": "2466-03-20T23:24:00.339Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2467,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2467-03-20T12:20:45.941Z",
+    "solarLongitudeDeg": 0.0004708098242397499,
+    "boundarySunsetUtc": "2467-03-20T23:23:48.155Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2468,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2468-03-19T18:13:24.682Z",
+    "solarLongitudeDeg": 0.00011493004823273337,
+    "boundarySunsetUtc": "2468-03-19T23:23:35.631Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2469,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2469-03-19T23:55:15.045Z",
+    "solarLongitudeDeg": 0.0003700047014507494,
+    "boundarySunsetUtc": "2469-03-20T23:24:30.382Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2470,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2470-03-20T05:38:55.471Z",
+    "solarLongitudeDeg": 0.00029755054748752287,
+    "boundarySunsetUtc": "2470-03-20T23:24:19.428Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2471,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2471-03-20T11:27:53.120Z",
+    "solarLongitudeDeg": 0.00024022514512646694,
+    "boundarySunsetUtc": "2471-03-20T23:24:07.525Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2472,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2472-03-19T17:15:24.623Z",
+    "solarLongitudeDeg": 0.0005107312055982958,
+    "boundarySunsetUtc": "2472-03-19T23:23:55.770Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2473,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2473-03-19T23:04:59.182Z",
+    "solarLongitudeDeg": 0.00023383850820604332,
+    "boundarySunsetUtc": "2473-03-19T23:23:43.624Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2474,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2474-03-20T04:53:36.313Z",
+    "solarLongitudeDeg": 0.0005840157126389708,
+    "boundarySunsetUtc": "2474-03-20T23:24:36.998Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2475,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2475-03-20T10:42:20.361Z",
+    "solarLongitudeDeg": 0.00040913961555891297,
+    "boundarySunsetUtc": "2475-03-20T23:24:25.000Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2476,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2476-03-19T16:35:41.991Z",
+    "solarLongitudeDeg": 0.000451069546128145,
+    "boundarySunsetUtc": "2476-03-19T23:24:12.416Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2477,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2477-03-19T22:18:49.774Z",
+    "solarLongitudeDeg": 0.0004910236850741064,
+    "boundarySunsetUtc": "2477-03-19T23:24:02.019Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2478,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2478-03-20T04:06:54.558Z",
+    "solarLongitudeDeg": 0.0002686805518924136,
+    "boundarySunsetUtc": "2478-03-20T23:24:55.718Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2479,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2479-03-20T10:01:17.521Z",
+    "solarLongitudeDeg": 0.0005137172787196104,
+    "boundarySunsetUtc": "2479-03-20T23:24:43.347Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2480,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2480-03-19T15:49:51.184Z",
+    "solarLongitudeDeg": 0.0002718259028288952,
+    "boundarySunsetUtc": "2480-03-19T23:24:32.075Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2481,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2481-03-19T21:37:43.793Z",
+    "solarLongitudeDeg": 0.0006558458004140935,
+    "boundarySunsetUtc": "2481-03-19T23:24:21.084Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2482,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2482-03-20T03:26:51.633Z",
+    "solarLongitudeDeg": 0.000513210579302034,
+    "boundarySunsetUtc": "2482-03-20T23:25:14.998Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2483,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2483-03-20T09:16:50.206Z",
+    "solarLongitudeDeg": 0.0005737255584203847,
+    "boundarySunsetUtc": "2483-03-20T23:25:03.361Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2484,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2484-03-19T15:15:53.927Z",
+    "solarLongitudeDeg": 0.0005911713829711332,
+    "boundarySunsetUtc": "2484-03-19T23:24:49.955Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2485,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2485-03-19T21:06:11.856Z",
+    "solarLongitudeDeg": 0.00035358275458035053,
+    "boundarySunsetUtc": "2485-03-19T23:24:38.186Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2486,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2486-03-20T02:54:19.706Z",
+    "solarLongitudeDeg": 0.0006419807755389888,
+    "boundarySunsetUtc": "2486-03-20T23:25:31.821Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2487,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2487-03-20T08:48:47.772Z",
+    "solarLongitudeDeg": 0.00039899533307819987,
+    "boundarySunsetUtc": "2487-03-20T23:25:19.085Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2488,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2488-03-19T14:32:59.180Z",
+    "solarLongitudeDeg": 0.0007056554152900477,
+    "boundarySunsetUtc": "2488-03-19T23:25:08.337Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2489,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2489-03-19T20:15:48.749Z",
+    "solarLongitudeDeg": 0.0006468848562834656,
+    "boundarySunsetUtc": "2489-03-19T23:24:57.731Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2490,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2490-03-20T02:03:21.658Z",
+    "solarLongitudeDeg": 0.0005982508554536618,
+    "boundarySunsetUtc": "2490-03-20T23:25:51.379Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2491,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2491-03-20T07:47:22.536Z",
+    "solarLongitudeDeg": 0.0008000485590319535,
+    "boundarySunsetUtc": "2491-03-20T23:25:40.419Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2492,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2492-03-19T13:38:55.250Z",
+    "solarLongitudeDeg": 0.00044100392830362357,
+    "boundarySunsetUtc": "2492-03-19T23:25:28.039Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2493,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2493-03-19T19:22:50.195Z",
+    "solarLongitudeDeg": 0.0008048914583504251,
+    "boundarySunsetUtc": "2493-03-19T23:25:17.374Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2494,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2494-03-20T01:03:05.171Z",
+    "solarLongitudeDeg": 0.0005306803738411919,
+    "boundarySunsetUtc": "2494-03-20T23:26:12.503Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2495,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2495-03-20T06:59:52.839Z",
+    "solarLongitudeDeg": 0.0006708341087651387,
+    "boundarySunsetUtc": "2495-03-20T23:25:59.454Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2496,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2496-03-19T12:49:54.029Z",
+    "solarLongitudeDeg": 0.0006920698043666032,
+    "boundarySunsetUtc": "2496-03-19T23:25:47.831Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2497,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2497-03-19T18:40:11.017Z",
+    "solarLongitudeDeg": 0.000603879426056107,
+    "boundarySunsetUtc": "2497-03-19T23:25:36.160Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2498,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2498-03-20T00:36:57.077Z",
+    "solarLongitudeDeg": 0.0008997171947642776,
+    "boundarySunsetUtc": "2498-03-20T23:26:28.597Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2499,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2499-03-20T06:25:16.673Z",
+    "solarLongitudeDeg": 0.0006632795841885692,
+    "boundarySunsetUtc": "2499-03-20T23:26:17.476Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2500,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2500-03-20T12:21:12.837Z",
+    "solarLongitudeDeg": 0.0009024502143251669,
+    "boundarySunsetUtc": "2500-03-20T23:26:04.921Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2501,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2501-03-20T18:10:09.273Z",
+    "solarLongitudeDeg": 0.0006999836012986643,
+    "boundarySunsetUtc": "2501-03-20T23:25:53.822Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2502,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2502-03-20T23:53:52.650Z",
+    "solarLongitudeDeg": 0.0007145708780312829,
+    "boundarySunsetUtc": "2502-03-21T23:26:48.785Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2503,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2503-03-21T05:52:01.504Z",
+    "solarLongitudeDeg": 0.0007941029708449403,
+    "boundarySunsetUtc": "2503-03-21T23:26:35.700Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2504,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2504-03-20T11:38:02.326Z",
+    "solarLongitudeDeg": 0.0006587670972917658,
+    "boundarySunsetUtc": "2504-03-20T23:26:24.994Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2505,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2505-03-20T17:18:58.886Z",
+    "solarLongitudeDeg": 0.0010478195824272262,
+    "boundarySunsetUtc": "2505-03-20T23:26:15.119Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2506,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2506-03-20T23:09:29.382Z",
+    "solarLongitudeDeg": 0.0007792487332048606,
+    "boundarySunsetUtc": "2506-03-20T23:26:03.185Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2507,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2507-03-21T04:53:48.318Z",
+    "solarLongitudeDeg": 0.0010520521843779224,
+    "boundarySunsetUtc": "2507-03-21T23:26:57.761Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2508,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2508-03-20T10:48:41.537Z",
+    "solarLongitudeDeg": 0.0008007060979479695,
+    "boundarySunsetUtc": "2508-03-20T23:26:44.696Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2509,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2509-03-20T16:38:48.498Z",
+    "solarLongitudeDeg": 0.0008009250411403459,
+    "boundarySunsetUtc": "2509-03-20T23:26:32.748Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2510,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2510-03-20T22:21:10.680Z",
+    "solarLongitudeDeg": 0.0009577823642723872,
+    "boundarySunsetUtc": "2510-03-20T23:26:22.339Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2511,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2511-03-21T04:16:33.970Z",
+    "solarLongitudeDeg": 0.0007182794190734559,
+    "boundarySunsetUtc": "2511-03-21T23:27:14.474Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2512,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2512-03-20T10:02:11.163Z",
+    "solarLongitudeDeg": 0.0010883428063602591,
+    "boundarySunsetUtc": "2512-03-20T23:27:03.697Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2513,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2513-03-20T15:42:20.250Z",
+    "solarLongitudeDeg": 0.0008543082160364608,
+    "boundarySunsetUtc": "2513-03-20T23:26:53.895Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2514,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2514-03-20T21:36:37.544Z",
+    "solarLongitudeDeg": 0.0010370225011717455,
+    "boundarySunsetUtc": "2514-03-20T23:26:41.440Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2515,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2515-03-21T03:22:54.912Z",
+    "solarLongitudeDeg": 0.0010351839992039156,
+    "boundarySunsetUtc": "2515-03-21T23:27:36.015Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2516,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2516-03-20T09:14:34.236Z",
+    "solarLongitudeDeg": 0.0008909608841431545,
+    "boundarySunsetUtc": "2516-03-20T23:27:24.185Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2517,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2517-03-20T15:05:12.321Z",
+    "solarLongitudeDeg": 0.0011836042158789252,
+    "boundarySunsetUtc": "2517-03-20T23:27:12.898Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2518,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2518-03-20T20:46:38.407Z",
+    "solarLongitudeDeg": 0.0008540618116089916,
+    "boundarySunsetUtc": "2518-03-20T23:27:03.418Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2519,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2519-03-21T02:46:48.120Z",
+    "solarLongitudeDeg": 0.0011377449202640195,
+    "boundarySunsetUtc": "2519-03-21T23:27:55.285Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2520,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2520-03-20T08:41:45.201Z",
+    "solarLongitudeDeg": 0.0009308698191024509,
+    "boundarySunsetUtc": "2520-03-20T23:27:43.137Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2521,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2521-03-20T14:27:02.648Z",
+    "solarLongitudeDeg": 0.0010970026938632634,
+    "boundarySunsetUtc": "2521-03-20T23:27:32.722Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2522,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2522-03-20T20:25:32.922Z",
+    "solarLongitudeDeg": 0.001198605831832432,
+    "boundarySunsetUtc": "2522-03-20T23:27:19.581Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2523,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2523-03-21T02:11:48.546Z",
+    "solarLongitudeDeg": 0.0010857988323818497,
+    "boundarySunsetUtc": "2523-03-21T23:28:14.152Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2524,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2524-03-20T07:59:09.155Z",
+    "solarLongitudeDeg": 0.0012952299287900474,
+    "boundarySunsetUtc": "2524-03-20T23:28:02.947Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2525,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2525-03-20T13:50:36.604Z",
+    "solarLongitudeDeg": 0.0009722123211836121,
+    "boundarySunsetUtc": "2525-03-20T23:27:50.993Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2526,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2526-03-20T19:28:22.970Z",
+    "solarLongitudeDeg": 0.001184337226532115,
+    "boundarySunsetUtc": "2526-03-20T23:27:41.775Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2527,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2527-03-21T01:22:23.637Z",
+    "solarLongitudeDeg": 0.0010117557307948632,
+    "boundarySunsetUtc": "2527-03-21T23:28:34.210Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2528,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2528-03-20T07:09:38.127Z",
+    "solarLongitudeDeg": 0.0011038043497501174,
+    "boundarySunsetUtc": "2528-03-20T23:28:23.114Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2529,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2529-03-20T12:44:12.093Z",
+    "solarLongitudeDeg": 0.0013370456173055125,
+    "boundarySunsetUtc": "2529-03-20T23:28:14.447Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2530,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2530-03-20T18:37:36.161Z",
+    "solarLongitudeDeg": 0.0011230850603339664,
+    "boundarySunsetUtc": "2530-03-20T23:28:01.994Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2531,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2531-03-21T00:25:15.225Z",
+    "solarLongitudeDeg": 0.0014596635667922016,
+    "boundarySunsetUtc": "2531-03-21T23:28:56.208Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2532,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2532-03-20T06:16:28.274Z",
+    "solarLongitudeDeg": 0.0010925918161156475,
+    "boundarySunsetUtc": "2532-03-20T23:28:44.189Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2533,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2533-03-20T12:14:03.930Z",
+    "solarLongitudeDeg": 0.0013476565184025744,
+    "boundarySunsetUtc": "2533-03-20T23:28:31.290Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2534,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2534-03-20T17:57:03.168Z",
+    "solarLongitudeDeg": 0.0012631333301769403,
+    "boundarySunsetUtc": "2534-03-20T23:28:21.459Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2535,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2535-03-20T23:53:11.517Z",
+    "solarLongitudeDeg": 0.00120826683938875,
+    "boundarySunsetUtc": "2535-03-21T23:29:14.071Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2536,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2536-03-20T05:46:11.079Z",
+    "solarLongitudeDeg": 0.0014562411430382625,
+    "boundarySunsetUtc": "2536-03-20T23:29:02.541Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2537,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2537-03-20T11:25:50.040Z",
+    "solarLongitudeDeg": 0.0011840618893039702,
+    "boundarySunsetUtc": "2537-03-20T23:28:53.555Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2538,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2538-03-20T17:23:15.521Z",
+    "solarLongitudeDeg": 0.0014905462721144412,
+    "boundarySunsetUtc": "2538-03-20T23:28:40.947Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2539,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2539-03-20T23:13:15.444Z",
+    "solarLongitudeDeg": 0.00130611622930024,
+    "boundarySunsetUtc": "2539-03-20T23:28:29.796Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2540,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2540-03-20T05:00:08.788Z",
+    "solarLongitudeDeg": 0.001401676727943085,
+    "boundarySunsetUtc": "2540-03-20T23:29:24.457Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2541,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2541-03-20T10:52:15.664Z",
+    "solarLongitudeDeg": 0.0014651975906479835,
+    "boundarySunsetUtc": "2541-03-20T23:29:12.785Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2542,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2542-03-20T16:33:08.906Z",
+    "solarLongitudeDeg": 0.0012843430731255213,
+    "boundarySunsetUtc": "2542-03-20T23:29:03.289Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2543,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2543-03-20T22:27:12.481Z",
+    "solarLongitudeDeg": 0.0015040053218265406,
+    "boundarySunsetUtc": "2543-03-20T23:28:50.859Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2544,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2544-03-20T04:23:11.336Z",
+    "solarLongitudeDeg": 0.0012104191620504758,
+    "boundarySunsetUtc": "2544-03-20T23:29:43.310Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2545,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2545-03-20T10:02:27.556Z",
+    "solarLongitudeDeg": 0.0015917934442746208,
+    "boundarySunsetUtc": "2545-03-20T23:29:33.886Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2546,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2546-03-20T15:55:59.313Z",
+    "solarLongitudeDeg": 0.001462109406368766,
+    "boundarySunsetUtc": "2546-03-20T23:29:21.361Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2547,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2547-03-20T21:43:49.408Z",
+    "solarLongitudeDeg": 0.0015902076482534149,
+    "boundarySunsetUtc": "2547-03-20T23:29:10.117Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2548,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2548-03-20T03:25:22.471Z",
+    "solarLongitudeDeg": 0.001641422536712399,
+    "boundarySunsetUtc": "2548-03-20T23:30:05.463Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2549,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2549-03-20T09:17:46.182Z",
+    "solarLongitudeDeg": 0.0014134687647407189,
+    "boundarySunsetUtc": "2549-03-20T23:29:53.395Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2550,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2550-03-20T14:58:59.968Z",
+    "solarLongitudeDeg": 0.0016485540434101821,
+    "boundarySunsetUtc": "2550-03-20T23:29:43.815Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2551,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2551-03-20T20:49:28.376Z",
+    "solarLongitudeDeg": 0.0013485700941591318,
+    "boundarySunsetUtc": "2551-03-20T23:29:32.233Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2552,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2552-03-20T02:43:05.280Z",
+    "solarLongitudeDeg": 0.001662796467620043,
+    "boundarySunsetUtc": "2552-03-20T23:30:25.596Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2553,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2553-03-20T08:19:28.709Z",
+    "solarLongitudeDeg": 0.0016151460526097783,
+    "boundarySunsetUtc": "2553-03-20T23:30:17.355Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2554,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2554-03-20T14:14:02.420Z",
+    "solarLongitudeDeg": 0.0016010625885512293,
+    "boundarySunsetUtc": "2554-03-20T23:30:05.283Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2555,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2555-03-20T20:11:10.704Z",
+    "solarLongitudeDeg": 0.001810003959995844,
+    "boundarySunsetUtc": "2555-03-20T23:29:52.870Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2556,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2556-03-20T02:00:31.960Z",
+    "solarLongitudeDeg": 0.0014551506574582943,
+    "boundarySunsetUtc": "2556-03-20T23:30:47.342Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2557,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2557-03-20T08:01:38.943Z",
+    "solarLongitudeDeg": 0.0018239321291115408,
+    "boundarySunsetUtc": "2557-03-20T23:30:34.054Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2558,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2558-03-20T13:48:00.077Z",
+    "solarLongitudeDeg": 0.0015670452548500946,
+    "boundarySunsetUtc": "2558-03-20T23:30:23.826Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2559,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2559-03-20T19:38:51.149Z",
+    "solarLongitudeDeg": 0.0017122123908593701,
+    "boundarySunsetUtc": "2559-03-20T23:30:12.471Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2560,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2560-03-20T01:33:43.752Z",
+    "solarLongitudeDeg": 0.0017143539677644452,
+    "boundarySunsetUtc": "2560-03-20T23:31:05.548Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2561,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2561-03-20T07:10:36.177Z",
+    "solarLongitudeDeg": 0.0016370644688463198,
+    "boundarySunsetUtc": "2561-03-20T23:30:57.041Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2562,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2562-03-20T13:01:06.093Z",
+    "solarLongitudeDeg": 0.0018867213626789126,
+    "boundarySunsetUtc": "2562-03-20T23:30:45.380Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2563,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2563-03-20T18:52:21.838Z",
+    "solarLongitudeDeg": 0.0016651632522957953,
+    "boundarySunsetUtc": "2563-03-20T23:30:33.614Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2564,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2564-03-20T00:31:30.372Z",
+    "solarLongitudeDeg": 0.0019830430376337384,
+    "boundarySunsetUtc": "2564-03-20T23:31:29.691Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2565,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2565-03-20T06:20:50.184Z",
+    "solarLongitudeDeg": 0.001802793043808757,
+    "boundarySunsetUtc": "2565-03-20T23:31:18.146Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2566,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2566-03-20T12:04:01.673Z",
+    "solarLongitudeDeg": 0.0018309585546449248,
+    "boundarySunsetUtc": "2566-03-20T23:31:08.100Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2567,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2567-03-20T17:53:59.730Z",
+    "solarLongitudeDeg": 0.0018500615248302505,
+    "boundarySunsetUtc": "2567-03-20T23:30:56.521Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2568,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2568-03-19T23:51:52.977Z",
+    "solarLongitudeDeg": 0.001668298553558283,
+    "boundarySunsetUtc": "2568-03-20T23:31:48.747Z",
+    "usedNextDaySunset": true
+  },
+  {
+    "year": 2569,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2569-03-20T05:33:11.121Z",
+    "solarLongitudeDeg": 0.0020325158192512132,
+    "boundarySunsetUtc": "2569-03-20T23:31:39.395Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2570,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2570-03-20T11:23:40.755Z",
+    "solarLongitudeDeg": 0.0017944706101271403,
+    "boundarySunsetUtc": "2570-03-20T23:31:27.915Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2571,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2571-03-20T17:18:02.344Z",
+    "solarLongitudeDeg": 0.0021300879754514155,
+    "boundarySunsetUtc": "2571-03-20T23:31:16.007Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2572,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2572-03-19T23:02:35.690Z",
+    "solarLongitudeDeg": 0.0019110384285137415,
+    "boundarySunsetUtc": "2572-03-19T23:31:06.162Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2573,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2573-03-20T04:55:45.176Z",
+    "solarLongitudeDeg": 0.0019273413137248611,
+    "boundarySunsetUtc": "2573-03-20T23:31:59.907Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2574,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2574-03-20T10:45:55.157Z",
+    "solarLongitudeDeg": 0.0020405207591501565,
+    "boundarySunsetUtc": "2574-03-20T23:31:49.160Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2575,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2575-03-20T16:35:51.605Z",
+    "solarLongitudeDeg": 0.0017582628420231186,
+    "boundarySunsetUtc": "2575-03-20T23:31:38.280Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2576,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2576-03-19T22:30:53.812Z",
+    "solarLongitudeDeg": 0.0021557370121669042,
+    "boundarySunsetUtc": "2576-03-19T23:31:26.391Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2577,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2577-03-20T04:11:05.601Z",
+    "solarLongitudeDeg": 0.0019453852178947142,
+    "boundarySunsetUtc": "2577-03-20T23:32:22.932Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2578,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2578-03-20T10:00:32.881Z",
+    "solarLongitudeDeg": 0.0021285684848669135,
+    "boundarySunsetUtc": "2578-03-20T23:32:11.910Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2579,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2579-03-20T15:59:20.272Z",
+    "solarLongitudeDeg": 0.0021147159043189896,
+    "boundarySunsetUtc": "2579-03-20T23:31:58.950Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2580,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2580-03-19T21:45:49.303Z",
+    "solarLongitudeDeg": 0.002011057391911949,
+    "boundarySunsetUtc": "2580-03-19T23:31:48.419Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2581,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2581-03-20T03:37:37.604Z",
+    "solarLongitudeDeg": 0.0022851421890164383,
+    "boundarySunsetUtc": "2581-03-20T23:32:41.980Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2582,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2582-03-20T09:25:19.485Z",
+    "solarLongitudeDeg": 0.0019890251927457497,
+    "boundarySunsetUtc": "2582-03-20T23:32:31.120Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2583,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2583-03-20T15:10:04.034Z",
+    "solarLongitudeDeg": 0.0022728666828832457,
+    "boundarySunsetUtc": "2583-03-20T23:32:20.771Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2584,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2584-03-19T21:01:04.082Z",
+    "solarLongitudeDeg": 0.0020239686886939358,
+    "boundarySunsetUtc": "2584-03-19T23:32:09.034Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2585,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2585-03-20T02:40:08.407Z",
+    "solarLongitudeDeg": 0.0021600185161340913,
+    "boundarySunsetUtc": "2585-03-20T23:33:05.376Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2586,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2586-03-20T08:25:20.930Z",
+    "solarLongitudeDeg": 0.002228314226122497,
+    "boundarySunsetUtc": "2586-03-20T23:32:54.910Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2587,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2587-03-20T14:19:38.833Z",
+    "solarLongitudeDeg": 0.00214325813064877,
+    "boundarySunsetUtc": "2587-03-20T23:32:42.732Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2588,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2588-03-19T20:00:14.268Z",
+    "solarLongitudeDeg": 0.0024365180867145725,
+    "boundarySunsetUtc": "2588-03-19T23:32:33.605Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2589,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2589-03-20T01:48:55.396Z",
+    "solarLongitudeDeg": 0.0021827929766447484,
+    "boundarySunsetUtc": "2589-03-20T23:33:28.102Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2590,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2590-03-20T07:41:08.018Z",
+    "solarLongitudeDeg": 0.002399291377048201,
+    "boundarySunsetUtc": "2590-03-20T23:33:16.866Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2591,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2591-03-20T13:34:39.727Z",
+    "solarLongitudeDeg": 0.0021380114711869423,
+    "boundarySunsetUtc": "2591-03-20T23:33:05.318Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2592,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2592-03-19T19:33:57.723Z",
+    "solarLongitudeDeg": 0.002231552678126456,
+    "boundarySunsetUtc": "2592-03-19T23:32:52.577Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2593,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2593-03-20T01:22:05.520Z",
+    "solarLongitudeDeg": 0.002438935834721218,
+    "boundarySunsetUtc": "2593-03-20T23:33:47.768Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2594,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2594-03-20T07:11:15.917Z",
+    "solarLongitudeDeg": 0.0022431887750361318,
+    "boundarySunsetUtc": "2594-03-20T23:33:37.150Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2595,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2595-03-20T13:07:27.104Z",
+    "solarLongitudeDeg": 0.002630883474067436,
+    "boundarySunsetUtc": "2595-03-20T23:33:25.080Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2596,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2596-03-19T18:52:43.319Z",
+    "solarLongitudeDeg": 0.0022927454295236936,
+    "boundarySunsetUtc": "2596-03-19T23:33:15.232Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2597,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2597-03-20T00:40:26.665Z",
+    "solarLongitudeDeg": 0.0025039476464081187,
+    "boundarySunsetUtc": "2597-03-20T23:34:10.089Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2598,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2598-03-20T06:30:55.878Z",
+    "solarLongitudeDeg": 0.0023882794217158173,
+    "boundarySunsetUtc": "2598-03-20T23:33:58.966Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2599,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2599-03-20T12:17:44.441Z",
+    "solarLongitudeDeg": 0.0023278842744635887,
+    "boundarySunsetUtc": "2599-03-20T23:33:48.510Z",
+    "usedNextDaySunset": false
+  },
+  {
+    "year": 2600,
+    "kernel": "de440.bsp",
+    "latitude": 40.74,
+    "longitude": -74.03,
+    "equinoxUtc": "2600-03-20T18:04:44.130Z",
+    "solarLongitudeDeg": 0.00258173054934135,
+    "boundarySunsetUtc": "2600-03-20T23:33:37.797Z",
+    "usedNextDaySunset": false
+  }
+]
