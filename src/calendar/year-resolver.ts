@@ -9,8 +9,6 @@ export interface ResolvedHpcYear {
 }
 
 function mapBoundaryYearToHpcYear(boundaryGregorianYear: number): number {
-  // If 2019 boundary begins HPC year 6038, then:
-  // HPC year = baseCreationYearAtEpoch + (boundaryGregorianYear - 2019) + 1
   return (
     HPC_CONFIG.baseCreationYearAtEpoch +
     (boundaryGregorianYear - 2019) +
