@@ -106,3 +106,4 @@ main().catch((error) => {
 });
 export * from "./services/year-boundary-service";
 export * from "./services/year-structure-service";
+export * from "./services/date-conversion-service";
