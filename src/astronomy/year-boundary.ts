@@ -64,13 +64,17 @@ export async function resolveHpcYearBoundaryUtc(
     ? "STANDARD"
     : "EQUINOX_ADJUSTMENT";
 
+  const boundarySunsetUtc = withinWednesdayWindow
+    ? wednesdaySunsetUtc
+    : thursdaySunsetUtc;
+
   return {
     equinoxUtc,
     observableWindowStartUtc: tuesdaySunsetUtc,
     observableWindowEndUtc: wednesdaySunsetUtc,
     classification,
     yearType,
-    boundarySunsetUtc: wednesdaySunsetUtc,
+    boundarySunsetUtc,
     usedNextDaySunset: !withinWednesdayWindow
   };
 }
