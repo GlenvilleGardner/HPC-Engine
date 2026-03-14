@@ -104,3 +104,4 @@ main().catch((error) => {
   console.error("Engine error:", error);
   process.exit(1);
 });
+export * from "./services/year-boundary-service";
