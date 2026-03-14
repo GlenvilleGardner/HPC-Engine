@@ -1,14 +1,15 @@
 import { Router, Request, Response } from "express";
 import { getCalendarDay } from "../services/calendar-day-service";
-import { parseNumber, parseString } from "../utils/request-parsers";
+import { parseIsoDate, parseLatitude, parseLongitude } from "../utils/request-parsers";
+import { toApiErrorResponse, ApiValidationError } from "../utils/api-errors";
 
 const router = Router();
 
 router.get("/hpc/calendar-day", async (req: Request, res: Response) => {
   try {
-    const isoDate = parseString(req.query.isoDate, "isoDate");
-    const latitude = parseNumber(req.query.latitude, "latitude");
-    const longitude = parseNumber(req.query.longitude, "longitude");
+    const isoDate = parseIsoDate(req.query.isoDate, "isoDate");
+    const latitude = parseLatitude(req.query.latitude);
+    const longitude = parseLongitude(req.query.longitude);
 
     const result = await getCalendarDay({
       isoDate,
@@ -18,9 +19,8 @@ router.get("/hpc/calendar-day", async (req: Request, res: Response) => {
 
     res.json(result);
   } catch (error) {
-    res.status(400).json({
-      error: error instanceof Error ? error.message : "Unknown error"
-    });
+    const status = error instanceof ApiValidationError ? 400 : 500;
+    res.status(status).json(toApiErrorResponse(error));
   }
 });
 
