@@ -1,10 +1,14 @@
-import { GeoLocation } from "../core/types";
+import { GeoLocation, EquinoxClassification, HPCYearType } from "../core/types";
 import { getSpringEquinoxUtc } from "./equinox";
 import { getLocalSunsetUtc as getApproxLocalSunsetUtc } from "../sunset/sunset";
 import { getSunset } from "../services/astronomy-authority-client";
 
 export interface YearBoundaryResult {
   equinoxUtc: Date;
+  observableWindowStartUtc: Date;
+  observableWindowEndUtc: Date;
+  classification: EquinoxClassification;
+  yearType: HPCYearType;
   boundarySunsetUtc: Date;
   usedNextDaySunset: boolean;
 }
@@ -19,35 +23,54 @@ async function resolveSunsetUtc(date: Date, location: GeoLocation): Promise<Date
   }
 }
 
+function startOfUtcDay(date: Date): Date {
+  return new Date(Date.UTC(
+    date.getUTCFullYear(),
+    date.getUTCMonth(),
+    date.getUTCDate(),
+    0, 0, 0, 0
+  ));
+}
+
+function addUtcDays(date: Date, days: number): Date {
+  const copy = new Date(date);
+  copy.setUTCDate(copy.getUTCDate() + days);
+  return copy;
+}
+
 export async function resolveHpcYearBoundaryUtc(
   year: number,
   location: GeoLocation
 ): Promise<YearBoundaryResult> {
   const equinoxUtc = await getSpringEquinoxUtc(year);
 
-  const equinoxDay = new Date(Date.UTC(
-    equinoxUtc.getUTCFullYear(),
-    equinoxUtc.getUTCMonth(),
-    equinoxUtc.getUTCDate(),
-    0, 0, 0, 0
-  ));
+  const equinoxDayUtc = startOfUtcDay(equinoxUtc);
+  const previousDayUtc = addUtcDays(equinoxDayUtc, -1);
+  const nextDayUtc = addUtcDays(equinoxDayUtc, 1);
 
-  const sameDaySunsetUtc = await resolveSunsetUtc(equinoxDay, location);
+  const tuesdaySunsetUtc = await resolveSunsetUtc(previousDayUtc, location);
+  const wednesdaySunsetUtc = await resolveSunsetUtc(equinoxDayUtc, location);
+  const thursdaySunsetUtc = await resolveSunsetUtc(nextDayUtc, location);
 
-  if (equinoxUtc.getTime() < sameDaySunsetUtc.getTime()) {
-    return {
-      equinoxUtc,
-      boundarySunsetUtc: sameDaySunsetUtc,
-      usedNextDaySunset: false
-    };
-  }
+  const withinWednesdayWindow =
+    equinoxUtc.getTime() >= tuesdaySunsetUtc.getTime() &&
+    equinoxUtc.getTime() < wednesdaySunsetUtc.getTime();
 
-  const nextDay = new Date(equinoxDay);
-  nextDay.setUTCDate(nextDay.getUTCDate() + 1);
+  const classification: EquinoxClassification = withinWednesdayWindow
+    ? "WITHIN_WEDNESDAY_WINDOW"
+    : "OUTSIDE_WINDOW";
+
+  const yearType: HPCYearType = withinWednesdayWindow
+    ? "STANDARD"
+    : "EQUINOX_ADJUSTMENT";
 
   return {
     equinoxUtc,
-    boundarySunsetUtc: await resolveSunsetUtc(nextDay, location),
-    usedNextDaySunset: true
+    observableWindowStartUtc: tuesdaySunsetUtc,
+    observableWindowEndUtc: wednesdaySunsetUtc,
+    classification,
+    yearType,
+    boundarySunsetUtc: wednesdaySunsetUtc,
+    usedNextDaySunset: !withinWednesdayWindow
   };
 }
