@@ -64,3 +64,27 @@ export interface EngineConfig {
   daysPerMonth: number;
   tropicalYearDays: number;
 }
+export type EquinoxInstant = {
+  utc: Date
+  julianDay: number
+}
+
+export type ObservableBoundary = {
+  localSunsetStart: Date
+  localSunsetEnd: Date
+}
+
+export type EquinoxClassification =
+  | "WITHIN_WEDNESDAY_WINDOW"
+  | "OUTSIDE_WINDOW"
+
+export type HPCYearType =
+  | "STANDARD"
+  | "EQUINOX_ADJUSTMENT"
+
+export interface HPCYearBoundaryResult {
+  astronomicalEquinox: EquinoxInstant
+  observableWindow: ObservableBoundary
+  classification: EquinoxClassification
+  yearType: HPCYearType
+}
