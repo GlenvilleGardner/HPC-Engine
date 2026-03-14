@@ -7,7 +7,9 @@ import { resolveIntercalaryState } from "./intercalation";
 import {
   HPC_NEW_YEAR_WEEKDAY_INDEX,
   HPC_MONTH_13_STANDARD_DAYS,
-  HPC_MONTH_13_ADJUSTMENT_DAYS
+  HPC_MONTH_13_ADJUSTMENT_DAYS,
+  HPC_STANDARD_YEAR_DAYS,
+  HPC_ADJUSTMENT_YEAR_DAYS
 } from "../core/epoch";
 
 const DAYS_PER_MONTH = 28;
@@ -49,6 +51,12 @@ function getGridWeekdayOffset(countedDayOfYear: number): number {
   return countedDayOfYear > maxGridOffset ? maxGridOffset : countedDayOfYear;
 }
 
+function getNominalObservableYearLength(yearType: HPCYearType): number {
+  return yearType === "EQUINOX_ADJUSTMENT"
+    ? HPC_ADJUSTMENT_YEAR_DAYS
+    : HPC_STANDARD_YEAR_DAYS;
+}
+
 export async function resolveHpcDate(
   target: Date,
   location: GeoLocation
@@ -72,17 +80,21 @@ export async function resolveHpcDate(
   const elapsedSinceBoundaryDays =
     Math.floor(elapsedSinceBoundaryMs / 86400000);
 
-  const observableYearLength =
-    Math.round(
-      (nextBoundary.boundarySunsetUtc.getTime() - resolvedYear.boundaryUtc.getTime()) / 86400000
-    );
+  const nominalObservableYearLength = getNominalObservableYearLength(startBoundary.yearType);
 
   const intercalary = resolveIntercalaryState(
     elapsedSinceBoundaryDays,
-    observableYearLength
+    nominalObservableYearLength
   );
 
-  const countedDayOfYear = intercalary.countedDayOfYear;
+  let countedDayOfYear = intercalary.countedDayOfYear;
+
+  if (target.getTime() < nextBoundary.boundarySunsetUtc.getTime()) {
+    const maxDayIndex = nominalObservableYearLength - 1;
+    if (countedDayOfYear > maxDayIndex) {
+      countedDayOfYear = maxDayIndex;
+    }
+  }
 
   const { hpcMonth, hpcDay } = getMonthAndDayFromCountedDay(
     countedDayOfYear,
