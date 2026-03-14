@@ -9,11 +9,7 @@ export interface ResolvedHpcYear {
 }
 
 function mapBoundaryYearToHpcYear(boundaryGregorianYear: number): number {
-  return (
-    HPC_CONFIG.baseCreationYearAtEpoch +
-    (boundaryGregorianYear - 2019) +
-    1
-  );
+  return HPC_CONFIG.baseCreationYearAtEpoch + (boundaryGregorianYear - 2019);
 }
 
 export async function resolveHpcYearForDate(
@@ -26,7 +22,7 @@ export async function resolveHpcYearForDate(
 
   if (target.getTime() >= currentBoundary.boundarySunsetUtc.getTime()) {
     return {
-      hpcYear: mapBoundaryYearToHpcYear(gregorianYear),
+      hpcYear: mapBoundaryYearToHpcYear(gregorianYear) + 1,
       gregorianBoundaryYear: gregorianYear,
       boundaryUtc: currentBoundary.boundarySunsetUtc
     };
@@ -36,7 +32,7 @@ export async function resolveHpcYearForDate(
   const previousBoundary = await resolveHpcYearBoundaryUtc(previousBoundaryYear, location);
 
   return {
-    hpcYear: mapBoundaryYearToHpcYear(previousBoundaryYear),
+    hpcYear: mapBoundaryYearToHpcYear(previousBoundaryYear) + 1,
     gregorianBoundaryYear: previousBoundaryYear,
     boundaryUtc: previousBoundary.boundarySunsetUtc
   };
