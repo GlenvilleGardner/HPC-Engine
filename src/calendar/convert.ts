@@ -1,4 +1,5 @@
 import { GeoLocation } from "../core/types";
+import { resolveHpcDate } from "./hpc-date";
 import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
 import {
   HPC_MONTH_13_STANDARD_DAYS,
@@ -42,7 +43,14 @@ function mapHpcYearToBoundaryGregorianYear(hpcYear: number): number {
   return EPOCH_GREGORIAN_BOUNDARY_YEAR + (hpcYear - EPOCH_HPC_YEAR) - 1;
 }
 
-export async function convertHpcToGregorian(
+export async function gregorianToHpc(
+  target: Date,
+  location: GeoLocation
+) {
+  return resolveHpcDate(target, location);
+}
+
+export async function hpcToGregorian(
   hpcYear: number,
   month: number,
   day: number,
