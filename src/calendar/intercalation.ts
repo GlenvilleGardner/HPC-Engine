@@ -1,9 +1,3 @@
-import { HPCYearType } from "../core/types";
-import {
-  HPC_STANDARD_YEAR_DAYS,
-  HPC_ADJUSTMENT_YEAR_DAYS
-} from "../core/epoch";
-
 export interface IntercalaryResult {
   isYearDay: boolean;
   isAdjustmentDay: boolean;
@@ -13,25 +7,23 @@ export interface IntercalaryResult {
 
 export function resolveIntercalaryState(
   elapsedSinceBoundaryDays: number,
-  yearType: HPCYearType
+  observableYearLength: number
 ): IntercalaryResult {
-  const observableYearLength =
-    yearType === "EQUINOX_ADJUSTMENT"
-      ? HPC_ADJUSTMENT_YEAR_DAYS
-      : HPC_STANDARD_YEAR_DAYS;
+  const maxDayIndex = observableYearLength - 1;
 
-  const normalizedDay =
-    ((elapsedSinceBoundaryDays % observableYearLength) + observableYearLength) %
-    observableYearLength;
+  const countedDayOfYear =
+    elapsedSinceBoundaryDays < 0
+      ? 0
+      : elapsedSinceBoundaryDays > maxDayIndex
+        ? maxDayIndex
+        : elapsedSinceBoundaryDays;
 
-  const isAdjustmentDay =
-    yearType === "EQUINOX_ADJUSTMENT" &&
-    normalizedDay === (HPC_ADJUSTMENT_YEAR_DAYS - 1);
+  const isAdjustmentDay = observableYearLength >= 366 && countedDayOfYear === maxDayIndex;
 
   return {
     isYearDay: false,
     isAdjustmentDay,
-    countedDayOfYear: normalizedDay,
+    countedDayOfYear,
     observableYearLength
   };
 }

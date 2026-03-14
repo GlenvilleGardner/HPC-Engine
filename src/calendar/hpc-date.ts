@@ -45,7 +45,7 @@ function getMonthAndDayFromCountedDay(
 }
 
 function getGridWeekdayOffset(countedDayOfYear: number): number {
-  const maxGridOffset = FIXED_GRID_DAYS - 1; // final fixed-grid day remains Wednesday
+  const maxGridOffset = FIXED_GRID_DAYS - 1;
   return countedDayOfYear > maxGridOffset ? maxGridOffset : countedDayOfYear;
 }
 
@@ -55,8 +55,14 @@ export async function resolveHpcDate(
 ): Promise<HpcDateRecord> {
   const tracks = buildTimeTracks(target);
   const resolvedYear = await resolveHpcYearForDate(target, location);
-  const boundary = await resolveHpcYearBoundaryUtc(
+
+  const startBoundary = await resolveHpcYearBoundaryUtc(
     resolvedYear.gregorianBoundaryYear,
+    location
+  );
+
+  const nextBoundary = await resolveHpcYearBoundaryUtc(
+    resolvedYear.gregorianBoundaryYear + 1,
     location
   );
 
@@ -66,16 +72,21 @@ export async function resolveHpcDate(
   const elapsedSinceBoundaryDays =
     Math.floor(elapsedSinceBoundaryMs / 86400000);
 
+  const observableYearLength =
+    Math.round(
+      (nextBoundary.boundarySunsetUtc.getTime() - resolvedYear.boundaryUtc.getTime()) / 86400000
+    );
+
   const intercalary = resolveIntercalaryState(
     elapsedSinceBoundaryDays,
-    boundary.yearType
+    observableYearLength
   );
 
   const countedDayOfYear = intercalary.countedDayOfYear;
 
   const { hpcMonth, hpcDay } = getMonthAndDayFromCountedDay(
     countedDayOfYear,
-    boundary.yearType
+    startBoundary.yearType
   );
 
   const weekday = getWeekdayFromIndex(
