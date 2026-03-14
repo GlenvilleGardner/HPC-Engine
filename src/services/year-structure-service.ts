@@ -1,4 +1,5 @@
 import { getYearBoundary } from "./year-boundary-service";
+import { MemoryCache } from "../cache/memory-cache";
 
 export interface YearStructureRequest {
   year: number;
@@ -18,9 +19,25 @@ export interface YearStructureResponse {
   months: MonthStructure[];
 }
 
+const yearStructureCache = new MemoryCache<YearStructureResponse>(60 * 60 * 1000);
+
+function makeCacheKey(request: YearStructureRequest): string {
+  return [
+    request.year,
+    request.latitude.toFixed(6),
+    request.longitude.toFixed(6)
+  ].join(":");
+}
+
 export async function getYearStructure(
   request: YearStructureRequest
 ): Promise<YearStructureResponse> {
+  const cacheKey = makeCacheKey(request);
+  const cached = yearStructureCache.get(cacheKey);
+
+  if (cached) {
+    return cached;
+  }
 
   const boundary = await getYearBoundary({
     year: request.year,
@@ -46,10 +63,14 @@ export async function getYearStructure(
     days: month13Days
   });
 
-  return {
+  const response: YearStructureResponse = {
     year: request.year,
     yearType: boundary.yearType,
     weekdayStart: "Thursday",
     months
   };
+
+  yearStructureCache.set(cacheKey, response);
+
+  return response;
 }
