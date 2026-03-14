@@ -2,3 +2,10 @@ node_modules/
 dist/
 .env
 *.log
+
+# backup files
+*.bak
+*.bak2
+
+# temporary generated debug js
+scripts/test-run.js
