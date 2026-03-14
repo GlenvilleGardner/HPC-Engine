@@ -1,45 +1,37 @@
-import { HpcDateRecord } from "../core/types";
+import { HPCYearType } from "../core/types";
+import {
+  HPC_STANDARD_YEAR_DAYS,
+  HPC_ADJUSTMENT_YEAR_DAYS
+} from "../core/epoch";
 
 export interface IntercalaryResult {
   isYearDay: boolean;
   isAdjustmentDay: boolean;
   countedDayOfYear: number;
+  observableYearLength: number;
 }
-
-const COUNTED_DAYS_PER_YEAR = 364;
-
-// Tropical year drift
-const TROPICAL_YEAR = 365.242189;
-
-// Drift relative to counted year
-const YEARLY_DRIFT = TROPICAL_YEAR - 365;
-
-// Approx cycle where an extra correction day is needed
-const DRIFT_THRESHOLD = 1.0;
 
 export function resolveIntercalaryState(
   elapsedSinceBoundaryDays: number,
-  hpcYear: number
+  yearType: HPCYearType
 ): IntercalaryResult {
+  const observableYearLength =
+    yearType === "EQUINOX_ADJUSTMENT"
+      ? HPC_ADJUSTMENT_YEAR_DAYS
+      : HPC_STANDARD_YEAR_DAYS;
 
-  // Determine position in counted year
-  const countedDayOfYear =
-    ((elapsedSinceBoundaryDays % COUNTED_DAYS_PER_YEAR) + COUNTED_DAYS_PER_YEAR) %
-    COUNTED_DAYS_PER_YEAR;
+  const normalizedDay =
+    ((elapsedSinceBoundaryDays % observableYearLength) + observableYearLength) %
+    observableYearLength;
 
-  // Year Day occurs immediately after the 364 counted days
-  const isYearDay = countedDayOfYear === COUNTED_DAYS_PER_YEAR;
-
-  // Long-term drift accumulator
-  const yearsSinceEpoch = hpcYear - 6039;
-
-  const drift = yearsSinceEpoch * YEARLY_DRIFT;
-
-  const isAdjustmentDay = drift >= DRIFT_THRESHOLD;
+  const isAdjustmentDay =
+    yearType === "EQUINOX_ADJUSTMENT" &&
+    normalizedDay === (HPC_ADJUSTMENT_YEAR_DAYS - 1);
 
   return {
-    isYearDay,
+    isYearDay: false,
     isAdjustmentDay,
-    countedDayOfYear
+    countedDayOfYear: normalizedDay,
+    observableYearLength
   };
 }

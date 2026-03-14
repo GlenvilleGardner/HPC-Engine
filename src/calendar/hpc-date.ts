@@ -1,23 +1,58 @@
-import { GeoLocation, HpcDateRecord } from "../core/types";
+import { GeoLocation, HpcDateRecord, HPCYearType } from "../core/types";
 import { buildTimeTracks } from "../core/time-tracks";
 import { getWeekdayFromIndex } from "./weekdays";
 import { resolveHpcYearForDate } from "./year-resolver";
+import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
 import { resolveIntercalaryState } from "./intercalation";
+import {
+  HPC_NEW_YEAR_WEEKDAY_INDEX,
+  HPC_MONTH_13_STANDARD_DAYS,
+  HPC_MONTH_13_ADJUSTMENT_DAYS
+} from "../core/epoch";
 
 const DAYS_PER_MONTH = 28;
-const MONTHS_PER_YEAR = 13;
-const COUNTED_DAYS_PER_YEAR = DAYS_PER_MONTH * MONTHS_PER_YEAR;
+const MONTHS_1_TO_12_TOTAL = 12 * DAYS_PER_MONTH;
 
-const THURSDAY_INDEX = 4;
+function getMonthAndDayFromCountedDay(
+  countedDayOfYear: number,
+  yearType: HPCYearType
+): { hpcMonth: number; hpcDay: number } {
+  if (countedDayOfYear < MONTHS_1_TO_12_TOTAL) {
+    return {
+      hpcMonth: Math.floor(countedDayOfYear / DAYS_PER_MONTH) + 1,
+      hpcDay: (countedDayOfYear % DAYS_PER_MONTH) + 1
+    };
+  }
+
+  const month13Length =
+    yearType === "EQUINOX_ADJUSTMENT"
+      ? HPC_MONTH_13_ADJUSTMENT_DAYS
+      : HPC_MONTH_13_STANDARD_DAYS;
+
+  const month13Day = countedDayOfYear - MONTHS_1_TO_12_TOTAL + 1;
+
+  if (month13Day < 1 || month13Day > month13Length) {
+    throw new Error(
+      `Counted day ${countedDayOfYear} is outside observable year length for ${yearType}.`
+    );
+  }
+
+  return {
+    hpcMonth: 13,
+    hpcDay: month13Day
+  };
+}
 
 export async function resolveHpcDate(
   target: Date,
   location: GeoLocation
 ): Promise<HpcDateRecord> {
-
   const tracks = buildTimeTracks(target);
-
   const resolvedYear = await resolveHpcYearForDate(target, location);
+  const boundary = await resolveHpcYearBoundaryUtc(
+    resolvedYear.gregorianBoundaryYear,
+    location
+  );
 
   const elapsedSinceBoundaryMs =
     target.getTime() - resolvedYear.boundaryUtc.getTime();
@@ -27,39 +62,18 @@ export async function resolveHpcDate(
 
   const intercalary = resolveIntercalaryState(
     elapsedSinceBoundaryDays,
-    resolvedYear.hpcYear
+    boundary.yearType
   );
-
-  if (intercalary.isYearDay) {
-
-    return {
-      hpcYear: resolvedYear.hpcYear,
-      hpcMonth: null,
-      hpcDay: null,
-      weekday: null,
-
-      isYearDay: true,
-      isAdjustmentDay: false,
-
-      elapsedSolarDaysWhole: tracks.elapsedSolarDaysWhole,
-      elapsedSolarDaysFloat: tracks.elapsedSolarDaysFloat,
-
-      julianDay: tracks.julianDay,
-      julianDayNumber: tracks.julianDayNumber,
-      modifiedJulianDay: tracks.modifiedJulianDay,
-
-      gregorianIso: target.toISOString(),
-      gregorianReferenceLabel: target.toUTCString()
-    };
-  }
 
   const countedDayOfYear = intercalary.countedDayOfYear;
 
-  const hpcMonth = Math.floor(countedDayOfYear / DAYS_PER_MONTH) + 1;
-  const hpcDay = (countedDayOfYear % DAYS_PER_MONTH) + 1;
+  const { hpcMonth, hpcDay } = getMonthAndDayFromCountedDay(
+    countedDayOfYear,
+    boundary.yearType
+  );
 
   const weekday = getWeekdayFromIndex(
-    THURSDAY_INDEX + countedDayOfYear
+    HPC_NEW_YEAR_WEEKDAY_INDEX + countedDayOfYear
   );
 
   return {
