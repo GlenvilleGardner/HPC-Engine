@@ -12,6 +12,7 @@ import {
 
 const DAYS_PER_MONTH = 28;
 const MONTHS_1_TO_12_TOTAL = 12 * DAYS_PER_MONTH;
+const FIXED_GRID_DAYS = 364;
 
 function getMonthAndDayFromCountedDay(
   countedDayOfYear: number,
@@ -41,6 +42,11 @@ function getMonthAndDayFromCountedDay(
     hpcMonth: 13,
     hpcDay: month13Day
   };
+}
+
+function getGridWeekdayOffset(countedDayOfYear: number): number {
+  const maxGridOffset = FIXED_GRID_DAYS - 1; // final fixed-grid day remains Wednesday
+  return countedDayOfYear > maxGridOffset ? maxGridOffset : countedDayOfYear;
 }
 
 export async function resolveHpcDate(
@@ -73,7 +79,7 @@ export async function resolveHpcDate(
   );
 
   const weekday = getWeekdayFromIndex(
-    HPC_NEW_YEAR_WEEKDAY_INDEX + countedDayOfYear
+    HPC_NEW_YEAR_WEEKDAY_INDEX + getGridWeekdayOffset(countedDayOfYear)
   );
 
   return {
