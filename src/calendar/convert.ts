@@ -1,4 +1,5 @@
 import { GeoLocation } from "../core/types";
+import { HPC_CONFIG } from "../core/epoch";
 import { resolveHpcDate } from "./hpc-date";
 import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
 import {
@@ -7,7 +8,6 @@ import {
 } from "../core/epoch";
 
 const DAYS_PER_MONTH = 28;
-const EPOCH_HPC_YEAR = 6000;
 const EPOCH_GREGORIAN_BOUNDARY_YEAR = 2019;
 
 function getDayIndexFromHpcDate(
@@ -40,7 +40,8 @@ function getDayIndexFromHpcDate(
 }
 
 function mapHpcYearToBoundaryGregorianYear(hpcYear: number): number {
-  return EPOCH_GREGORIAN_BOUNDARY_YEAR + (hpcYear - EPOCH_HPC_YEAR) - 1;
+  const firstHpcYearAt2019Boundary = HPC_CONFIG.baseCreationYearAtEpoch + 1;
+  return EPOCH_GREGORIAN_BOUNDARY_YEAR + (hpcYear - firstHpcYearAt2019Boundary);
 }
 
 export async function gregorianToHpc(
