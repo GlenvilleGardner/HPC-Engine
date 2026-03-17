@@ -11,7 +11,8 @@
         "api": "ts-node src/server.ts",
         "api:start": "node dist/server.js",
         "export:global-boundary": "ts-node scripts/export-global-boundary-dataset.ts",
-        "export:cross-location": "ts-node scripts/export-cross-location-observation-dataset.ts"
+        "export:cross-location": "ts-node scripts/export-cross-location-observation-dataset.ts",
+        "export:seasonal-anchors": "ts-node scripts/export-global-seasonal-anchor-dataset.ts"
     },
     "keywords": [],
     "author": "",
