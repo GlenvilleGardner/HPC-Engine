@@ -1,4 +1,5 @@
-import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
+import { resolveLocalObservationBoundaryUtc } from "../astronomy/year-boundary";
+import { resolveGlobalHpcYearBoundaryUtc } from "../astronomy/global-season-boundary";
 import { MemoryCache } from "../cache/memory-cache";
 
 export interface YearBoundaryRequest {
@@ -35,20 +36,22 @@ export async function getYearBoundary(
     return cached;
   }
 
-  const result = await resolveHpcYearBoundaryUtc(
-    request.year,
-    {
-      latitude: request.latitude,
-      longitude: request.longitude
-    }
-  );
+  const location = {
+    latitude: request.latitude,
+    longitude: request.longitude
+  };
+
+  const [globalBoundary, localObservation] = await Promise.all([
+    resolveGlobalHpcYearBoundaryUtc(request.year),
+    resolveLocalObservationBoundaryUtc(request.year, location)
+  ]);
 
   const response: YearBoundaryResponse = {
     year: request.year,
-    equinoxUtc: result.equinoxUtc.toISOString(),
-    boundarySunsetUtc: result.boundarySunsetUtc.toISOString(),
-    classification: result.classification,
-    yearType: result.yearType
+    equinoxUtc: globalBoundary.equinoxUtc.toISOString(),
+    boundarySunsetUtc: localObservation.boundarySunsetUtc.toISOString(),
+    classification: globalBoundary.classification,
+    yearType: globalBoundary.yearType
   };
 
   yearBoundaryCache.set(cacheKey, response);

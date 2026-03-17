@@ -3,6 +3,7 @@ import { buildTimeTracks } from "../core/time-tracks";
 import { getWeekdayFromIndex } from "./weekdays";
 import { resolveHpcYearForDate } from "./year-resolver";
 import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
+import { resolveGlobalHpcYearBoundaryUtc } from "../astronomy/global-season-boundary";
 import { resolveIntercalaryState } from "./intercalation";
 import {
   HPC_NEW_YEAR_WEEKDAY_INDEX,
@@ -64,15 +65,19 @@ export async function resolveHpcDate(
   const tracks = buildTimeTracks(target);
   const resolvedYear = await resolveHpcYearForDate(target, location);
 
-  const startBoundary = await resolveHpcYearBoundaryUtc(
-    resolvedYear.gregorianBoundaryYear,
-    location
-  );
-
-  const nextBoundary = await resolveHpcYearBoundaryUtc(
-    resolvedYear.gregorianBoundaryYear + 1,
-    location
-  );
+  const [startBoundary, nextBoundary, globalBoundary] = await Promise.all([
+    resolveHpcYearBoundaryUtc(
+      resolvedYear.gregorianBoundaryYear,
+      location
+    ),
+    resolveHpcYearBoundaryUtc(
+      resolvedYear.gregorianBoundaryYear + 1,
+      location
+    ),
+    resolveGlobalHpcYearBoundaryUtc(
+      resolvedYear.gregorianBoundaryYear
+    )
+  ]);
 
   const elapsedSinceBoundaryMs =
     target.getTime() - resolvedYear.boundaryUtc.getTime();
@@ -80,7 +85,7 @@ export async function resolveHpcDate(
   const elapsedSinceBoundaryDays =
     Math.floor(elapsedSinceBoundaryMs / 86400000);
 
-  const nominalObservableYearLength = getNominalObservableYearLength(startBoundary.yearType);
+  const nominalObservableYearLength = getNominalObservableYearLength(globalBoundary.yearType);
 
   const intercalary = resolveIntercalaryState(
     elapsedSinceBoundaryDays,
@@ -98,7 +103,7 @@ export async function resolveHpcDate(
 
   const { hpcMonth, hpcDay } = getMonthAndDayFromCountedDay(
     countedDayOfYear,
-    startBoundary.yearType
+    globalBoundary.yearType
   );
 
   const weekday = getWeekdayFromIndex(

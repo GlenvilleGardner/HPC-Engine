@@ -1,5 +1,5 @@
 import { Router, Request, Response } from "express";
-import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
+import { resolveLocalObservationBoundaryUtc } from "../astronomy/year-boundary";
 import { resolveGlobalHpcYearBoundaryUtc } from "../astronomy/global-season-boundary";
 import { parseLatitude, parseLongitude } from "../utils/request-parsers";
 import { toApiErrorResponse, ApiValidationError } from "../utils/api-errors";
@@ -24,7 +24,7 @@ router.get("/hpc/year-boundary-detail", async (req: Request, res: Response) => {
     const longitude = parseLongitude(req.query.longitude);
 
     const globalResult = await resolveGlobalHpcYearBoundaryUtc(year);
-    const localResult = await resolveHpcYearBoundaryUtc(year, { latitude, longitude });
+    const localResult = await resolveLocalObservationBoundaryUtc(year, { latitude, longitude });
 
     res.json({
       year,
@@ -44,6 +44,7 @@ router.get("/hpc/year-boundary-detail", async (req: Request, res: Response) => {
       },
 
       localObservation: {
+        equinoxUtc: localResult.equinoxUtc.toISOString(),
         observableWindowStartUtc: localResult.observableWindowStartUtc.toISOString(),
         observableWindowEndUtc: localResult.observableWindowEndUtc.toISOString(),
         boundarySunsetUtc: localResult.boundarySunsetUtc.toISOString(),

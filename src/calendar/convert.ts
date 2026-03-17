@@ -2,6 +2,7 @@ import { GeoLocation } from "../core/types";
 import { HPC_CONFIG } from "../core/epoch";
 import { resolveHpcDate } from "./hpc-date";
 import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
+import { resolveGlobalHpcYearBoundaryUtc } from "../astronomy/global-season-boundary";
 import {
   HPC_MONTH_13_STANDARD_DAYS,
   HPC_MONTH_13_ADJUSTMENT_DAYS
@@ -59,12 +60,15 @@ export async function hpcToGregorian(
 ): Promise<Date> {
   const gregorianBoundaryYear = mapHpcYearToBoundaryGregorianYear(hpcYear);
 
-  const boundary = await resolveHpcYearBoundaryUtc(gregorianBoundaryYear, location);
+  const [boundary, globalBoundary] = await Promise.all([
+    resolveHpcYearBoundaryUtc(gregorianBoundaryYear, location),
+    resolveGlobalHpcYearBoundaryUtc(gregorianBoundaryYear)
+  ]);
 
   const dayIndex = getDayIndexFromHpcDate(
     month,
     day,
-    boundary.yearType
+    globalBoundary.yearType
   );
 
   const result = new Date(boundary.boundarySunsetUtc);

@@ -3,7 +3,7 @@ import { parseIsoDate, parseLatitude, parseLongitude } from "../utils/request-pa
 import { toApiErrorResponse, ApiValidationError } from "../utils/api-errors";
 
 import { resolveGlobalHpcYearBoundaryUtc } from "../astronomy/global-season-boundary";
-import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
+import { resolveLocalObservationBoundaryUtc } from "../astronomy/year-boundary";
 import { getCalendarDay } from "../services/calendar-day-service";
 import { getSolarProgressContext } from "../services/solar-progress-service";
 import { getSeasonTimelineContext } from "../services/season-timeline-service";
@@ -23,14 +23,14 @@ router.get("/hpc/validation-snapshot", async (req: Request, res: Response) => {
 
     const [
       globalBoundary,
-      localBoundary,
+      localObservation,
       calendarDay,
       solarProgress,
       localSeasonTimeline,
       globalSeasonTimeline
     ] = await Promise.all([
       resolveGlobalHpcYearBoundaryUtc(year),
-      resolveHpcYearBoundaryUtc(year, location),
+      resolveLocalObservationBoundaryUtc(year, location),
       getCalendarDay({
         isoDate,
         latitude,
@@ -58,14 +58,12 @@ router.get("/hpc/validation-snapshot", async (req: Request, res: Response) => {
         usedNextDaySunset: globalBoundary.usedNextDaySunset
       },
 
-      localBoundary: {
-        equinoxUtc: localBoundary.equinoxUtc.toISOString(),
-        observableWindowStartUtc: localBoundary.observableWindowStartUtc.toISOString(),
-        observableWindowEndUtc: localBoundary.observableWindowEndUtc.toISOString(),
-        classification: localBoundary.classification,
-        yearType: localBoundary.yearType,
-        boundarySunsetUtc: localBoundary.boundarySunsetUtc.toISOString(),
-        usedNextDaySunset: localBoundary.usedNextDaySunset
+      localObservation: {
+        equinoxUtc: localObservation.equinoxUtc.toISOString(),
+        observableWindowStartUtc: localObservation.observableWindowStartUtc.toISOString(),
+        observableWindowEndUtc: localObservation.observableWindowEndUtc.toISOString(),
+        boundarySunsetUtc: localObservation.boundarySunsetUtc.toISOString(),
+        usedNextDaySunset: localObservation.usedNextDaySunset
       },
 
       calendarDay,

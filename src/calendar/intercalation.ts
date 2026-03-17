@@ -9,16 +9,12 @@ export function resolveIntercalaryState(
   elapsedSinceBoundaryDays: number,
   observableYearLength: number
 ): IntercalaryResult {
-  const maxDayIndex = observableYearLength - 1;
 
-  const countedDayOfYear =
-    elapsedSinceBoundaryDays < 0
-      ? 0
-      : elapsedSinceBoundaryDays > maxDayIndex
-        ? maxDayIndex
-        : elapsedSinceBoundaryDays;
+  const countedDayOfYear = elapsedSinceBoundaryDays + 1;
 
-  const isAdjustmentDay = observableYearLength >= 366 && countedDayOfYear === maxDayIndex;
+  const isAdjustmentDay =
+    observableYearLength === 366 &&
+    countedDayOfYear === observableYearLength;
 
   return {
     isYearDay: false,

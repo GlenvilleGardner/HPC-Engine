@@ -1,14 +1,12 @@
-import { GeoLocation, EquinoxClassification, HPCYearType } from "../core/types";
+import { GeoLocation } from "../core/types";
 import { getSpringEquinoxUtc } from "./equinox";
 import { getLocalSunsetUtc as getApproxLocalSunsetUtc } from "../sunset/sunset";
 import { getSunset } from "../services/astronomy-authority-client";
 
-export interface YearBoundaryResult {
+export interface LocalYearBoundaryObservation {
   equinoxUtc: Date;
   observableWindowStartUtc: Date;
   observableWindowEndUtc: Date;
-  classification: EquinoxClassification;
-  yearType: HPCYearType;
   boundarySunsetUtc: Date;
   usedNextDaySunset: boolean;
 }
@@ -48,10 +46,10 @@ function sortDatesAscending(dates: Date[]): Date[] {
   return [...dates].sort((a, b) => a.getTime() - b.getTime());
 }
 
-export async function resolveHpcYearBoundaryUtc(
+export async function resolveLocalObservationBoundaryUtc(
   year: number,
   location: GeoLocation
-): Promise<YearBoundaryResult> {
+): Promise<LocalYearBoundaryObservation> {
   const equinoxUtc = await getSpringEquinoxUtc(year);
   const equinoxDayUtc = startOfUtcDay(equinoxUtc);
 
@@ -97,14 +95,6 @@ export async function resolveHpcYearBoundaryUtc(
 
   const isWednesdayWindow = localDayIndexAtWindowEnd === 3;
 
-  const classification: EquinoxClassification = isWednesdayWindow
-    ? "WITHIN_WEDNESDAY_WINDOW"
-    : "OUTSIDE_WINDOW";
-
-  const yearType: HPCYearType = isWednesdayWindow
-    ? "STANDARD"
-    : "EQUINOX_ADJUSTMENT";
-
   const containingWindowIndex = sunsets.findIndex(
     (d) => d.getTime() === containingWindowStartUtc!.getTime()
   );
@@ -121,9 +111,10 @@ export async function resolveHpcYearBoundaryUtc(
     equinoxUtc,
     observableWindowStartUtc: containingWindowStartUtc,
     observableWindowEndUtc: containingWindowEndUtc,
-    classification,
-    yearType,
     boundarySunsetUtc,
     usedNextDaySunset: !isWednesdayWindow
   };
 }
+
+// Temporary compatibility alias during refactor
+export const resolveHpcYearBoundaryUtc = resolveLocalObservationBoundaryUtc;
