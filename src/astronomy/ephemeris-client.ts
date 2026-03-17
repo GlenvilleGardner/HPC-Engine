@@ -1,12 +1,20 @@
 import { estimateMarchEquinoxUtc } from "./meeus-fallback";
-import { getEquinox } from "../services/astronomy-authority-client";
+import {
+  getEquinox,
+  getSeasonEvents,
+} from "../services/astronomy-authority-client";
 
 export async function getPrimaryEquinoxUtc(year: number): Promise<Date> {
   try {
-    const data = await getEquinox(year);
-    return new Date(data.equinoxUTC);
+    const seasonData = await getSeasonEvents(year);
+    return new Date(seasonData.events.spring_equinox.utc);
   } catch {
-    console.warn("Astronomy authority unavailable, falling back to Meeus solver.");
-    return estimateMarchEquinoxUtc(year);
+    try {
+      const equinoxData = await getEquinox(year);
+      return new Date(equinoxData.equinoxUTC);
+    } catch {
+      console.warn("Astronomy authority unavailable, falling back to Meeus solver.");
+      return estimateMarchEquinoxUtc(year);
+    }
   }
 }

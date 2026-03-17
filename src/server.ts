@@ -4,15 +4,30 @@ import yearBoundaryRoute from "./routes/year-boundary-route";
 import yearStructureRoute from "./routes/year-structure-route";
 import dateConversionRoute from "./routes/date-conversion-route";
 import calendarDayRoute from "./routes/calendar-day-route";
+import seasonEventsRoute from "./routes/season-events-route";
+import solarProgressRoute from "./routes/solar-progress-route";
+import seasonTimelineRoute from "./routes/season-timeline-route";
+import yearBoundaryDetailRoute from "./routes/year-boundary-detail-route";
+import globalYearBoundaryRoute from "./routes/global-year-boundary-route";
+import globalSeasonEventsRoute from "./routes/global-season-events-route";
+import globalSeasonTimelineRoute from "./routes/global-season-timeline-route";
+import validationSnapshotRoute from "./routes/validation-snapshot-route";
 
 const app = express();
 app.use(express.json());
-
+app.use(seasonEventsRoute);
 app.use(healthRoute);
 app.use(yearBoundaryRoute);
 app.use(yearStructureRoute);
 app.use(dateConversionRoute);
 app.use(calendarDayRoute);
+app.use(solarProgressRoute);
+app.use(seasonTimelineRoute);
+app.use(yearBoundaryDetailRoute);
+app.use(globalYearBoundaryRoute);
+app.use(globalSeasonEventsRoute);
+app.use(globalSeasonTimelineRoute);
+app.use(validationSnapshotRoute);
 
 const PORT = 3000;
 
