@@ -14,6 +14,8 @@ import globalSeasonTimelineRoute from "./routes/global-season-timeline-route";
 import validationSnapshotRoute from "./routes/validation-snapshot-route";
 
 const app = express();
+export default app;
+
 app.use(express.json());
 app.use(seasonEventsRoute);
 app.use(healthRoute);
@@ -31,6 +33,8 @@ app.use(validationSnapshotRoute);
 
 const PORT = 3000;
 
-app.listen(PORT, () => {
-  console.log(`HPC API server running on http://localhost:${PORT}`);
-});
+if (!process.env.VITEST && process.env.NODE_ENV !== "test") {
+  app.listen(PORT, () => {
+    console.log(`HPC API server running on http://localhost:${PORT}`);
+  });
+}
