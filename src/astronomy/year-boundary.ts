@@ -2,6 +2,7 @@ import { GeoLocation } from "../core/types";
 import { getSpringEquinoxUtc } from "./equinox";
 import { getLocalSunsetUtc as getApproxLocalSunsetUtc } from "../sunset/sunset";
 import { getSunset } from "../services/astronomy-authority-client";
+import { resolveGlobalHpcYearBoundaryUtc } from "./global-season-boundary";
 
 export interface LocalYearBoundaryObservation {
   equinoxUtc: Date;
@@ -36,12 +37,6 @@ function addUtcDays(date: Date, days: number): Date {
   return copy;
 }
 
-function approximateLocalDayIndex(date: Date, longitude: number): number {
-  const offsetHours = longitude / 15;
-  const localMs = date.getTime() + (offsetHours * 60 * 60 * 1000);
-  return new Date(localMs).getUTCDay();
-}
-
 function sortDatesAscending(dates: Date[]): Date[] {
   return [...dates].sort((a, b) => a.getTime() - b.getTime());
 }
@@ -50,7 +45,11 @@ export async function resolveLocalObservationBoundaryUtc(
   year: number,
   location: GeoLocation
 ): Promise<LocalYearBoundaryObservation> {
-  const equinoxUtc = await getSpringEquinoxUtc(year);
+  const [equinoxUtc, globalBoundary] = await Promise.all([
+    getSpringEquinoxUtc(year),
+    resolveGlobalHpcYearBoundaryUtc(year)
+  ]);
+
   const equinoxDayUtc = startOfUtcDay(equinoxUtc);
 
   const sampleDays = [
@@ -88,31 +87,31 @@ export async function resolveLocalObservationBoundaryUtc(
     throw new Error("Unable to locate observable sunset window containing equinox.");
   }
 
-  const localDayIndexAtWindowEnd = approximateLocalDayIndex(
-    containingWindowEndUtc,
-    location.longitude
-  );
-
-  const isWednesdayWindow = localDayIndexAtWindowEnd === 3;
-
   const containingWindowIndex = sunsets.findIndex(
     (d) => d.getTime() === containingWindowStartUtc!.getTime()
   );
 
-  if (containingWindowIndex < 0 || containingWindowIndex + 2 >= sunsets.length) {
-    throw new Error("Insufficient sunset samples to resolve new year boundary.");
+  if (containingWindowIndex < 0) {
+    throw new Error("Unable to locate containing local sunset window index.");
   }
 
-  const boundarySunsetUtc = isWednesdayWindow
-    ? containingWindowEndUtc
-    : sunsets[containingWindowIndex + 2];
+  let boundarySunsetUtc: Date;
+
+  if (globalBoundary.usedNextDaySunset) {
+    if (containingWindowIndex + 2 >= sunsets.length) {
+      throw new Error("Insufficient sunset samples to resolve local next-day boundary.");
+    }
+    boundarySunsetUtc = sunsets[containingWindowIndex + 2];
+  } else {
+    boundarySunsetUtc = containingWindowEndUtc;
+  }
 
   return {
     equinoxUtc,
     observableWindowStartUtc: containingWindowStartUtc,
     observableWindowEndUtc: containingWindowEndUtc,
     boundarySunsetUtc,
-    usedNextDaySunset: !isWednesdayWindow
+    usedNextDaySunset: globalBoundary.usedNextDaySunset
   };
 }
 
