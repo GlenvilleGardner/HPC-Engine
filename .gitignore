@@ -19,3 +19,11 @@ data/validation/standard-year-gap-report-2000-2100.txt
 scripts/diagnose-direct-epoch-window-inclusion.ts
 scripts/diagnose-epoch-anchored-classifier.ts
 scripts/diagnose-epoch-reset-window-classifier.ts
+
+# Old root-level validation files
+hpc-boundary-validation-2000-2600.csv
+hpc-boundary-validation-2000-2600.json
+hpc-boundary-validation-2000-3000.csv
+hpc-validation-report-1900-2200.csv
+hpc-validation-summary-1900-2200.txt
+package-lock.json
