@@ -12,7 +12,7 @@ export const HPC_CONFIG: EngineConfig = {
   // 2026 remains 6044 until the new year boundary after the spring equinox.
   // Therefore the 2019 epoch must be one year lower than the previous placeholder.
   baseCreationYearAtEpoch: 6037,
-  countedDaysPerYear: 365,
+  countedDaysPerYear: 364,
   monthsPerYear: 13,
   daysPerMonth: 28,
   tropicalYearDays: 365.242189

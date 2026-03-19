@@ -35,6 +35,7 @@ export interface HpcDateRecord {
   hpcYear: number;
   hpcMonth: number | null;
   hpcDay: number | null;
+  monthName: string | null;
   weekday: HpcWeekday | null;
 
   isYearDay: boolean;
@@ -47,6 +48,19 @@ export interface HpcDateRecord {
   julianDayNumber: number;
   modifiedJulianDay: number;
 
+  gregorianIso: string;
+  gregorianReferenceLabel: string;
+}
+
+export interface HpcContinuousDateRecord {
+  hpcYear: number;
+  hpcMonth: number;
+  hpcDay: number;
+  monthName: string | null;
+  weekday: HpcWeekday;
+  isYearDay: boolean;
+  isAdjustmentDay: boolean;
+  continuousDayFromEpoch: number;
   gregorianIso: string;
   gregorianReferenceLabel: string;
 }

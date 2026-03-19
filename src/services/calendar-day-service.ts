@@ -3,6 +3,9 @@ import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
 import { resolveGlobalHpcYearBoundaryUtc } from "../astronomy/global-season-boundary";
 import { getSeasonContext } from "./season-context-service";
 import { getSolarProgressContext } from "./solar-progress-service";
+import { getFeastDayForDate, FeastDay } from "../calendar/feast-days";
+import { getContinuousDayOfYear, getContinuousWeekdayIndex } from "../calendar/structure";
+import { getWeekdayFromIndex } from "../calendar/weekdays";
 
 export interface CalendarDayRequest {
   isoDate: string;
@@ -15,6 +18,13 @@ export interface CalendarDayResponse {
   hpcYear: number | null;
   hpcMonth: number | null;
   hpcDay: number | null;
+  monthName: string | null;
+  feastDay: FeastDay | null;
+  continuousMode: {
+    continuousDayOfYear: number;
+    continuousDayFromEpoch: number;
+    weekday: string;
+  } | null;
   weekday: string | null;
   gregorianReferenceLabel: string | null;
   boundaryYear: number;
@@ -67,11 +77,29 @@ export async function getCalendarDay(
   const seasonContext = await getSeasonContext(target, location);
   const solarProgress = await getSolarProgressContext(target, location);
 
+  const continuousDayOfYear = getContinuousDayOfYear(
+    Math.floor(
+      (target.getTime() - new Date(localBoundary.boundarySunsetUtc).getTime()) /
+        86400000
+    )
+  );
+  const continuousDayFromEpoch = hpc.elapsedSolarDaysWhole + 1;
+  const continuousWeekdayIndex = getContinuousWeekdayIndex(continuousDayFromEpoch);
+
   return {
     inputIsoDate: request.isoDate,
     hpcYear: hpc.hpcYear ?? null,
     hpcMonth: hpc.hpcMonth ?? null,
     hpcDay: hpc.hpcDay ?? null,
+    monthName: hpc.monthName ?? null,
+    feastDay: (hpc.hpcMonth !== null && hpc.hpcDay !== null)
+      ? getFeastDayForDate(hpc.hpcMonth, hpc.hpcDay)
+      : null,
+    continuousMode: {
+      continuousDayOfYear,
+      continuousDayFromEpoch,
+      weekday: getWeekdayFromIndex(continuousWeekdayIndex)
+    },
     weekday: hpc.weekday ?? null,
     gregorianReferenceLabel: hpc.gregorianReferenceLabel ?? null,
     boundaryYear,

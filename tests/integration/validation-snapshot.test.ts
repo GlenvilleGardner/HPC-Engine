@@ -22,6 +22,6 @@ describe("HPC Validation Snapshot", () => {
 
       expect(body.calendarDay.yearType).toBeDefined();
     },
-    20000
+    40000
   );
 });

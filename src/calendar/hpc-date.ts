@@ -5,10 +5,9 @@ import { resolveHpcYearForDate } from "./year-resolver";
 import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
 import { resolveGlobalHpcYearBoundaryUtc } from "../astronomy/global-season-boundary";
 import { resolveIntercalaryState } from "./intercalation";
+import { getMonthFullName } from "./month-names";
 import {
   HPC_NEW_YEAR_WEEKDAY_INDEX,
-  HPC_MONTH_13_STANDARD_DAYS,
-  HPC_MONTH_13_ADJUSTMENT_DAYS,
   HPC_STANDARD_YEAR_DAYS,
   HPC_ADJUSTMENT_YEAR_DAYS
 } from "../core/epoch";
@@ -28,14 +27,10 @@ function getMonthAndDayFromCountedDay(
     };
   }
 
-  const month13Length =
-    yearType === "EQUINOX_ADJUSTMENT"
-      ? HPC_MONTH_13_ADJUSTMENT_DAYS
-      : HPC_MONTH_13_STANDARD_DAYS;
-
   const month13Day = countedDayOfYear - MONTHS_1_TO_12_TOTAL + 1;
+  const month13MaxDay = yearType === "EQUINOX_ADJUSTMENT" ? 30 : 29;
 
-  if (month13Day < 1 || month13Day > month13Length) {
+  if (month13Day < 1 || month13Day > month13MaxDay) {
     throw new Error(
       `Counted day ${countedDayOfYear} is outside observable year length for ${yearType}.`
     );
@@ -65,7 +60,7 @@ export async function resolveHpcDate(
   const tracks = buildTimeTracks(target);
   const resolvedYear = await resolveHpcYearForDate(target, location);
 
-  const [startBoundary, nextBoundary, globalBoundary] = await Promise.all([
+  const [, nextBoundary, globalBoundary] = await Promise.all([
     resolveHpcYearBoundaryUtc(
       resolvedYear.gregorianBoundaryYear,
       location
@@ -85,17 +80,15 @@ export async function resolveHpcDate(
   const elapsedSinceBoundaryDays =
     Math.floor(elapsedSinceBoundaryMs / 86400000);
 
-  const nominalObservableYearLength = getNominalObservableYearLength(globalBoundary.yearType);
-
   const intercalary = resolveIntercalaryState(
     elapsedSinceBoundaryDays,
-    nominalObservableYearLength
+    globalBoundary.yearType
   );
 
   let countedDayOfYear = intercalary.countedDayOfYear;
 
   if (target.getTime() < nextBoundary.boundarySunsetUtc.getTime()) {
-    const maxDayIndex = nominalObservableYearLength - 1;
+    const maxDayIndex = getNominalObservableYearLength(globalBoundary.yearType) - 1;
     if (countedDayOfYear > maxDayIndex) {
       countedDayOfYear = maxDayIndex;
     }
@@ -114,9 +107,10 @@ export async function resolveHpcDate(
     hpcYear: resolvedYear.hpcYear,
     hpcMonth,
     hpcDay,
+    monthName: hpcMonth !== null ? getMonthFullName(hpcMonth) : null,
     weekday,
 
-    isYearDay: false,
+    isYearDay: intercalary.isYearDay,
     isAdjustmentDay: intercalary.isAdjustmentDay,
 
     elapsedSolarDaysWhole: tracks.elapsedSolarDaysWhole,

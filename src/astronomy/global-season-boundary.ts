@@ -1,6 +1,7 @@
 import { EquinoxClassification, HPCYearType } from "../core/types";
 import { getPrimaryEquinoxUtc } from "./ephemeris-client";
 import { getSubsolarPoint, getSunset } from "../services/astronomy-authority-client";
+import { HPC_EPOCH_YEAR } from "../core/epoch";
 
 export interface GlobalSeasonBoundaryResult {
   equinoxUtc: Date;
@@ -14,7 +15,75 @@ export interface GlobalSeasonBoundaryResult {
   usedNextDaySunset: boolean;
 }
 
-async function resolveSunsetUtc(date: Date, latitude: number, longitude: number): Promise<Date> {
+interface DriftEntry {
+  yearType: HPCYearType;
+  driftAfter: number;
+}
+
+const epochDriftCache = new Map<number, DriftEntry>();
+epochDriftCache.set(HPC_EPOCH_YEAR, { yearType: "STANDARD", driftAfter: 0.0 });
+
+async function ensureEpochDriftCached(targetYear: number): Promise<void> {
+  if (epochDriftCache.has(targetYear)) return;
+
+  if (targetYear > HPC_EPOCH_YEAR) {
+    const cachedForwardYears = Array.from(epochDriftCache.keys()).filter(
+      (y) => y >= HPC_EPOCH_YEAR
+    );
+    const maxCached = Math.max(...cachedForwardYears);
+    let prevEquinox = await getPrimaryEquinoxUtc(maxCached);
+    let drift = epochDriftCache.get(maxCached)!.driftAfter;
+
+    for (let y = maxCached + 1; y <= targetYear; y++) {
+      const thisEquinox = await getPrimaryEquinoxUtc(y);
+      const daysBetween =
+        (thisEquinox.getTime() - prevEquinox.getTime()) / 86_400_000;
+      drift += daysBetween - 365;
+
+      let yearType: HPCYearType;
+      if (drift >= 1.0) {
+        yearType = "EQUINOX_ADJUSTMENT";
+        drift -= 1.0;
+      } else {
+        yearType = "STANDARD";
+      }
+
+      epochDriftCache.set(y, { yearType, driftAfter: drift });
+      prevEquinox = thisEquinox;
+    }
+  } else {
+    const cachedBackwardYears = Array.from(epochDriftCache.keys()).filter(
+      (y) => y <= HPC_EPOCH_YEAR
+    );
+    const minCached = Math.min(...cachedBackwardYears);
+    let nextEquinox = await getPrimaryEquinoxUtc(minCached);
+    let drift = epochDriftCache.get(minCached)!.driftAfter;
+
+    for (let y = minCached - 1; y >= targetYear; y--) {
+      const thisEquinox = await getPrimaryEquinoxUtc(y);
+      const daysBetween =
+        (nextEquinox.getTime() - thisEquinox.getTime()) / 86_400_000;
+      drift -= daysBetween - 365;
+
+      let yearType: HPCYearType;
+      if (drift <= -1.0) {
+        yearType = "EQUINOX_ADJUSTMENT";
+        drift += 1.0;
+      } else {
+        yearType = "STANDARD";
+      }
+
+      epochDriftCache.set(y, { yearType, driftAfter: drift });
+      nextEquinox = thisEquinox;
+    }
+  }
+}
+
+async function resolveSunsetUtc(
+  date: Date,
+  latitude: number,
+  longitude: number
+): Promise<Date> {
   const data = await getSunset(date, latitude, longitude);
   return new Date(data.sunsetUTC);
 }
@@ -34,12 +103,6 @@ function addUtcDays(date: Date, days: number): Date {
   return copy;
 }
 
-function approximateLocalDayIndex(date: Date, longitude: number): number {
-  const offsetHours = longitude / 15;
-  const localMs = date.getTime() + (offsetHours * 60 * 60 * 1000);
-  return new Date(localMs).getUTCDay();
-}
-
 function sortDatesAscending(dates: Date[]): Date[] {
   return [...dates].sort((a, b) => a.getTime() - b.getTime());
 }
@@ -49,24 +112,21 @@ export async function resolveGlobalHpcYearBoundaryUtc(
 ): Promise<GlobalSeasonBoundaryResult> {
   const equinoxUtc = await getPrimaryEquinoxUtc(year);
   const subsolar = await getSubsolarPoint(equinoxUtc);
-
   const eventLatitude = subsolar.subsolarLatitude;
   const eventLongitude = subsolar.subsolarLongitude;
 
   const equinoxDayUtc = startOfUtcDay(equinoxUtc);
-
   const sampleDays = [
     addUtcDays(equinoxDayUtc, -2),
     addUtcDays(equinoxDayUtc, -1),
     equinoxDayUtc,
     addUtcDays(equinoxDayUtc, 1),
-    addUtcDays(equinoxDayUtc, 2)
+    addUtcDays(equinoxDayUtc, 2),
   ];
 
   const sampledSunsets = await Promise.all(
     sampleDays.map((day) => resolveSunsetUtc(day, eventLatitude, eventLongitude))
   );
-
   const sunsets = sortDatesAscending(sampledSunsets);
 
   let containingWindowStartUtc: Date | null = null;
@@ -75,7 +135,6 @@ export async function resolveGlobalHpcYearBoundaryUtc(
   for (let i = 0; i < sunsets.length - 1; i++) {
     const start = sunsets[i];
     const end = sunsets[i + 1];
-
     if (
       equinoxUtc.getTime() >= start.getTime() &&
       equinoxUtc.getTime() < end.getTime()
@@ -87,35 +146,19 @@ export async function resolveGlobalHpcYearBoundaryUtc(
   }
 
   if (!containingWindowStartUtc || !containingWindowEndUtc) {
-    throw new Error("Unable to locate global observable sunset window containing equinox.");
+    throw new Error(
+      `HPC: Unable to locate observable sunset window containing equinox for year ${year}.`
+    );
   }
 
-  const localDayIndexAtWindowEnd = approximateLocalDayIndex(
-    containingWindowEndUtc,
-    eventLongitude
-  );
+  await ensureEpochDriftCached(year);
+  const { yearType } = epochDriftCache.get(year)!;
 
-  const isWednesdayWindow = localDayIndexAtWindowEnd === 3;
+  const classification: EquinoxClassification =
+    yearType === "STANDARD" ? "WITHIN_WEDNESDAY_WINDOW" : "OUTSIDE_WINDOW";
 
-  const classification: EquinoxClassification = isWednesdayWindow
-    ? "WITHIN_WEDNESDAY_WINDOW"
-    : "OUTSIDE_WINDOW";
-
-  const yearType: HPCYearType = isWednesdayWindow
-    ? "STANDARD"
-    : "EQUINOX_ADJUSTMENT";
-
-  const containingWindowIndex = sunsets.findIndex(
-    (d) => d.getTime() === containingWindowStartUtc!.getTime()
-  );
-
-  if (containingWindowIndex < 0 || containingWindowIndex + 2 >= sunsets.length) {
-    throw new Error("Insufficient sunset samples to resolve global new year boundary.");
-  }
-
-  const boundarySunsetUtc = isWednesdayWindow
-    ? containingWindowEndUtc
-    : sunsets[containingWindowIndex + 2];
+  const boundarySunsetUtc = containingWindowEndUtc;
+  const usedNextDaySunset = yearType === "EQUINOX_ADJUSTMENT";
 
   return {
     equinoxUtc,
@@ -126,6 +169,6 @@ export async function resolveGlobalHpcYearBoundaryUtc(
     classification,
     yearType,
     boundarySunsetUtc,
-    usedNextDaySunset: !isWednesdayWindow
+    usedNextDaySunset,
   };
 }

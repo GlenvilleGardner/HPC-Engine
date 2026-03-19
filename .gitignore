@@ -9,3 +9,13 @@ dist/
 
 # temporary generated debug js
 scripts/test-run.js
+
+HPC-ENGINE-HANDOFF.txt
+HPC-Engine-Full-Export.zip
+data/validation/direct-epoch-window-inclusion-diagnostic-*
+data/validation/epoch-anchored-classifier-diagnostic-*
+data/validation/epoch-reset-window-classifier-diagnostic-*
+data/validation/standard-year-gap-report-2000-2100.txt
+scripts/diagnose-direct-epoch-window-inclusion.ts
+scripts/diagnose-epoch-anchored-classifier.ts
+scripts/diagnose-epoch-reset-window-classifier.ts

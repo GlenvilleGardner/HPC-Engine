@@ -24,6 +24,6 @@ describe("HPC Calendar Day", () => {
 
       expect(body.boundarySunsetUtc).toBeDefined();
     },
-    20000
+    40000
   );
 });

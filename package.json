@@ -12,7 +12,12 @@
         "api:start": "node dist/server.js",
         "export:global-boundary": "ts-node scripts/export-global-boundary-dataset.ts",
         "export:cross-location": "ts-node scripts/export-cross-location-observation-dataset.ts",
-        "export:seasonal-anchors": "ts-node scripts/export-global-seasonal-anchor-dataset.ts"
+        "export:seasonal-anchors": "ts-node scripts/export-global-seasonal-anchor-dataset.ts",
+        "export:year-summary": "ts-node scripts/export-global-year-summary.ts",
+        "export:standard-gaps": "ts-node scripts/export-standard-year-gap-report.ts",
+        "diagnose:epoch-classifier": "ts-node scripts/diagnose-epoch-anchored-classifier.ts",
+        "diagnose:epoch-reset-window": "ts-node scripts/diagnose-epoch-reset-window-classifier.ts",
+        "diagnose:direct-epoch-window": "ts-node scripts/diagnose-direct-epoch-window-inclusion.ts"
     },
     "keywords": [],
     "author": "",

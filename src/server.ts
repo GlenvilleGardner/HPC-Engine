@@ -12,6 +12,9 @@ import globalYearBoundaryRoute from "./routes/global-year-boundary-route";
 import globalSeasonEventsRoute from "./routes/global-season-events-route";
 import globalSeasonTimelineRoute from "./routes/global-season-timeline-route";
 import validationSnapshotRoute from "./routes/validation-snapshot-route";
+import feastDaysRoute from "./routes/feast-days-route";
+import zadokRoute from "./routes/zadok-route";
+import seasonalAnchorRoute from "./routes/seasonal-anchor-route";
 
 const app = express();
 export default app;
@@ -30,6 +33,9 @@ app.use(globalYearBoundaryRoute);
 app.use(globalSeasonEventsRoute);
 app.use(globalSeasonTimelineRoute);
 app.use(validationSnapshotRoute);
+app.use(feastDaysRoute);
+app.use(zadokRoute);
+app.use(seasonalAnchorRoute);
 
 const PORT = 3000;
 
