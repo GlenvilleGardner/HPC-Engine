@@ -88,9 +88,7 @@ export type ObservableBoundary = {
   localSunsetEnd: Date
 }
 
-export type EquinoxClassification =
-  | "WITHIN_WEDNESDAY_WINDOW"
-  | "OUTSIDE_WINDOW"
+export type EquinoxClassification = "STANDARD_YEAR" | "ADJUSTMENT_YEAR";
 
 export type HPCYearType =
   | "STANDARD"

@@ -48,7 +48,7 @@ describe("HPC Year Boundary Classification", () => {
     );
     expect(res.status).toBe(200);
     expect(res.body.yearType).toBe("STANDARD");
-    expect(res.body.classification).toBe("WITHIN_WEDNESDAY_WINDOW");
+    expect(res.body.classification).toBe("STANDARD_YEAR");
   }, TIMEOUT);
 
   it("2024 should be EQUINOX_ADJUSTMENT", async () => {
@@ -57,7 +57,7 @@ describe("HPC Year Boundary Classification", () => {
     );
     expect(res.status).toBe(200);
     expect(res.body.yearType).toBe("EQUINOX_ADJUSTMENT");
-    expect(res.body.classification).toBe("OUTSIDE_WINDOW");
+    expect(res.body.classification).toBe("ADJUSTMENT_YEAR");
   }, TIMEOUT);
 
   it("2026 should be STANDARD", async () => {

@@ -155,7 +155,7 @@ export async function resolveGlobalHpcYearBoundaryUtc(
   const { yearType } = epochDriftCache.get(year)!;
 
   const classification: EquinoxClassification =
-    yearType === "STANDARD" ? "WITHIN_WEDNESDAY_WINDOW" : "OUTSIDE_WINDOW";
+  yearType === "STANDARD" ? "STANDARD_YEAR" : "ADJUSTMENT_YEAR";
 
   const boundarySunsetUtc = containingWindowEndUtc;
   const usedNextDaySunset = yearType === "EQUINOX_ADJUSTMENT";
