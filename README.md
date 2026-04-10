@@ -2,27 +2,49 @@
 
 ## Overview
 
-The HPC Engine is the scientific core of the Heliocentric Precision Calendar (HPC). It combines:
+The HPC Engine is the scientific core of the Heliocentric Precision Calendar (HPC).
 
-- astronomical equinox resolution
-- local sunset-boundary classification
-- observable year-type determination
-- calendar grid reset logic
-- Gregorian ? HPC date conversion
+It combines:
+
+- astronomical spring equinox resolution
+- geospatial local sunset-boundary classification
+- observable vs astronomical layer separation
+- standard and equinox-adjustment year determination
+- 13-month tropical solar calendar structure
+- Gregorian to HPC date conversion
+- HPC to Gregorian date conversion
 - API-ready service layers
 
-This branch contains the observable-boundary rebuild and institutional API hardening work.
+The HPC is a geospatial, equinox-anchored, sunset-based tropical solar calendar.
+The year begins at the first local sunset after the spring equinox.
+Each day runs from sunset to sunset.
+The astronomical layer determines the precise equinox instant.
+The observable layer determines the local calendar boundary through sunset classification.
+
+## Calendar Structure
+
+- Months 1-12 each contain 28 days
+- Month 13 contains 29 days in a standard year
+- Month 13 contains 30 days in an equinox-adjustment year
+
+Year lengths:
+
+- Standard year = 365 days
+- Equinox-adjustment year = 366 days
+
+All days are counted within the calendar structure.
+There are no zero days and no non-weekday intercalary days outside the calendar.
 
 ## Current Status
 
 The engine currently supports:
 
 - observable vs astronomical layer separation
-- local equinox window classification
-- standard and equinox-adjustment year logic
-- Thursday New Year reset
-- Wednesday year-end preservation
-- Month 13 variable year-end handling
+- local sunset-boundary year classification
+- geospatial New Year determination
+- standard 365-day year logic
+- equinox-adjustment 366-day year logic
+- 13-month structure with Month 13 year-end variation
 - Year Boundary Service
 - Year Structure Service
 - Date Conversion Service
@@ -33,98 +55,66 @@ The engine currently supports:
 
 ## Validation
 
-Validation artifacts on this branch include:
+Validation artifacts currently present in the repository include:
 
 - `hpc-validation-report-1900-2200.csv`
 - `hpc-validation-summary-1900-2200.txt`
+- `hpc-boundary-validation-2000-2600.csv`
+- `hpc-boundary-validation-2000-2600.json`
+- `hpc-boundary-validation-2000-3000.csv`
 
-Summary result:
+Validation focus for the rebuilt model is:
 
-- total tested boundaries: 301
-- valid Wednesday ? Thursday resets: 301
-- invalid resets: 0
+- New Year begins at the first local sunset after the spring equinox
+- year classification is correct as 365 or 366 days
+- Months 1-12 remain fixed at 28 days
+- Month 13 is correctly classified as 29 or 30 days
+- Gregorian and HPC conversion remain consistent under sunset-based boundaries
 
 ## Running the Engine
 
 Install dependencies:
 
-```powershell
+```bash
 npm install
-```
-
-Build:
-
-```powershell
 npm run build
-```
-
-Run engine bootstrap:
-
-```powershell
 npm run dev
-```
-
-Run API server:
-
-```powershell
 npm run api
-```
-
-## API Endpoints
-
-### Health
-`GET /health`
-
-Example:
-
-```powershell
 Invoke-WebRequest "http://localhost:3000/health" | Select-Object -ExpandProperty Content
-```
+@'
+# HPC Engine
 
-### Year Boundary
-`GET /hpc/year-boundary?year=2026&latitude=40.743&longitude=-74.032`
+## Overview
 
-### Year Structure
-`GET /hpc/year-structure?year=2026&latitude=40.743&longitude=-74.032`
+The HPC Engine is the scientific core of the Heliocentric Precision Calendar (HPC).
 
-### Gregorian to HPC
-`GET /hpc/convert/gregorian-to-hpc?isoDate=2026-03-22T00:00:00.000Z&latitude=40.743&longitude=-74.032`
+It combines:
 
-### HPC to Gregorian
-`GET /hpc/convert/hpc-to-gregorian?hpcYear=6044&hpcMonth=1&hpcDay=1&latitude=40.743&longitude=-74.032`
+- astronomical spring equinox resolution
+- geospatial local sunset-boundary classification
+- observable vs astronomical layer separation
+- standard and equinox-adjustment year determination
+- 13-month tropical solar calendar structure
+- Gregorian to HPC date conversion
+- HPC to Gregorian date conversion
+- API-ready service layers
 
-### Calendar Day
-`GET /hpc/calendar-day?isoDate=2026-03-22T00:00:00.000Z&latitude=40.743&longitude=-74.032`
+The HPC is a geospatial, equinox-anchored, sunset-based tropical solar calendar.
+The year begins at the first local sunset after the spring equinox.
+Each day runs from sunset to sunset.
+The astronomical layer determines the precise equinox instant.
+The observable layer determines the local calendar boundary through sunset classification.
 
-## Architecture
+## Calendar Structure
 
-Core layers:
+- Months 1-12 each contain 28 days
+- Month 13 contains 29 days in a standard year
+- Month 13 contains 30 days in an equinox-adjustment year
 
-- `src/astronomy` ? astronomical authority integration and boundary computation
-- `src/calendar` ? calendar math and conversions
-- `src/services` ? API-ready service interfaces
-- `src/routes` ? modular HTTP routes
-- `src/utils` ? request parsing and API error helpers
-- `src/cache` ? lightweight in-memory caching
+Year lengths:
 
-## Branch Notes
+- Standard year = 365 days
+- Equinox-adjustment year = 366 days
 
-This branch is intended to stabilize the HPC observable-boundary rebuild before merge to `main`.
-
-Major completed work on this branch:
-
-- rebuilt year-boundary logic around local observable sunset intervals
-- corrected year reset behavior
-- validated year-end Wednesday ? New Year Thursday transitions
-- added service architecture
-- added institutional HTTP API
-- added validation scripts and summary tooling
-- added request validation and cache layer
-
-## Recommended Next Steps
-
-- merge this branch into `main` after final review
-- create a new branch for astronomy expansion
-- add solstice and lunar endpoints
-- add persistent caching later if needed
-- add API integration tests
+All days are counted within the calendar structure.
+There are no zero days and no non-weekday intercalary days outside the calendar.
