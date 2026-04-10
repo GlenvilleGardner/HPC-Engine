@@ -17,6 +17,13 @@ import zadokRoute from "./routes/zadok-route";
 import seasonalAnchorRoute from "./routes/seasonal-anchor-route";
 
 const app = express();
+
+// CORS - allow all origins for local development
+app.use((_req: any, res: any, next: any) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 export default app;
 
 app.use(express.json());

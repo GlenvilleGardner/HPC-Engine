@@ -7,25 +7,19 @@ export interface HpcMonthInfo {
 }
 
 export const HPC_MONTHS: HpcMonthInfo[] = [
-  { number: 1,  name: "Abib",    hebrewOrigin: true,  isThreshold: false },
-  { number: 2,  name: "Ziv",     hebrewOrigin: true,  isThreshold: false },
-  { number: 3,  name: "Sivan",   hebrewOrigin: true,  isThreshold: false },
-  { number: 4,  name: "Reve'i",  hebrewOrigin: true,  isThreshold: false },
-  { number: 5,  name: "Av",      hebrewOrigin: true,  isThreshold: false },
-  { number: 6,  name: "Elul",    hebrewOrigin: true,  isThreshold: false },
-  { number: 7,  name: "Ethnaim", hebrewOrigin: true,  isThreshold: false },
-  { number: 8,  name: "Bul",     hebrewOrigin: true,  isThreshold: false },
-  { number: 9,  name: "Kislev",  hebrewOrigin: true,  isThreshold: false },
-  { number: 10, name: "Tebeth",  hebrewOrigin: true,  isThreshold: false },
-  { number: 11, name: "Shebat",  hebrewOrigin: true,  isThreshold: false },
-  { number: 12, name: "Adar",    hebrewOrigin: true,  isThreshold: false },
-  {
-    number: 13,
-    name: "Adar II",
-    alternateName: "Telma",
-    hebrewOrigin: true,
-    isThreshold: true
-  }
+  { number: 1,  name: "Abib",          hebrewOrigin: true, isThreshold: false },
+  { number: 2,  name: "Ziv",           hebrewOrigin: true, isThreshold: false },
+  { number: 3,  name: "Sivan",         hebrewOrigin: true, isThreshold: false },
+  { number: 4,  name: "Revi'i",        hebrewOrigin: true, isThreshold: false },
+  { number: 5,  name: "Av",            hebrewOrigin: true, isThreshold: false },
+  { number: 6,  name: "Elul",          hebrewOrigin: true, isThreshold: false },
+  { number: 7,  name: "Ethanim",       hebrewOrigin: true, isThreshold: false },
+  { number: 8,  name: "Bul",           hebrewOrigin: true, isThreshold: false },
+  { number: 9,  name: "Kislev",        hebrewOrigin: true, isThreshold: false },
+  { number: 10, name: "Tevet",         hebrewOrigin: true, isThreshold: false },
+  { number: 11, name: "Shevat",        hebrewOrigin: true, isThreshold: false },
+  { number: 12, name: "Adar",          hebrewOrigin: true, isThreshold: false },
+  { number: 13, name: "Adar II", alternateName: "Telma", hebrewOrigin: true, isThreshold: true }
 ];
 
 export function getMonthName(month: number): string {
@@ -37,9 +31,7 @@ export function getMonthName(month: number): string {
 export function getMonthFullName(month: number): string {
   const info = HPC_MONTHS.find(m => m.number === month);
   if (!info) throw new Error(`Invalid HPC month: ${month}`);
-  if (info.alternateName) {
-    return `${info.name} / ${info.alternateName}`;
-  }
+  if (info.alternateName) return `${info.name} / ${info.alternateName}`;
   return info.name;
 }
 
