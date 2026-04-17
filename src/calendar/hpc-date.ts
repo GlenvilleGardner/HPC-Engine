@@ -14,16 +14,8 @@ import {
 
 const DAYS_PER_MONTH = 28;
 const MONTHS_1_TO_12_TOTAL = 12 * DAYS_PER_MONTH; // 336
+const MS_PER_DAY = 86400000;
 
-/**
- * Maps a 0-indexed counted day of year to month and day.
- *
- * Months 1-12: 28 days each (days 0-335)
- * Month 13:    29 days standard (days 336-364)
- *              30 days adjustment (days 336-365)
- *
- * No intercalary days. All days belong to a month.
- */
 function getMonthAndDayFromCountedDay(
   countedDayOfYear: number,
   yearType: HPCYearType
@@ -69,9 +61,8 @@ export async function resolveHpcDate(
   const elapsedSinceBoundaryMs =
     target.getTime() - resolvedYear.boundaryUtc.getTime();
   const elapsedSinceBoundaryDays =
-    Math.floor(elapsedSinceBoundaryMs / 86400000);
+    Math.floor(elapsedSinceBoundaryMs / MS_PER_DAY);
 
-  // No intercalary days - all elapsed days map directly to month/day
   const intercalary = resolveIntercalaryState(
     elapsedSinceBoundaryDays,
     globalBoundary.yearType
@@ -79,7 +70,6 @@ export async function resolveHpcDate(
 
   let countedDayOfYear = intercalary.countedDayOfYear;
 
-  // Cap at the last day of this year if somehow past boundary
   if (target.getTime() < nextBoundary.boundarySunsetUtc.getTime()) {
     const maxDayIndex = getNominalObservableYearLength(globalBoundary.yearType) - 1;
     if (countedDayOfYear > maxDayIndex) {
@@ -92,10 +82,7 @@ export async function resolveHpcDate(
     globalBoundary.yearType
   );
 
-  // Continuous weekday: uses unbroken count from epoch
-  // continuousDayFromEpoch = elapsedSolarDaysWhole + 1
-  // Formula: (3 + continuousDayFromEpoch) % 7
-  // Day 1 from epoch = Thursday (index 4) - Abib 1 year 6038
+  // Continuous weekday from epoch — unbroken weekly cycle
   const continuousDayFromEpoch = tracks.elapsedSolarDaysWhole + 1;
   const weekday = getWeekdayFromIndex(getContinuousWeekdayIndex(continuousDayFromEpoch));
 

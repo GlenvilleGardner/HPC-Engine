@@ -1,9 +1,9 @@
 import { EngineConfig, HpcEpochSpec } from "./types";
 
 export const HPC_EPOCH: HpcEpochSpec = {
-  epochUtcIso: "2019-03-20T21:58:00.000Z",
+ epochUtcIso: "2019-03-20T23:07:54.250Z",
   epochGregorianLabel: "March 20, 2019",
-  epochWeekday: "Wednesday",
+  epochWeekday: "Thursday",
   epochDescription:
     "Spring Equinox 2019 epoch anchor; Wednesday equinox with supermoon reference event."
 };
@@ -18,7 +18,7 @@ export const HPC_CONFIG: EngineConfig = {
   tropicalYearDays: 365.242189
 };
 export const HPC_EPOCH_YEAR = 2019;
-export const HPC_EPOCH_WEEKDAY_INDEX = 3; // Wednesday
+export const HPC_EPOCH_WEEKDAY_INDEX = 4; // Thursday
 export const HPC_NEW_YEAR_WEEKDAY_INDEX = 4; // Thursday, zero-based index in HPC_WEEKDAYS
 export const HPC_STANDARD_YEAR_DAYS = 365;
 export const HPC_ADJUSTMENT_YEAR_DAYS = 366;
