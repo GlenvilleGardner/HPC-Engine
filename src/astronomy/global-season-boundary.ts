@@ -158,7 +158,7 @@ export async function resolveGlobalHpcYearBoundaryUtc(
   yearType === "STANDARD" ? "STANDARD_YEAR" : "ADJUSTMENT_YEAR";
 
   const boundarySunsetUtc = containingWindowEndUtc;
-  const usedNextDaySunset = yearType === "EQUINOX_ADJUSTMENT";
+  const usedNextDaySunset = false;
 
   return {
     equinoxUtc,

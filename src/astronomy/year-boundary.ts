@@ -87,31 +87,14 @@ export async function resolveLocalObservationBoundaryUtc(
     throw new Error("Unable to locate observable sunset window containing equinox.");
   }
 
-  const containingWindowIndex = sunsets.findIndex(
-    (d) => d.getTime() === containingWindowStartUtc!.getTime()
-  );
-
-  if (containingWindowIndex < 0) {
-    throw new Error("Unable to locate containing local sunset window index.");
-  }
-
-  let boundarySunsetUtc: Date;
-
-  if (globalBoundary.usedNextDaySunset) {
-    if (containingWindowIndex + 2 >= sunsets.length) {
-      throw new Error("Insufficient sunset samples to resolve local next-day boundary.");
-    }
-    boundarySunsetUtc = sunsets[containingWindowIndex + 2];
-  } else {
-    boundarySunsetUtc = containingWindowEndUtc;
-  }
+  const boundarySunsetUtc = containingWindowEndUtc;
 
   return {
     equinoxUtc,
     observableWindowStartUtc: containingWindowStartUtc,
     observableWindowEndUtc: containingWindowEndUtc,
     boundarySunsetUtc,
-    usedNextDaySunset: globalBoundary.usedNextDaySunset
+    usedNextDaySunset: false
   };
 }
 
