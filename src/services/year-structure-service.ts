@@ -39,8 +39,10 @@ export async function getYearStructure(
     return cached;
   }
 
+  // Use closing boundary year (year+1) to match engine weekday logic
+  // HPC year structure is determined by the closing boundary, not opening
   const boundary = await getYearBoundary({
-    year: request.year,
+    year: request.year + 1,
     latitude: request.latitude,
     longitude: request.longitude
   });
