@@ -1,6 +1,5 @@
 import { GeoLocation, HpcDateRecord, HPCYearType } from "../core/types";
 import { buildTimeTracks } from "../core/time-tracks";
-import { getContinuousWeekdayIndex } from "./structure";
 import { getWeekdayFromIndex } from "./weekdays";
 import { resolveHpcYearForDate } from "./year-resolver";
 import { resolveHpcYearBoundaryUtc } from "../astronomy/year-boundary";
@@ -12,8 +11,7 @@ import { getLocalSunsetUtc as getApproxLocalSunsetUtc } from "../sunset/sunset";
 import {
   HPC_STANDARD_YEAR_DAYS,
   HPC_ADJUSTMENT_YEAR_DAYS,
-  HPC_CONFIG,
-  getEpochMs
+  HPC_CONFIG
 } from "../core/epoch";
 
 const DAYS_PER_MONTH = 28;
@@ -21,7 +19,6 @@ const MONTHS_1_TO_12_TOTAL = 12 * DAYS_PER_MONTH; // 336
 const MS_PER_DAY = 86400000;
 
 // Epoch anchor: 6038 Abib 1 = Thursday (index 4)
-// Location-independent — anchored to the HPC creation grid
 const EPOCH_HPC_YEAR = HPC_CONFIG.baseCreationYearAtEpoch + 1; // 6038
 const EPOCH_WEEKDAY_INDEX = 4; // Thursday
 
@@ -35,13 +32,16 @@ function getMonthAndDayFromCountedDay(
       hpcDay: (countedDayOfYear % DAYS_PER_MONTH) + 1
     };
   }
+
   const month13Day = countedDayOfYear - MONTHS_1_TO_12_TOTAL + 1;
   const month13MaxDay = yearType === "EQUINOX_ADJUSTMENT" ? 30 : 29;
+
   if (month13Day < 1 || month13Day > month13MaxDay) {
     throw new Error(
       `Counted day ${countedDayOfYear} is outside observable year for ${yearType}. Month 13 max = ${month13MaxDay}.`
     );
   }
+
   return {
     hpcMonth: 13,
     hpcDay: month13Day
@@ -73,6 +73,7 @@ export async function resolveHpcDate(
   const [, nextBoundary, globalBoundary] = await Promise.all([
     resolveHpcYearBoundaryUtc(resolvedYear.gregorianBoundaryYear, location),
     resolveHpcYearBoundaryUtc(resolvedYear.gregorianBoundaryYear + 1, location),
+    // Option A: use closing boundary classification for current HPC year structure
     resolveGlobalHpcYearBoundaryUtc(resolvedYear.gregorianBoundaryYear + 1)
   ]);
 
@@ -93,14 +94,13 @@ export async function resolveHpcDate(
     resolveLocalSunset(previousUtcDay, location)
   ]);
 
-  // If target is after today's sunset — HPC day started at today's sunset
-  // If target is before today's sunset — HPC day started at yesterday's sunset
+  // If target is after today's sunset, the HPC day started at today's sunset.
+  // Otherwise, it started at yesterday's sunset.
   const hpcDayStartSunset = target.getTime() >= targetDaySunset.getTime()
     ? targetDaySunset
     : previousDaySunset;
 
-  // Count HPC days from year boundary to current HPC day start
-  // Math.round is safe since actual sunset-to-sunset intervals are close to 24hrs
+  // Count sunset-bounded days from year boundary to the current HPC day start.
   const elapsedSinceBoundaryDays = Math.round(
     (hpcDayStartSunset.getTime() - resolvedYear.boundaryUtc.getTime()) / MS_PER_DAY
   );
@@ -111,16 +111,17 @@ export async function resolveHpcDate(
   );
 
   let countedDayOfYear = intercalary.countedDayOfYear;
+  const weekdayElapsed = countedDayOfYear; // preserve pre-Option-A value for weekday calc
 
-  // Cap at the last day of this year
+  // Cap at the final day index of the current year structure
   const maxDayIndex = getNominalObservableYearLength(globalBoundary.yearType) - 1;
   if (countedDayOfYear > maxDayIndex) {
     countedDayOfYear = maxDayIndex;
   }
 
-  // Option A: Global structure determines day count
-  // The day before the next boundary is always the final day of the current year
-  // For adjustment years this guarantees Adar II day 30 exists at all locations
+  // Option A: global structure determines day count.
+  // The day before the next boundary is always the final day of the current year.
+  // For adjustment years, this guarantees Adar II / Telma day 30 exists at all locations.
   if (globalBoundary.yearType === "EQUINOX_ADJUSTMENT") {
     const msUntilNextBoundary = nextBoundary.boundarySunsetUtc.getTime() - target.getTime();
     if (msUntilNextBoundary > 0 && msUntilNextBoundary <= MS_PER_DAY) {
@@ -134,10 +135,10 @@ export async function resolveHpcDate(
   );
 
   // Continuous weekday — location-independent year-by-year count from epoch anchor
-  // Uses closing boundary year type (gregorianBoundaryYear + 1) matching global structure
-  // Epoch anchor: 6038 Abib 1 = Thursday (index 4)
+  // Uses closing boundary year type matching global structure
   let totalDaysFromEpoch = 0;
   const targetHpcYear = resolvedYear.hpcYear;
+
   for (let y = EPOCH_HPC_YEAR; y < targetHpcYear; y++) {
     const closingGreg = 2020 + (y - EPOCH_HPC_YEAR);
     const gb = await resolveGlobalHpcYearBoundaryUtc(closingGreg);
@@ -145,7 +146,9 @@ export async function resolveHpcDate(
       ? HPC_ADJUSTMENT_YEAR_DAYS
       : HPC_STANDARD_YEAR_DAYS;
   }
-  totalDaysFromEpoch += countedDayOfYear + 1;
+
+  totalDaysFromEpoch += weekdayElapsed + 1;
+
   const weekdayIndex = ((EPOCH_WEEKDAY_INDEX + totalDaysFromEpoch) % 7 + 7) % 7;
   const weekday = getWeekdayFromIndex(weekdayIndex);
 
